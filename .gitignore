@@ -1,0 +1,4 @@
+bank_data/raw/
+bank_data/state.json
+logs/
+__pycache__/
