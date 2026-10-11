@@ -1,0 +1,87 @@
+name: naver-bank-daily
+
+on:
+  schedule:
+    # GitHub cron is UTC. KST = UTC+9
+    - cron: "10 11 * * 1-5"   # 20:10 KST (Mon-Fri)
+    - cron: "30 12 * * 1-5"   # 21:30 KST (backup run; skips if already saved)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "normal / force (ignore holiday check) / backfill (fill missed days)"
+        default: "normal"
+        type: choice
+        options: [normal, force, backfill]
+
+permissions:
+  contents: write   # save data files to the repo
+  issues: write     # post the daily report as an issue -> GitHub emails you (no password needed)
+
+concurrency:
+  group: naver-bank
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install Korean font (for charts)
+        run: sudo apt-get update && sudo apt-get install -y fonts-nanum
+
+      - name: Install packages
+        run: pip install -r requirements.txt
+
+      - name: Collect
+        env:
+          SAVE_RAW: "0"
+          MODE: ${{ github.event.inputs.mode }}
+        run: |
+          if [ "$MODE" = "force" ]; then python naver_bank_daily.py --force
+          elif [ "$MODE" = "backfill" ]; then python naver_bank_daily.py --backfill
+          else python naver_bank_daily.py; fi
+
+      # Daily report -> GitHub issue (mentions you) -> GitHub sends you an email.
+      # Uses the temporary built-in token of this run; no email password is stored anywhere.
+      - name: Notify (issue -> email)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          OWNER: ${{ github.repository_owner }}
+          DATA_URL: ${{ github.server_url }}/${{ github.repository }}/tree/${{ github.ref_name }}/bank_data
+        run: |
+          REPORT=$(git ls-files --others --modified --exclude-standard bank_data | grep -E '/report_[0-9-]+\.txt$' | sort | tail -1 || true)
+          if [ -z "$REPORT" ]; then echo "No new report today; no notification."; exit 0; fi
+          DATE=$(basename "$REPORT" .txt | sed 's/^report_//')
+          {
+            echo "@${OWNER}"
+            echo
+            echo '```'
+            cat "$REPORT"
+            echo '```'
+            echo
+            echo "Full data and chart: ${DATA_URL}"
+          } > /tmp/body.md
+          URL=$(gh issue create --title "[은행업종] ${DATE} 리포트" --body-file /tmp/body.md)
+          echo "Created $URL"
+          gh issue close "$URL" || true
+
+      - name: Commit data
+        run: |
+          git config user.name "bank-bot"
+          git config user.email "bank-bot@users.noreply.github.com"
+          git add bank_data
+          if git diff --cached --quiet; then
+            echo "No new data to commit."
+          else
+            git commit -m "data $(TZ=Asia/Seoul date +%F)"
+            git pull --rebase
+            git push
+          fi
