@@ -76,7 +76,9 @@ FIN = OUTPUT_DIR / "bank_financials.csv"     # 재무 누적 (long format)
 CHG = OUTPUT_DIR / "bank_changes.csv"        # 변화 로그
 STATE = OUTPUT_DIR / "state.json"            # 연속 실패 횟수
 COMP = OUTPUT_DIR / "bank_company.csv"       # 기업현황/통합JSON 최신값 (long format)
-SHARE = OUTPUT_DIR / "bank_shareholders.csv" # 주주현황 누적
+SHARE = OUTPUT_DIR / "bank_shareholders.csv" # 주주현황 (바뀐 때만 추가)
+LAST_WEEKLY = OUTPUT_DIR / "last_weekly.txt" # 주간 수집(재무·기업현황·주주현황) 마지막 날짜
+WEEKLY_DAYS = 7                              # 천천히 바뀌는 정보는 N일마다 수집
 
 COMPANY_URL = "https://navercomp.wisereport.co.kr/v2/company/c1010001.aspx?cmp_cd={code}"
 EXCLUDE_JSON_KEYS = {"totalInfos", "researches", "news", "newsTitle", "newsList"}  # 이미 열로 저장했거나 매일 바뀌는 목록
@@ -165,18 +167,19 @@ def tables_to_long(code: str, name: str, tables: list) -> tuple:
     return rows, share
 
 
-def fetch_stock(code: str, name: str, raw_dir: Path):
-    """한 종목의 시세/투자정보 1행 + 재무 long rows"""
+def fetch_stock(code: str, name: str, raw_dir: Path, slow: bool = True):
+    """한 종목의 시세/투자정보 1행. slow=True(주간 수집일)이면 재무·기업현황·주주현황도 함께"""
     basic = get_json(f"{code}/basic")
     integ = get_json(f"{code}/integration")
     fin_rows, raws = [], {"basic": basic, "integration": integ}
-    for freq, ep in (("annual", "finance/annual"), ("quarter", "finance/quarter")):
-        try:
-            js = get_json(f"{code}/{ep}")
-            raws[ep.replace("/", "_")] = js
-            fin_rows += flatten_finance(code, freq, js)
-        except Exception as e:  # 재무는 실패해도 시세 수집은 계속
-            print(f"  (재무 {freq} 실패: {name} {e})", file=sys.stderr)
+    if slow:
+        for freq, ep in (("annual", "finance/annual"), ("quarter", "finance/quarter")):
+            try:
+                js = get_json(f"{code}/{ep}")
+                raws[ep.replace("/", "_")] = js
+                fin_rows += flatten_finance(code, freq, js)
+            except Exception as e:  # 재무는 실패해도 시세 수집은 계속
+                print(f"  (재무 {freq} 실패: {name} {e})", file=sys.stderr)
 
     # 원본 JSON 보관 (필드 구조가 바뀌어도 나중에 다시 파싱 가능)
     if SAVE_RAW:
@@ -201,15 +204,16 @@ def fetch_stock(code: str, name: str, raw_dir: Path):
 
     # 기업현황 페이지(시세현황·주주현황·기업개요 ...)
     share_tables, soft = [], []
-    try:
-        html = fetch_company_html(code)
-        if SAVE_RAW:
-            (raw_dir / f"{code}_company.html").write_text(html, encoding="utf-8")
-        tables = pd.read_html(StringIO(html))
-        rows_c, share_tables = tables_to_long(code, row["종목명"], tables)
-        comp_rows += rows_c
-    except Exception as e:  # 기업현황 실패해도 시세 수집은 계속
-        soft.append(f"{name}({code}) 기업현황/주주현황: {e}")
+    if slow:
+        try:
+            html = fetch_company_html(code)
+            if SAVE_RAW:
+                (raw_dir / f"{code}_company.html").write_text(html, encoding="utf-8")
+            tables = pd.read_html(StringIO(html))
+            rows_c, share_tables = tables_to_long(code, row["종목명"], tables)
+            comp_rows += rows_c
+        except Exception as e:  # 기업현황 실패해도 시세 수집은 계속
+            soft.append(f"{name}({code}) 기업현황/주주현황: {e}")
     return row, fin_rows, comp_rows, share_tables, soft
 
 
@@ -425,16 +429,46 @@ def backfill():
     print("※ 백필 행은 시세(시가/고가/저가/종가/거래량)만 있고 PER·재무 등은 비어 있습니다. 거래량은 KRX 기준이라 통합 거래량과 다를 수 있습니다.")
 
 
+def slow_due(now, force: bool) -> bool:
+    """재무·기업현황·주주현황을 이번 실행에서 수집할 차례인가 (마지막 수집 후 WEEKLY_DAYS일 경과)"""
+    if force or not LAST_WEEKLY.exists():
+        return True
+    try:
+        last = datetime.strptime(LAST_WEEKLY.read_text().strip(), "%Y-%m-%d").date()
+    except Exception:
+        return True
+    return (now.date() - last).days >= WEEKLY_DAYS
+
+
+def append_shareholders(sh_old: pd.DataFrame, sh_new: pd.DataFrame) -> pd.DataFrame:
+    """종목·표별로 직전 저장본과 내용이 같으면 추가하지 않음 (바뀐 때만 새 행)"""
+    cols = [c for c in sh_new.columns if c != "거래일"]
+    out = [sh_old] if not sh_old.empty else []
+    for (code, tbl), g in sh_new.groupby(["종목코드", "표"]):
+        if not sh_old.empty:
+            prev = sh_old[(sh_old["종목코드"] == code) & (sh_old["표"] == tbl)]
+            if not prev.empty:
+                last = prev[prev["거래일"] == prev["거래일"].max()]
+                a = set(map(tuple, last[cols].fillna("").astype(str).values))
+                b = set(map(tuple, g[cols].fillna("").astype(str).values))
+                if a == b:
+                    continue
+        out.append(g)
+    return pd.concat(out, ignore_index=True)
+
+
 def run_once(force: bool = False):
     now = datetime.now(KST)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     wait_for_network()
     state = load_state()
+    slow = slow_due(now, force)
+    print("이번 실행: " + ("시세·투자정보 + 주간 수집(재무·기업현황·주주현황)" if slow else "시세·투자정보만 (주간 수집은 아직 아님)"))
     rows, fin_rows, comp_rows, share_tabs, failed, warns = [], [], [], [], [], []
 
     for code, name in STOCKS.items():
         try:
-            row, fr, cr, st, soft = fetch_stock(code, name, OUTPUT_DIR / "raw" / now.strftime("%Y-%m-%d"))
+            row, fr, cr, st, soft = fetch_stock(code, name, OUTPUT_DIR / "raw" / now.strftime("%Y-%m-%d"), slow)
             rows.append(row)
             fin_rows += fr
             comp_rows += cr
@@ -494,7 +528,9 @@ def run_once(force: bool = False):
         sh = pd.concat(share_tabs, ignore_index=True)
         sh.insert(0, "거래일", trade_date)
         sh_old = pd.read_csv(SHARE, dtype=str) if SHARE.exists() else pd.DataFrame()
-        pd.concat([sh_old, sh]).drop_duplicates(keep="last").to_csv(SHARE, index=False, encoding="utf-8-sig")
+        append_shareholders(sh_old, sh.astype(str)).to_csv(SHARE, index=False, encoding="utf-8-sig")
+    if slow:
+        LAST_WEEKLY.write_text(now.strftime("%Y-%m-%d"), encoding="utf-8")
 
     df.to_csv(OUTPUT_DIR / f"bank_{trade_date}.csv", index=False, encoding="utf-8-sig")
     hist = pd.concat([hist_old, df.astype(str)]).drop_duplicates(["거래일", "종목코드"], keep="last")
@@ -509,6 +545,8 @@ def run_once(force: bool = False):
 
     chart = draw_charts(hist, trade_date)
     report = build_report(df, trade_date, changes, failed, warns)
+    if slow:
+        report += "\n\n※ 오늘은 주간 수집일: 재무·기업현황·주주현황을 갱신했습니다."
     (OUTPUT_DIR / f"report_{trade_date}.txt").write_text(report, encoding="utf-8")
     print(report)
     try:
