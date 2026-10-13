@@ -46,6 +46,7 @@ OUTPUT_DIR = BASE_DIR / "bank_data"   # 스크립트 옆 폴더 고정
 # 화면의 시/고/저/거래량은 KRX+NXT 통합 → 애프터마켓(~20:00) 종료 후 수집하는 것을 권장
 RUN_TIME = "20:10"
 KST = timezone(timedelta(hours=9))        # 서버(GitHub 등)가 UTC여도 한국 시간 기준으로 판단
+MARKET_OPEN = dtime(8, 0)                 # 프리마켓 시작: 평일 이 시각~20:05 사이엔 수집하지 않음(전날 마감값이 섞이는 것 방지)
 MARKET_DONE = dtime(20, 5)                # 애프터마켓(~20:00) 종료 후부터 '오늘 데이터'를 확정 저장
 SAVE_RAW = os.getenv("SAVE_RAW", "1") != "0"   # 원본 JSON/HTML 보관 (GitHub 실행 시에는 0)
 FAIL_WARN_DAYS = 3                       # 연속 N일 조회 실패 시 '사라짐 의심' 경고
@@ -194,6 +195,7 @@ def fetch_stock(code: str, name: str, raw_dir: Path, slow: bool = True):
         "현재가": basic.get("closePrice"),
         "전일대비": basic.get("compareToPreviousClosePrice"),
         "등락률(%)": basic.get("fluctuationsRatio"),
+        "수집시각": datetime.now(KST).strftime("%Y-%m-%d %H:%M"),   # 실제로 받은 시각(지연 확인용)
     }
     for it in integ.get("totalInfos", []):     # 시가/고가/저가/거래량/대금/PER/EPS/PBR/BPS ... 전부 열로
         row[it.get("key")] = it.get("value")
@@ -224,7 +226,7 @@ def load_state() -> dict:
 def detect_changes(today_df: pd.DataFrame, hist: pd.DataFrame, trade_date: str) -> list:
     """직전 저장일 대비 투자정보 항목이 바뀐 내역"""
     out = []
-    skip = {"거래일", "종목코드", "종목명", "현재가", "전일대비", "등락률(%)"}
+    skip = {"거래일", "종목코드", "종목명", "현재가", "전일대비", "등락률(%)", "수집시각"}
     for _, r in today_df.iterrows():
         prev = hist[(hist["종목코드"] == r["종목코드"]) & (hist["거래일"] < trade_date)]
         if prev.empty:
@@ -459,6 +461,9 @@ def append_shareholders(sh_old: pd.DataFrame, sh_new: pd.DataFrame) -> pd.DataFr
 
 def run_once(force: bool = False):
     now = datetime.now(KST)
+    if not force and now.weekday() < 5 and MARKET_OPEN <= now.time() < MARKET_DONE:
+        print(f"평일 장중({now:%H:%M}) → 마감값이 아니므로 수집하지 않음 (20:05 이후 다시 시도)")
+        return
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     wait_for_network()
     state = load_state()
