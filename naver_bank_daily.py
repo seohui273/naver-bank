@@ -394,21 +394,23 @@ def fetch_daily_rows(code: str, since: str) -> list:
 
 
 def backfill():
-    """bank_history.csv에서 빠진 거래일을 일별 시세로 채움 (시세만, PER/재무 등은 빈칸)"""
+    """기존 이력은 보존하고 빠진 (거래일, 종목코드) 시세만 추가한다."""
     if not HIST.exists():
-        print("bank_history.csv가 아직 없습니다. 먼저 한 번 수집한 뒤 실행하세요.")
-        return
-    wait_for_network()
-    hist = pd.read_csv(HIST, dtype=str)
+        print("bank_history.csv가 없습니다. 정상 수집을 한 번 실행하세요.")
+        return 1
+    if not wait_for_network():
+        print("네트워크 접속 실패")
+        return 1
+    hist = pd.read_csv(HIST, dtype=str).fillna("")
     since = hist["거래일"].min()
     have = set(zip(hist["거래일"], hist["종목코드"]))
     fmt = lambda v: "" if pd.isna(v) else f"{int(v):,}"
-    new = []
+    new, failures = [], []
     for code, name in STOCKS.items():
         try:
             rows = fetch_daily_rows(code, since)
         except Exception as e:
-            print(f"{name}({code}) 일별 시세 실패: {e}")
+            failures.append(f"{name}({code}): {e}")
             continue
         for i, x in enumerate(rows):
             if x["날짜"] < since or (x["날짜"], code) in have:
@@ -420,15 +422,27 @@ def backfill():
                         "등락률(%)": "" if pd.isna(diff) or not prev else f"{diff / prev * 100:.2f}",
                         "시가": fmt(x["시가"]), "고가": fmt(x["고가"]), "저가": fmt(x["저가"]),
                         "거래량": fmt(x["거래량"]), "비고": "백필(KRX 일봉)"})
+            have.add((x["날짜"], code))
         time.sleep(0.5)
-    if not new:
-        print("채울 누락일이 없습니다.")
-        return
-    out = pd.concat([hist, pd.DataFrame(new)], ignore_index=True)
-    out.sort_values(["거래일", "종목코드"]).to_csv(HIST, index=False, encoding="utf-8-sig")
-    dates = sorted({r["거래일"] for r in new})
-    print(f"백필 완료: {len(new)}행 추가, 날짜 {', '.join(dates)}")
-    print("※ 백필 행은 시세(시가/고가/저가/종가/거래량)만 있고 PER·재무 등은 비어 있습니다. 거래량은 KRX 기준이라 통합 거래량과 다를 수 있습니다.")
+    if new:
+        out = pd.concat([hist, pd.DataFrame(new)], ignore_index=True)
+        out = out.drop_duplicates(["거래일", "종목코드"], keep="first")
+        out.sort_values(["거래일", "종목코드"]).to_csv(HIST, index=False, encoding="utf-8-sig")
+        # 기존 날짜별 파일도 수정하되, 이미 수집된 행은 유지한다.
+        for date in sorted({r["거래일"] for r in new}):
+            path = OUTPUT_DIR / f"bank_{date}.csv"
+            old = pd.read_csv(path, dtype=str) if path.exists() else pd.DataFrame()
+            additions = pd.DataFrame([r for r in new if r["거래일"] == date])
+            merged = pd.concat([old, additions], ignore_index=True)
+            merged.drop_duplicates(["거래일", "종목코드"], keep="first").to_csv(path, index=False, encoding="utf-8-sig")
+        print(f"백필 완료: {len(new)}행, 날짜 {', '.join(sorted({r['거래일'] for r in new}))}")
+    else:
+        print("추가할 누락 시세 없음")
+    print("주의: 백필은 KRX 시세만 복원하며, 과거 PER/재무 및 통합 거래량은 복원하지 않습니다.")
+    if failures:
+        print("백필 실패 종목: " + "; ".join(failures))
+        return 1
+    return 0
 
 
 def slow_due(now, force: bool) -> bool:
@@ -462,67 +476,72 @@ def append_shareholders(sh_old: pd.DataFrame, sh_new: pd.DataFrame) -> pd.DataFr
 def run_once(force: bool = False):
     now = datetime.now(KST)
     if not force and now.weekday() < 5 and MARKET_OPEN <= now.time() < MARKET_DONE:
-        print(f"평일 장중({now:%H:%M}) → 마감값이 아니므로 수집하지 않음 (20:05 이후 다시 시도)")
-        return
+        print(f"평일 장중({now:%H:%M}) → 마감 이후 재시도")
+        return 0
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    wait_for_network()
+    if not wait_for_network():
+        print("네트워크 접속 실패")
+        return 1
     state = load_state()
     slow = slow_due(now, force)
-    print("이번 실행: " + ("시세·투자정보 + 주간 수집(재무·기업현황·주주현황)" if slow else "시세·투자정보만 (주간 수집은 아직 아님)"))
     rows, fin_rows, comp_rows, share_tabs, failed, warns = [], [], [], [], [], []
 
     for code, name in STOCKS.items():
         try:
             row, fr, cr, st, soft = fetch_stock(code, name, OUTPUT_DIR / "raw" / now.strftime("%Y-%m-%d"), slow)
+            if not row.get("거래일"):
+                raise ValueError("API 거래일이 비어 있음")
             rows.append(row)
             fin_rows += fr
             comp_rows += cr
             share_tabs += st
-            failed += [f"[부분실패] {s}" for s in soft]
+            failed.extend(f"[부분실패] {x}" for x in soft)
             state["fail"][code] = 0
         except Exception as e:
             state["fail"][code] = state["fail"].get(code, 0) + 1
             failed.append(f"{name}({code}): {e}")
             if state["fail"][code] >= FAIL_WARN_DAYS:
-                warns.append(f"{name}({code}) 연속 {state['fail'][code]}회 조회 실패 → 상장폐지/종목코드 변경 가능성")
+                warns.append(f"{name}({code}) 연속 {state['fail'][code]}회 조회 실패 (실행횟수 기준)")
         time.sleep(0.5)
-    if rows:  # 전 종목 실패(=인터넷 문제)는 '상장폐지 의심' 카운트에 넣지 않음
+    if rows:
         STATE.write_text(json.dumps(state, ensure_ascii=False), encoding="utf-8")
-
     if not rows:
-        msg = f"[{now:%Y-%m-%d}] 전 종목 수집 실패\n" + "\n".join(failed)
-        print(msg)
-        notify(msg, "[은행업종] 수집 실패")
-        return 1   # 전 종목 실패 → 종료 코드 1 (GitHub Actions가 실패 메일을 보내도록)
+        print("전 종목 수집 실패: " + "; ".join(failed))
+        return 1
 
-    df = pd.DataFrame(rows)
-    trade_date = df["거래일"].mode()[0]
-    hist_old = pd.read_csv(HIST, dtype=str) if HIST.exists() else pd.DataFrame(columns=["거래일", "종목코드"])
+    fetched = pd.DataFrame(rows)
+    trade_date = fetched["거래일"].mode()[0]
+    # 종목별 API 시점이 다르면 다른 날의 데이터를 합치지 않는다.
+    mismatched = fetched[fetched["거래일"] != trade_date]
+    if not mismatched.empty:
+        failed.extend(f"{r['종목명']}({r['종목코드']}): 거래일 불일치 {r['거래일']}" for _, r in mismatched.iterrows())
+    fetched = fetched[fetched["거래일"] == trade_date].copy()
+    if not force and trade_date == now.strftime("%Y-%m-%d") and now.time() < MARKET_DONE:
+        print("당일 장 마감 전 → 저장하지 않음")
+        return 0
 
-    if not force:
-        # 오늘 거래일인데 애프터마켓이 안 끝났으면 → 아직 확정 아님
-        if trade_date == now.strftime("%Y-%m-%d") and now.time() < MARKET_DONE:
-            print(f"{trade_date} 장/애프터마켓 진행 중({now:%H:%M}) → 20:05 이후 다시 시도, 건너뜀")
-            return
-        # 이미 저장된 거래일이면(공휴일·주말·중복 실행) 건너뜀. 아직 없는 거래일이면 '늦게라도' 저장
-        if trade_date in set(hist_old["거래일"]):
-            print(f"최신 거래일 {trade_date} 은(는) 이미 저장됨 (오늘 {now:%Y-%m-%d} 휴장/중복 실행) → 건너뜀")
-            return
-        if trade_date != now.strftime("%Y-%m-%d"):
-            print(f"※ 늦은 저장: 최신 거래일 {trade_date} 데이터를 지금({now:%Y-%m-%d %H:%M}) 저장합니다.")
+    hist_old = pd.read_csv(HIST, dtype=str).fillna("") if HIST.exists() else pd.DataFrame(columns=["거래일", "종목코드"])
+    existing = set(zip(hist_old["거래일"], hist_old["종목코드"]))
+    df = fetched[fetched.apply(lambda r: (r["거래일"], r["종목코드"]) not in existing, axis=1)].copy()
+    # 이미 저장된 종목은 덮어쓰지 않으며 빠진 종목만 뒤늦게 추가한다.
+    if df.empty:
+        print(f"{trade_date}: 신규 종목 데이터 없음 (기존 데이터 보존)")
+        return 1 if len(fetched) < len(STOCKS) or failed else 0
 
-    # --- 저장 + 변화 감지 ---
+    new_codes = set(df["종목코드"])
     changes = detect_changes(df.astype(str), hist_old, trade_date) if not hist_old.empty else []
-
     fin_new = pd.DataFrame(fin_rows)
+    if not fin_new.empty:
+        fin_new = fin_new[fin_new["종목코드"].isin(new_codes)]
     fin_old = pd.read_csv(FIN, dtype=str) if FIN.exists() else pd.DataFrame()
     if not fin_new.empty:
         changes += detect_fin_changes(fin_new.astype(str), fin_old, trade_date)
-        fin_all = pd.concat([fin_old, fin_new.astype(str)]).drop_duplicates(
-            ["종목코드", "주기", "기간", "항목"], keep="last")
-        fin_all.to_csv(FIN, index=False, encoding="utf-8-sig")
+        pd.concat([fin_old, fin_new.astype(str)]).drop_duplicates(
+            ["종목코드", "주기", "기간", "항목"], keep="last").to_csv(FIN, index=False, encoding="utf-8-sig")
 
     comp_new = pd.DataFrame(comp_rows)
+    if not comp_new.empty:
+        comp_new = comp_new[comp_new["종목코드"].isin(new_codes)]
     if not comp_new.empty:
         comp_old = pd.read_csv(COMP, dtype=str) if COMP.exists() else pd.DataFrame()
         changes += detect_long_changes(comp_new, comp_old, trade_date, "기업현황/주주")
@@ -531,34 +550,49 @@ def run_once(force: bool = False):
             ["종목코드", "출처", "섹션", "항목"], keep="last").to_csv(COMP, index=False, encoding="utf-8-sig")
     if share_tabs:
         sh = pd.concat(share_tabs, ignore_index=True)
-        sh.insert(0, "거래일", trade_date)
-        sh_old = pd.read_csv(SHARE, dtype=str) if SHARE.exists() else pd.DataFrame()
-        append_shareholders(sh_old, sh.astype(str)).to_csv(SHARE, index=False, encoding="utf-8-sig")
-    if slow:
+        sh = sh[sh["종목코드"].isin(new_codes)]
+        if not sh.empty:
+            sh.insert(0, "거래일", trade_date)
+            sh_old = pd.read_csv(SHARE, dtype=str) if SHARE.exists() else pd.DataFrame()
+            append_shareholders(sh_old, sh.astype(str)).to_csv(SHARE, index=False, encoding="utf-8-sig")
+    if slow and len(df) and not failed:
         LAST_WEEKLY.write_text(now.strftime("%Y-%m-%d"), encoding="utf-8")
 
-    df.to_csv(OUTPUT_DIR / f"bank_{trade_date}.csv", index=False, encoding="utf-8-sig")
-    hist = pd.concat([hist_old, df.astype(str)]).drop_duplicates(["거래일", "종목코드"], keep="last")
+    daily_path = OUTPUT_DIR / f"bank_{trade_date}.csv"
+    daily_old = pd.read_csv(daily_path, dtype=str) if daily_path.exists() else pd.DataFrame()
+    pd.concat([daily_old, df.astype(str)], ignore_index=True).drop_duplicates(
+        ["거래일", "종목코드"], keep="first").to_csv(daily_path, index=False, encoding="utf-8-sig")
+    hist = pd.concat([hist_old, df.astype(str)], ignore_index=True).drop_duplicates(
+        ["거래일", "종목코드"], keep="first")
     hist.sort_values(["거래일", "종목코드"]).to_csv(HIST, index=False, encoding="utf-8-sig")
 
     day_changes = None
     if changes:
         cdf = pd.DataFrame(changes)
-        cdf.to_csv(CHG, mode="a", index=False, encoding="utf-8-sig", header=not CHG.exists())
-        day_changes = OUTPUT_DIR / f"changes_{trade_date}.csv"      # 그날의 변화 전체 (메일 첨부용)
-        cdf.to_csv(day_changes, index=False, encoding="utf-8-sig")
+        old_changes = pd.read_csv(CHG, dtype=str) if CHG.exists() else pd.DataFrame()
+        all_changes = pd.concat([old_changes, cdf.astype(str)], ignore_index=True).drop_duplicates()
+        all_changes.to_csv(CHG, index=False, encoding="utf-8-sig")
+        day_changes = OUTPUT_DIR / f"changes_{trade_date}.csv"
+        old_day = pd.read_csv(day_changes, dtype=str) if day_changes.exists() else pd.DataFrame()
+        pd.concat([old_day, cdf.astype(str)], ignore_index=True).drop_duplicates().to_csv(
+            day_changes, index=False, encoding="utf-8-sig")
 
     chart = draw_charts(hist, trade_date)
-    report = build_report(df, trade_date, changes, failed, warns)
+    # 부분 성공일 때도 보고서에 현재 누적 수집 개수를 표시한다.
+    saved_today = hist[hist["거래일"] == trade_date]
+    report = build_report(saved_today, trade_date, changes, failed, warns)
     if slow:
-        report += "\n\n※ 오늘은 주간 수집일: 재무·기업현황·주주현황을 갱신했습니다."
-    (OUTPUT_DIR / f"report_{trade_date}.txt").write_text(report, encoding="utf-8")
+        report += "\n\n※ 주간 데이터 갱신 시도 (일부 실패 여부는 위 내용 확인)"
+    report_path = OUTPUT_DIR / f"report_{trade_date}.txt"
+    report_path.write_text(report, encoding="utf-8")
     print(report)
     try:
         notify(report, f"[은행업종] {trade_date} 리포트 (변화 {len(changes)}건)", chart,
-               [x for x in (day_changes, OUTPUT_DIR / f"bank_{trade_date}.csv") if x])
+               [x for x in (day_changes, daily_path) if x])
     except Exception as e:
         print(f"알림 전송 실패: {e}", file=sys.stderr)
+    # 실패 후에도 이미 수집한 데이터는 파일에 남기고 비정상 종료한다.
+    return 1 if len(saved_today["종목코드"].unique()) < len(STOCKS) or failed else 0
 
 
 def probe(code: str):
@@ -597,8 +631,7 @@ def main():
         probe(a.probe)
         return
     if a.backfill:
-        backfill()
-        return
+        sys.exit(backfill() or 0)
     if not a.daemon:
         sys.exit(run_once(a.force) or 0)
     import schedule
