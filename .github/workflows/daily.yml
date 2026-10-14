@@ -56,6 +56,7 @@ jobs:
       # Daily report -> GitHub issue (mentions you) -> GitHub sends you an email.
       # Uses the temporary built-in token of this run; no email password is stored anywhere.
       - name: Notify (issue -> email)
+        continue-on-error: true   # never block saving the data if the notification fails
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
@@ -72,11 +73,17 @@ jobs:
             cat "$REPORT"
             echo '```'
             echo
-            echo "Full data and chart: ${DATA_URL}"
+            echo "Data: ${DATA_URL}"
           } > /tmp/body.md
           URL=$(gh issue create --title "[은행업종] ${DATE} 리포트" --body-file /tmp/body.md)
           echo "Created $URL"
           gh issue close "$URL" || true
+
+      # The report text is already in the email/issue, and the full change list is kept in bank_changes.csv,
+      # so the per-day report/changes files are removed instead of being committed (also removes old ones).
+      - name: Remove already-sent report files
+        if: always()
+        run: rm -f bank_data/report_*.txt bank_data/changes_*.csv
 
       - name: Commit data
         run: |
