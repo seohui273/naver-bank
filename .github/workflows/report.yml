@@ -38,14 +38,18 @@ jobs:
       - name: Build dashboard and statistical report
         run: python scripts/build_dashboard.py
       - name: Render reproducible Quarto report
-        run: quarto render reports/report.qmd --to html --output research.html
-      - name: Verify Quarto output
-        run: test -s reports/research.html
+        run: |
+          quarto render reports/report.qmd --to html --output research.html
+          echo "Quarto output paths:"
+          find reports -maxdepth 2 -type f -name 'research.html' -print
+          test -s reports/research.html
       - name: Commit generated dashboard and reports
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add index.html reports/latest.md reports/stock_stats.csv
+          # The repository may ignore HTML outputs. Add only this public report explicitly.
+          git add -f reports/research.html
           if git diff --cached --quiet; then
             echo "No changes to generated files."
           else
@@ -60,6 +64,10 @@ jobs:
           cp reports/research.html _site/research/index.html
           if [ -d reports/research_files ]; then
             cp -a reports/research_files _site/research/research_files
+          fi
+          # Quarto may generate linked assets under report_files instead.
+          if [ -d reports/report_files ]; then
+            cp -a reports/report_files _site/research/report_files
           fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
