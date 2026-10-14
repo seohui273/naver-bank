@@ -1,0 +1,161 @@
+---
+title: "BANK:LAB | 국내 은행 관련 종목 금융통계 연구"
+subtitle: "일일 수집 데이터 기반 재현 가능한 기술통계 보고서"
+author: "최서희"
+lang: ko
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-location: right
+    code-fold: true
+    code-summary: "분석 코드 보기"
+    embed-resources: true
+    smooth-scroll: true
+execute:
+  echo: true
+  warning: false
+  message: false
+  error: false
+jupyter: python3
+---
+
+> 이 보고서는 `bank_data/bank_history.csv`를 매번 새로 읽어 생성합니다. BANK:LAB [인터랙티브 대시보드](https://seohui273.github.io/naver-bank/)와 같은 데이터 출처를 사용하지만, 이 문서는 계산 과정과 해석 가능성에 초점을 맞춘 재현 가능한 연구 보고서입니다. 투자 권유가 아닙니다.
+
+## 1. 연구 질문과 데이터
+
+**연구 질문:** 국내 은행 관련 11개 종목의 관측 기간 수익률과 단기 변동성은 어떻게 다르며, 종목별 수익률이 함께 움직이는 정도는 어느 수준인가?
+
+자료 출처는 네이버페이 증권의 공개 시세 화면 및 API이고, GitHub Actions를 통해 저장소에 축적된 CSV를 사용합니다. 관측일 간 주가 차이는 일별 종가 기준이며, 누락·백필된 거래일은 아래의 자료 품질 점검에 표시합니다.
+
+```{python}
+#| label: setup-data
+import os
+from pathlib import Path
+import numpy as np
+import pandas as pd
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from matplotlib import font_manager
+if 'NanumGothic' in {f.name for f in font_manager.fontManager.ttflist}:
+    plt.rcParams['font.family'] = 'NanumGothic'
+plt.rcParams['axes.unicode_minus'] = False
+from IPython.display import display, Markdown
+
+# Quarto 실행 위치가 저장소 루트 또는 reports/여도 동작하도록 경로를 탐색
+candidates = [Path.cwd() / 'bank_data' / 'bank_history.csv',
+              Path.cwd().parent / 'bank_data' / 'bank_history.csv']
+path = next((p for p in candidates if p.exists()), None)
+if path is None:
+    raise FileNotFoundError('bank_data/bank_history.csv가 없습니다. 저장소 전체를 내려받아 실행해 주세요.')
+raw = pd.read_csv(path, encoding='utf-8-sig', dtype=str)
+required = ['거래일', '종목코드', '종목명', '현재가', '거래량']
+missing = [c for c in required if c not in raw]
+if missing:
+    raise ValueError(f'필수 데이터 열 누락: {missing}')
+raw['종목코드'] = raw['종목코드'].str.zfill(6)
+raw['거래일'] = pd.to_datetime(raw['거래일'], errors='coerce')
+raw['현재가_숫자'] = pd.to_numeric(raw['현재가'].str.replace(',', '', regex=False).str.replace('원', '', regex=False), errors='coerce')
+raw['거래량_숫자'] = pd.to_numeric(raw['거래량'].str.replace(',', '', regex=False), errors='coerce')
+raw['백필'] = raw.get('비고', pd.Series('', index=raw.index)).fillna('').str.contains('백필', regex=False)
+# 중복 원본은 기록하되 통계에서는 거래일×종목코드의 마지막 값을 사용
+num_duplicates = int(raw.duplicated(['거래일', '종목코드']).sum())
+df = raw.dropna(subset=['거래일']).drop_duplicates(['거래일', '종목코드'], keep='last').sort_values(['종목코드','거래일'])
+first, last = df['거래일'].min(), df['거래일'].max()
+print(f'관측 기간: {first:%Y-%m-%d} ~ {last:%Y-%m-%d}')
+print(f'관측 거래일: {df["거래일"].nunique()}일 | 종목: {df["종목코드"].nunique()}개 | 고유 행: {len(df)}개')
+```
+
+## 2. 데이터 완전성·신뢰성 점검
+
+```{python}
+#| label: tbl-quality
+#| tbl-cap: "거래일별 수집 완전성 (11개 종목 기준)"
+quality = (df.groupby('거래일')
+           .agg(관측종목=('종목코드','nunique'), 백필행=('백필','sum'), 가격결측=('현재가_숫자', lambda s:int(s.isna().sum())), 거래량결측=('거래량_숫자',lambda s:int(s.isna().sum())))
+           .reset_index())
+quality['11종목_충족'] = quality['관측종목'].eq(11).map({True:'예',False:'아니오'})
+quality['거래일'] = quality['거래일'].dt.strftime('%Y-%m-%d')
+display(quality)
+print(f'원본 중복 (거래일×종목코드): {num_duplicates}행')
+print(f'백필 행: {int(df["백필"].sum())}행')
+```
+
+**주의:** 백필 자료는 과거 KRX 일봉 자료에서 복구된 가격일 수 있으므로, 원래의 KRX+NXT 통합 시세와 집계 기준이 달라질 수 있습니다. 그 때문에 거래량이나 고가·저가를 서로 직접 비교할 때 특별히 주의해야 합니다. 거래일 목록은 데이터에 실제 존재하는 날짜만 표시하며, 캘린더상 빠진 날짜가 반드시 수집 실패를 의미하지는 않습니다(주말·휴장 가능).
+
+## 3. 수익률과 변동성
+
+수익률은 **연속된 관측일**의 종가를 이용해 $r_t=(P_t/P_{t-1}-1)\times 100$으로 계산합니다. 관측일이 빠진 경우 이 수익률은 엄밀한 의미의 일별 수익률이 아닐 수 있으므로, 보고서에서는 *관측 구간 수익률*로 표기합니다. 표준편차는 표본표준편차(`ddof=1`)입니다.
+
+```{python}
+#| label: tbl-statistics
+#| tbl-cap: "종목별 누적 및 관측 구간 수익률 기술통계 (%)"
+valid = df[df['현재가_숫자'].gt(0)].copy()
+valid['관측구간수익률(%)'] = valid.groupby('종목코드')['현재가_숫자'].pct_change(fill_method=None) * 100
+stat = valid.groupby(['종목코드','종목명'], as_index=False).agg(
+    관측일수=('현재가_숫자','count'),
+    최초종가=('현재가_숫자','first'),
+    최종종가=('현재가_숫자','last'),
+    평균관측구간수익률=('관측구간수익률(%)','mean'),
+    표본표준편차=('관측구간수익률(%)','std')
+)
+stat['누적수익률(%)'] = (stat['최종종가'] / stat['최초종가'] - 1) * 100
+cols = ['종목명','관측일수','누적수익률(%)','평균관측구간수익률','표본표준편차']
+display(stat[cols].round(2).sort_values('누적수익률(%)',ascending=False))
+```
+
+```{python}
+#| label: fig-cumulative
+#| fig-cap: "종목별 첫 관측일 대비 누적수익률 (%)"
+rank = stat.sort_values('누적수익률(%)')
+fig, ax = plt.subplots(figsize=(9,5))
+ax.barh(rank['종목코드'], rank['누적수익률(%)'], color='#3a8292')
+ax.axvline(0,color='#89969e',lw=0.8)
+ax.set_xlabel('누적수익률 (%)')
+ax.set_ylabel('종목코드 (한글 폰트 미설치 환경 대응)')
+ax.grid(axis='x',alpha=.16)
+plt.tight_layout()
+plt.show()
+```
+
+관측 기간이 매우 짧으면 평균과 표준편차가 하루 움직임에 크게 좌우됩니다. 통계값을 장기 기대수익률이나 투자 성과의 예측치로 해석하지 않습니다.
+
+## 4. 종목 간 상관관계
+
+같은 날짜에 모두 관측된 **가격 수익률**을 기준으로 피어슨 상관계수를 계산합니다. 상관계수는 표본 수가 적을 때 불안정하므로 최소 3개의 공통 수익률 관측값이 없으면 수치를 해석하지 않습니다.
+
+```{python}
+#| label: fig-correlation
+#| fig-cap: "은행 종목별 관측 구간 수익률 상관관계 (Pearson)"
+ret = valid.pivot(index='거래일', columns='종목코드', values='관측구간수익률(%)')
+corr = ret.corr(min_periods=3)
+fig, ax = plt.subplots(figsize=(9,7))
+arr = np.ma.masked_invalid(corr.to_numpy(dtype=float))
+im = ax.imshow(arr, vmin=-1, vmax=1, cmap='BrBG', aspect='auto')
+ax.set_xticks(range(len(corr.columns)),corr.columns,rotation=70,fontsize=8)
+ax.set_yticks(range(len(corr.index)),corr.index,fontsize=8)
+fig.colorbar(im, ax=ax, shrink=.78, label='Pearson r')
+plt.tight_layout()
+plt.show()
+print('공통 수익률 관측값 3개 미만인 종목쌍은 NaN으로 표시합니다.')
+```
+
+## 5. 연구 해석 및 한계
+
+- **단기 표본:** 관측 거래일이 누적되기 전에는 변동성·상관관계가 크게 달라질 수 있습니다.
+- **가격 수익률:** 배당과 거래비용을 반영하지 않습니다. 따라서 총수익률과는 다릅니다.
+- **휴장 및 결측:** 파일이 없는 달력 날짜는 자동으로 거래일로 가정하지 않습니다. 실제 증시 캘린더와 추가 대조가 필요합니다.
+- **가격 기준:** 백필과 정규 수집 시점의 데이터 출처·집계 기준 차이가 있을 수 있습니다.
+- **분석 목적:** 본 결과는 금융통계 학습용 기술통계이며 금융상품 매수·매도를 권하지 않습니다.
+
+## 6. 재현 방법
+
+GitHub 저장소에서 `bank_data/bank_history.csv`와 이 `.qmd` 파일을 함께 받은 후, 저장소 루트에서 실행합니다.
+
+```bash
+python -m pip install pandas numpy matplotlib jupyter ipykernel
+quarto render reports/report.qmd --to html --output research.html
+```
+
+매일 `naver-bank-daily`가 데이터를 수집하고, 기존 `report.yml`이 이 문서를 다시 렌더링하면 보고서도 자동으로 최신 데이터에 맞게 바뀝니다.
