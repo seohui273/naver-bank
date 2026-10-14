@@ -2,25 +2,23 @@ name: naver-bank-daily
 
 on:
   schedule:
-    # GitHub cron is UTC (KST = UTC+9). Scheduled runs can be delayed by hours, so we try several times.
-    # Data is final only after 20:05 KST (after-market closes 20:00) and before 08:00 KST (pre-market opens).
-    # Runs that find the day already saved just exit, so extra attempts are harmless.
-    - cron: "10 11 * * 1-5"   # 20:10 KST
-    - cron: "35 12 * * 1-5"   # 21:35 KST
-    - cron: "25 14 * * 1-5"   # 23:25 KST
-    - cron: "20 17 * * 1-5"   # 02:20 KST (next day)
-    - cron: "20 20 * * 1-5"   # 05:20 KST (next day)
+    - cron: "10 11 * * 1-5"  # 20:10 KST
+    - cron: "35 12 * * 1-5"  # 21:35 KST
+    - cron: "25 14 * * 1-5"  # 23:25 KST
+    - cron: "20 17 * * 1-5"  # 02:20 KST next day
+    - cron: "20 20 * * 1-5"  # 05:20 KST next day
   workflow_dispatch:
     inputs:
       mode:
-        description: "normal / force (ignore holiday check) / backfill (fill missed days)"
-        default: "normal"
+        description: "normal / force / backfill"
+        required: true
+        default: normal
         type: choice
         options: [normal, force, backfill]
 
 permissions:
-  contents: write   # save data files to the repo
-  issues: write     # post the daily report as an issue -> GitHub emails you (no password needed)
+  contents: write
+  issues: write
 
 concurrency:
   group: naver-bank
@@ -32,68 +30,91 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
 
-      - name: Install Korean font (for charts)
+      - name: Install Korean font
         run: sudo apt-get update && sudo apt-get install -y fonts-nanum
 
       - name: Install packages
         run: pip install -r requirements.txt
 
       - name: Collect
+        id: collect
         env:
           SAVE_RAW: "0"
-          MODE: ${{ github.event.inputs.mode }}
+          MODE: ${{ github.event.inputs.mode || 'normal' }}
         run: |
           if [ "$MODE" = "force" ]; then python naver_bank_daily.py --force
           elif [ "$MODE" = "backfill" ]; then python naver_bank_daily.py --backfill
           else python naver_bank_daily.py; fi
 
-      # Daily report -> GitHub issue (mentions you) -> GitHub sends you an email.
-      # Uses the temporary built-in token of this run; no email password is stored anywhere.
-      - name: Notify (issue -> email)
-        continue-on-error: true   # never block saving the data if the notification fails
-        env:
-          GH_TOKEN: ${{ github.token }}
-          GH_REPO: ${{ github.repository }}
-          OWNER: ${{ github.repository_owner }}
-          DATA_URL: ${{ github.server_url }}/${{ github.repository }}/tree/${{ github.ref_name }}/bank_data
-        run: |
-          REPORT=$(git ls-files --others --modified --exclude-standard bank_data | grep -E '/report_[0-9-]+\.txt$' | sort | tail -1 || true)
-          if [ -z "$REPORT" ]; then echo "No new report today; no notification."; exit 0; fi
-          DATE=$(basename "$REPORT" .txt | sed 's/^report_//')
-          {
-            echo "@${OWNER}"
-            echo
-            echo '```'
-            cat "$REPORT"
-            echo '```'
-            echo
-            echo "Data: ${DATA_URL}"
-          } > /tmp/body.md
-          URL=$(gh issue create --title "[은행업종] ${DATE} 리포트" --body-file /tmp/body.md)
-          echo "Created $URL"
-          gh issue close "$URL" || true
-
-      # The report text is already in the email/issue, and the full change list is kept in bank_changes.csv,
-      # so the per-day report/changes files are removed instead of being committed (also removes old ones).
-      - name: Remove already-sent report files
-        if: always()
-        run: rm -f bank_data/report_*.txt bank_data/changes_*.csv
-
-      - name: Commit data
+      # Collect 실패(일부 종목 실패 포함) 시에도 성공한 행을 먼저 안전하게 커밋.
+      - name: Commit data (including partial collection)
+        id: commit
+        if: always() && steps.collect.outcome != 'skipped'
         run: |
           git config user.name "bank-bot"
           git config user.email "bank-bot@users.noreply.github.com"
           git add bank_data
           if git diff --cached --quiet; then
-            echo "No new data to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No data changes."
           else
             git commit -m "data $(TZ=Asia/Seoul date +%F)"
             git pull --rebase
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      # Issue/알림 실패는 데이터 저장을 방해하지 않음.
+      - name: Notify collection result
+        if: always() && steps.collect.outcome != 'skipped'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          OWNER: ${{ github.repository_owner }}
+          RESULT: ${{ steps.collect.outcome }}
+          CHANGED: ${{ steps.commit.outputs.changed }}
+          DATA_URL: ${{ github.server_url }}/${{ github.repository }}/tree/${{ github.ref_name }}/bank_data
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ "$RESULT" = "success" ] && [ "$CHANGED" != "true" ]; then
+            echo "Nothing changed; no issue."
+            exit 0
+          fi
+          REPORT=$(git show --pretty='' --name-only HEAD | grep -E '^bank_data/report_[0-9-]+\.txt$' | sort | tail -1 || true)
+          if [ "$RESULT" = "success" ]; then
+            [ -n "$REPORT" ] || exit 0
+            DATE=$(basename "$REPORT" .txt | sed 's/^report_//')
+            TITLE="[은행업종] ${DATE} 리포트"
+            # 같은 날짜 재실행 시 이미 존재하는 Issue이면 중복 발송을 피함.
+            COUNT=$(gh issue list --state all --search 'in:title "'"$TITLE"'"' --json title --jq '[.[] | select(.title == "'"$TITLE"'")] | length' || echo 0)
+            [ "$COUNT" = "0" ] || exit 0
+            {
+              echo "@${OWNER}"
+              echo
+              echo '```'
+              cat "$REPORT"
+              echo '```'
+              echo
+              echo "Data: ${DATA_URL}"
+            } > /tmp/body.md
+          else
+            TITLE="[은행업종] 수집 점검 필요 (${{ github.run_id }})"
+            {
+              echo "@${OWNER}"
+              echo
+              echo "Collection status: ${RESULT}"
+              echo "Commit status: ${{ steps.commit.outcome }}"
+              echo "Run logs: ${RUN_URL}"
+              echo "Data: ${DATA_URL}"
+            } > /tmp/body.md
+          fi
+          gh issue create --title "$TITLE" --body-file /tmp/body.md
