@@ -39,6 +39,8 @@ jobs:
         run: python scripts/build_dashboard.py
       - name: Render reproducible Quarto report
         run: quarto render reports/report.qmd --to html --output research.html
+      - name: Verify Quarto output
+        run: test -s reports/research.html
       - name: Commit generated dashboard and reports
         run: |
           git config user.name "github-actions[bot]"
@@ -56,6 +58,9 @@ jobs:
           mkdir -p _site/research
           cp index.html _site/index.html
           cp reports/research.html _site/research/index.html
+          if [ -d reports/research_files ]; then
+            cp -a reports/research_files _site/research/research_files
+          fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
