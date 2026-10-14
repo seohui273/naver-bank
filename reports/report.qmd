@@ -1,5 +1,5 @@
 ---
-title: "BANK:LAB | 국내 은행 관련 종목 금융통계 연구"
+title: "BANK:LAB | 네이버증권 은행 종목 금융통계 연구"
 subtitle: "일일 수집 데이터 기반 재현 가능한 기술통계 보고서"
 author: "최서희"
 lang: ko
@@ -10,7 +10,7 @@ format:
     toc-location: right
     code-fold: true
     code-summary: "분석 코드 보기"
-    embed-resources: true
+    embed-resources: false
     smooth-scroll: true
 execute:
   echo: true
