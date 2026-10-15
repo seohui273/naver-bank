@@ -42,6 +42,21 @@ jobs:
           quarto render reports/report.qmd --to html --output research.html
           echo "Quarto output paths:"
           find . -maxdepth 4 -type f -name 'research.html' -print
+          # Quarto currently writes ../research.html relative to reports/report.qmd.
+          # Normalize root-level output and its companion assets into reports/.
+          if [ -s research.html ]; then
+            mv -f research.html reports/research.html
+          fi
+          if [ -d research_files ]; then
+            rm -rf reports/research_files
+            mv research_files reports/research_files
+          fi
+          if [ -d report_files ]; then
+            rm -rf reports/report_files
+            mv report_files reports/report_files
+          fi
+          echo "Normalized output:"
+          ls -lah reports/ | head -30
           test -s reports/research.html
       - name: Commit generated dashboard and reports
         run: |
