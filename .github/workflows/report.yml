@@ -41,15 +41,13 @@ jobs:
         run: |
           quarto render reports/report.qmd --to html --output research.html
           echo "Quarto output paths:"
-          find reports -maxdepth 2 -type f -name 'research.html' -print
+          find . -maxdepth 4 -type f -name 'research.html' -print
           test -s reports/research.html
       - name: Commit generated dashboard and reports
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add index.html reports/latest.md reports/stock_stats.csv
-          # The repository may ignore HTML outputs. Add only this public report explicitly.
-          git add -f reports/research.html
           if git diff --cached --quiet; then
             echo "No changes to generated files."
           else
@@ -61,6 +59,7 @@ jobs:
         run: |
           mkdir -p _site/research
           cp index.html _site/index.html
+          test -s reports/research.html
           cp reports/research.html _site/research/index.html
           if [ -d reports/research_files ]; then
             cp -a reports/research_files _site/research/research_files
