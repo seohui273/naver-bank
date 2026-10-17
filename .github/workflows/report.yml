@@ -36,7 +36,9 @@ jobs:
       - name: Install report libraries
         run: python -m pip install pandas numpy matplotlib jupyter ipykernel
       - name: Build dashboard and statistical report
-        run: python scripts/build_dashboard.py
+        run: |
+          python scripts/build_dashboard.py
+          python banklab_upgrade_home.py
       - name: Render reproducible Quarto report
         run: |
           quarto render reports/report.qmd --to html --output research.html
