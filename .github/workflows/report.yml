@@ -76,6 +76,7 @@ jobs:
           cp index.html _site/index.html
           test -s reports/research.html
           cp reports/research.html _site/research/index.html
+          cp reports/research_krx.html _site/research_krx.html
           if [ -d reports/research_files ]; then
             cp -a reports/research_files _site/research/research_files
           fi
