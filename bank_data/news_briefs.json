@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T08:20:57.957708+09:00",
+  "updated_at": "2026-10-22T14:32:40.324980+09:00",
   "articles": [
     {
       "code": "105560",
@@ -8,14 +8,6 @@
       "source": "중앙신문",
       "summary": "김성현 KB금융지주 부문장, 자사주 1532주 매수 중앙신문",
       "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNU3hnNUNOQlNMb2hTQy1USlZqNTZSRGo4Z0ZoSjBRUDlTTERLMm5sRW1yMDVCZnV5R0tWdjZXd3Eta2lzVE1sTWJiUjBUNS10V1Ftc1M4aEdFZUFPZFZaUDh6WWRvQjFFdlNsb3BzaWVBdzlGdnliREt0d3hiMm1zd3ZDdnQ3bFp5OVBUZC1rNS1BZlo0WkFqQ3JVRUx6TDJZZG9NeXozYnBuSFNmNERBVWRQXzJLTE9FNGZJSU5YdmlKUVhnV1lNQzctRnVnc2lNc0xZR3poQlA4eUY3eFpkMlIzb1Y3aXNUTTM3aE05QUJJVGl4TmtoQ1RqeHlhV25CZHJhdno3SXVabXU4QmotakJuOTRyYkVXVUhrV2JsTnY0N3d0cEtv?oc=5"
-    },
-    {
-      "code": "105560",
-      "date": "2026-10-21",
-      "title": "KB금융, 다각화된 수익 포트폴리오와 추가 주주환원 - 알파경제",
-      "source": "알파경제",
-      "summary": "KB금융, 다각화된 수익 포트폴리오와 추가 주주환원 알파경제",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02VUY4M2EzT0FwMTYtdGtMUk5INk9wUWNyWTFFSmp2WVRabFUwUHVuVzlpMEVjVkxEVVU4eF9yUjNBaHZmbkluUFQya204bVZmeWRtSEtTVFhQMHRpRFMxOHBRUXFnS2RlN2hkU3Jn?oc=5"
     },
     {
       "code": "105560",
@@ -34,12 +26,12 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB3NzdZQWFnM1l0djZPNlFVRHc1OVdmVldRU1NFb21KMDJ0S2FtbDVUbXBMcGc4WlJrRjM3aWZhemxUOGRYMC1DaDdSSTJvM1J3b2luYXEwR3k1aEp0d1hNQTRELXYyN0Y1blRiem1n?oc=5"
     },
     {
-      "code": "055550",
-      "date": "2026-10-15",
-      "title": "[밸류업 2년, 금융회장 성적표]② 진옥동 취임 후 신한지주 주가 '165%' 껑충 - 파이낸셜포스트",
-      "source": "파이낸셜포스트",
-      "summary": "[밸류업 2년, 금융회장 성적표]② 진옥동 취임 후 신한지주 주가 '165%' 껑충 파이낸셜포스트",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE40cmFmMFM2bmZVblBDWFZoS1MwUjV1RzZhYXFNdVIwcm9uUkhSdkhCOVc2cVZRd1ZCX19mNU1SQVZHWnJNVkMxUTFsMFVlcFBkWlJ2bF82WWROSC1nT25aNmlqYnhPUXlKRDJ0SV91SE5oMGNL?oc=5"
+      "code": "105560",
+      "date": "2026-10-21",
+      "title": "KB금융 16만900원 보합…은행 이익과 자본환원 관심 - 잡포스트",
+      "source": "잡포스트",
+      "summary": "KB금융 16만900원 보합…은행 이익과 자본환원 관심 잡포스트",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5YNTh1ZUxPbHFnQ0dNUkVtbnMtTUpndXVSZEdvaTl4OGdSY3l6LVEtcW54bFVfb25fLXliX0pfQWcxT3VQLUxidlkxWm5BU21SWmgzZFdHN01VWDBPOVhaOWd2MjVBbXVSZzk0U0R30gFyQVVfeXFMTUcyS013SWdpVXd4SWR6eUI3TkFvbjJlNEp3UlgwVkpGdURTTlU1MEVkTnpXLW0wOTZENFdKbkFmeDBFWm9kSU04eEg0SmJPQ1NuWlkxcXh6Z3YxREdaX3BYYWpERTVNVUZiMUU2R0xEamxR?oc=5"
     },
     {
       "code": "055550",
@@ -75,6 +67,14 @@
     },
     {
       "code": "086790",
+      "date": "2026-10-22",
+      "title": "[밸류업 2년, 금융회장 성적표]③ 함영주號 하나금융, 현 회장 임기 중 주가 146%↑ - 파이낸셜포스트",
+      "source": "파이낸셜포스트",
+      "summary": "[밸류업 2년, 금융회장 성적표]③ 함영주號 하나금융, 현 회장 임기 중 주가 146%↑ 파이낸셜포스트",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8zN3JKWkFOYTFaS3RERGM5eld5aGlGTEV5Q1p6MEpnVVkwbm1lWi1QbFdxTnBxeHRDdXgxM0EzN3EteVlsX19saFg2d2hNY3N2ZEVEcU5QZy1fOXZlNzFBblN4SVNGYjJKVy1lMDg1Q3loOHFN?oc=5"
+    },
+    {
+      "code": "086790",
       "date": "2026-10-21",
       "title": "하나금융, 은행 중심 성장...자사주 매입·소각 기대 - 알파경제",
       "source": "알파경제",
@@ -83,19 +83,11 @@
     },
     {
       "code": "086790",
-      "date": "2026-10-21",
-      "title": "하나금융 신종자본증권 수요예측 흥행...4천억원까지 증액 검토 - 청년일보",
-      "source": "청년일보",
-      "summary": "하나금융 신종자본증권 수요예측 흥행...4천억원까지 증액 검토 청년일보",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Kaks4ME5kREJlTl96aWRRbkhPNVZvRzFlNk5FNXcxbnlNTzIyeTRTenNyZVBFdTRDTU1TTFVBMmVYYWdxcDZNNUZEMnEyMmhNMjRTeHRyT3RUdGhjQ2RQbDRZaU41bG8?oc=5"
-    },
-    {
-      "code": "086790",
       "date": "2026-10-22",
-      "title": "고금리 속 돋보이는 '저평가 금융주'…DBS보다 하나금융인 이유 [오일전문가의 배럴 토크] - 한경매거진",
-      "source": "한경매거진",
-      "summary": "고금리 속 돋보이는 '저평가 금융주'…DBS보다 하나금융인 이유 [오일전문가의 배럴 토크] 한경매거진",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jN1E5UDJ5akUzcWJtdS1tWDg2N2JYeUVJaHo5U1ExZXRHOXdYekd6Z0puWGJ5czlGYmpQWGJtLVZ3ajU4OFJZWmhxd2RpRjVhbjZKY1lZaTBuT1ZqUHNHaS12dHhxakVPOFNpTQ?oc=5"
+      "title": "하나금융, 신종자본증권 발행 '흥행' - 핀포인트뉴스",
+      "source": "핀포인트뉴스",
+      "summary": "하나금융, 신종자본증권 발행 '흥행' 핀포인트뉴스",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5TRG1WbXAzYkNEY1k3SHVRd0VYZGFHaEFMYVA4ZU1xV29VUDMxNXk5OHNBMzlPTHJJVWJSRzhIQkwtSV9Kc2ZNazZ3ekVfbGZtMWdGMFBRM2Nra0tCUnE5SkF1b3EzNWhFeGVOMjZMRXJ1cFXSAXdBVV95cUxNLUVDUWNfNk9QYTlmX09wRk9lNlB5LTNsQTNZN3dsSC12MV9qNmQ2TUFfRU1vZmtydlZZWmQzZlhkVXR2UHJ4NG4ySWVDTFpqYVAxcnphS1B5My1WT3pxU1k0ekhVLUJvMmViZWc0bHRYa25LZDVpdw?oc=5"
     },
     {
       "code": "316140",
@@ -131,6 +123,22 @@
     },
     {
       "code": "024110",
+      "date": "2026-10-22",
+      "title": "IBK증권, 기업은행 연계 계좌개설 이벤트…선착순 주식 증정 - 매일경제 마켓",
+      "source": "매일경제 마켓",
+      "summary": "IBK증권, 기업은행 연계 계좌개설 이벤트…선착순 주식 증정 매일경제 마켓",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1STzU3UzZON0htdjJGUzAzRWdNbGM4NXVIT0hUTDZZQWI2bWdlOFVQLUk0Z0xhb1lPVjhQZ2RxMzVYaGJna1NxUUE4M21kM3U3MEE?oc=5"
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-22",
+      "title": "IBK투자증권, 기업은행 연계 이벤트...신규 고객에 주식 증정 - 핀포인트뉴스",
+      "source": "핀포인트뉴스",
+      "summary": "IBK투자증권, 기업은행 연계 이벤트...신규 고객에 주식 증정 핀포인트뉴스",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5DOEpBamtXckliYzFvemVfMHphR2U3aVZFVHJ0SkhkSnJzeDJMTEwxRzE3WUtnQlZJa0I1TFMwYjhUd0pnRDZxcHQ4NDB2OUVVb2tKcHk0MzgyRHVJbEhSXy03dEQ3YkVPNVNoMm5VSkJWWFnSAXdBVV95cUxNa01FVjRJT3dkbEcxWWZLSnhZMTNZMUV1SGEtSC1nMWRNU0Q1dHg2NDRmbkduMy1pMmJ6WEFmVnRsV2Y2Q1ozWUt2dXZPRlc3V3NDQk5WeFpOb0VtOXpTbWt4a1RxWFRpY3NmYTltS3JNRlhaQ3dVNA?oc=5"
+    },
+    {
+      "code": "024110",
       "date": "2026-10-21",
       "title": "기업은행, 생산적 금융 확대 수혜 기대…기업대출 성장 '주목' - 프라임경제",
       "source": "프라임경제",
@@ -144,30 +152,6 @@
       "source": "아시아뉴스통신",
       "summary": "기업은행 주가 210원 상승 후 장마감 아시아뉴스통신",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBYQXkzY3RON2h1X1hzdUJNdkpXTE5sSXg0TDlFTXY0b2xrcFNNU1hDTmVhUFBQblk2WF9RNmNqMHg4YmZTSjBib0V4UlR1WEhGeEszWGhrRkhPenFaQThmRmdSWFRDczJUSlhoWjVXN2p6OEds?oc=5"
-    },
-    {
-      "code": "024110",
-      "date": "2026-10-21",
-      "title": "IBK증권 \"기업은행 3분기 순이익 3.7%↑ 추정…기대치 부합\" - 중앙신문",
-      "source": "중앙신문",
-      "summary": "IBK증권 \"기업은행 3분기 순이익 3.7%↑ 추정…기대치 부합\" 중앙신문",
-      "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOVzU0dHhsVmc1em11aUlOUzU4ZXhJV3NMNmhxZjJPeEh5eE55TTF5MW5mNm1BV2YzejhCTVNyM0NBbnZXT1FfWGJWMlR5UEo0ZG95MG9DNUVDdkdGeGlPWFFES2E2cU15WmZHTkUydC1FUllrTGprSmpnSnBPSjhFQlQ3R29SeHN0RVk5TTFHazBFMzhmeW1CNkFwa193Vnhwb2tKdWNwa0JralB3MllCOFhmSlpEQ05ibWx1c2ZXVEQ5NWJNSjRzaHVGNVRSbjRTQnNlRk1GeWY3a2pMd2RrWDl3aWQ5QnpJWXZmbmJKdjM4Sk9feWp6bnlHTkRELWt4U0FkQ0lTQndLcU5XdzdjbVBpWG1SckZpTUVlV1FqelJWVEFoYlNZbGVXeGlsd0lPUFBPLURScU42U3FoRmFVZzhvaw?oc=5"
-    },
-    {
-      "code": "024110",
-      "date": "2026-10-19",
-      "title": "IBK기업은행, 내년 상반기 혁신창업기업 100곳 모집 - 코리아리포트",
-      "source": "코리아리포트",
-      "summary": "IBK기업은행, 내년 상반기 혁신창업기업 100곳 모집 코리아리포트",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE83QnJ2Y1hhMTVfLUhBMDN6RmhGd2ZhTEpnRXA5QUVHclFub2NHa1ViT1RmcXRSUV9QeDFEYkxFQUpfMllkUG1VRmZoQkZkRFNFdFJSakM4dlJ1TGtmS1puTUd6QlV6M3IxUmo5Vzc4WWQ?oc=5"
-    },
-    {
-      "code": "138930",
-      "date": "2026-10-20",
-      "title": "OK금융, 지방금융지주 3곳 지분에 1145억 자금거래…'단순투자' 맞나?...iM 최대주주·JB 3대·BNK 4대 주주 - 창업일보",
-      "source": "창업일보",
-      "summary": "OK금융, 지방금융지주 3곳 지분에 1145억 자금거래…'단순투자' 맞나?...iM 최대주주·JB 3대·BNK 4대 주주 창업일보",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE42YXYxQXJUMUdyN1kzZUowUFpiSWdkdWIzT011MndXd1NTdmhRVUM5SXFXdHZQSFZBZWR1ZVZQU0pvZHI1MFRiUFJsVDU3ZjAtTWxmVXBDZDAzbzBZUFEzRExFd0hmaFVY?oc=5"
     },
     {
       "code": "138930",
@@ -195,11 +179,11 @@
     },
     {
       "code": "175330",
-      "date": "2026-10-20",
-      "title": "OK금융, 지방금융지주 3곳 지분에 1145억 자금거래…'단순투자' 맞나?...iM 최대주주·JB 3대·BNK 4대 주주 - 창업일보",
-      "source": "창업일보",
-      "summary": "OK금융, 지방금융지주 3곳 지분에 1145억 자금거래…'단순투자' 맞나?...iM 최대주주·JB 3대·BNK 4대 주주 창업일보",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE42YXYxQXJUMUdyN1kzZUowUFpiSWdkdWIzT011MndXd1NTdmhRVUM5SXFXdHZQSFZBZWR1ZVZQU0pvZHI1MFRiUFJsVDU3ZjAtTWxmVXBDZDAzbzBZUFEzRExFd0hmaFVY?oc=5"
+      "date": "2026-10-22",
+      "title": "[은행장 달라지나⑫] 광주은행 임추위 'JB금융지주' 명시...전북은행은 왜 숨겼나? - 데일리브리프",
+      "source": "데일리브리프",
+      "summary": "[은행장 달라지나⑫] 광주은행 임추위 'JB금융지주' 명시...전북은행은 왜 숨겼나? 데일리브리프",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA5djFkM3JiRHlYS2FZQko2RjgyQjlRUG5fbS1ncWVLSG9waXpSR1FhQkh0ZTJLS0d3VTRZMEdoTUJaOHpIaXZjTWtDdG5JNVBZOWVHMm1UOXZFeTU1RC1BaDFpN0M2QUo5QmRJMVJB?oc=5"
     },
     {
       "code": "175330",
@@ -208,14 +192,6 @@
       "source": "재경일보",
       "summary": "[마감분석] JB금융지주 200원 내린 2만6800원 하향 마감 : 기업주식정보 재경일보",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9GUHBqb0k5RUQ2VHJnNEFwMzZEdFpoZExpeE42eHpkV2J5LWdTbXBkTHQydjNsZjNyQ3NCWm1oazBGN3RZU3NfQzRrYw?oc=5"
-    },
-    {
-      "code": "139130",
-      "date": "2026-10-20",
-      "title": "OK금융그룹, iM금융 등 지방금융지주 3곳 동시 ‘영향력 확대’ - 경북도민일보",
-      "source": "경북도민일보",
-      "summary": "OK금융그룹, iM금융 등 지방금융지주 3곳 동시 ‘영향력 확대’ 경북도민일보",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50T04yVzBSRUdlOVJkR0dfdVFZWkZxaEdHdGxvYU1nakM0a3Q4X0JYSFJ2VWJWb0x1VHVjc05XUWUwMzF4SXF6Q0toY0Y1d3FrbkNDa01jc1k3bEFya2JLcVlrMTl5RG5Ga0E?oc=5"
     },
     {
       "code": "139130",
@@ -228,18 +204,26 @@
     {
       "code": "139130",
       "date": "2026-10-20",
-      "title": "OK금융, 지방금융지주 3곳 지분에 1145억 자금거래…'단순투자' 맞나?...iM 최대주주·JB 3대·BNK 4대 주주 - 창업일보",
-      "source": "창업일보",
-      "summary": "OK금융, 지방금융지주 3곳 지분에 1145억 자금거래…'단순투자' 맞나?...iM 최대주주·JB 3대·BNK 4대 주주 창업일보",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE42YXYxQXJUMUdyN1kzZUowUFpiSWdkdWIzT011MndXd1NTdmhRVUM5SXFXdHZQSFZBZWR1ZVZQU0pvZHI1MFRiUFJsVDU3ZjAtTWxmVXBDZDAzbzBZUFEzRExFd0hmaFVY?oc=5"
-    },
-    {
-      "code": "139130",
-      "date": "2026-10-20",
       "title": "[마감분석] iM금융지주 3.47% 하락 1만6410원 마감 : 기업주식정보 - 재경일보",
       "source": "재경일보",
       "summary": "[마감분석] iM금융지주 3.47% 하락 1만6410원 마감 : 기업주식정보 재경일보",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9teGZtLWdLN0VqYXBnYnpXVkhGUnoyVlRWRFdSR1dBckNjeEVEOGpOWlBxVUp5a3RIbzlwTUQ5dllPVUFuOExJQVpyaw?oc=5"
+    },
+    {
+      "code": "139130",
+      "date": "2026-10-18",
+      "title": "iM금융, '체질개선' 가시화…황병우 회장 연임 '청신호' - 메트로신문",
+      "source": "메트로신문",
+      "summary": "iM금융, '체질개선' 가시화…황병우 회장 연임 '청신호' 메트로신문",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFByY1MwM0EzRFB2ZDRidl9iR2FTRDNpZU5oTlliVTQyWXRtMFNHX1U5a0l2MXFOYzZ1SnpiNDFfbXVBUER6dk90N1Y4N2M1VzBzZHNEd3ZoSlo2MGVTYlJYYQ?oc=5"
+    },
+    {
+      "code": "139130",
+      "date": "2026-10-20",
+      "title": "[국감] iM·JB·BNK금융 지분 투자한 OK금융, 이사추천·자금거래 도마 - 핀포인트뉴스",
+      "source": "핀포인트뉴스",
+      "summary": "[국감] iM·JB·BNK금융 지분 투자한 OK금융, 이사추천·자금거래 도마 핀포인트뉴스",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9DV01sMU5OQTVlbV9leGUtU2ZLMWJUSW9uME1LS2FXXzhiZkc1U1pucmpVT2lTb3RNNlpoaF9Bd0RXNng2MEpxeEVFWlBFd2MxYll4czNwclo0R21PNHNYLTY4c0pQbFpUTGU3bi1FZ0NQOU3SAXdBVV95cUxPME5ITlhSZVY1LVlRX05PWkpuM21mS0NqVlhyelRoVHRyNlVXcjdHT2FvOW1tUzVYbTVkUGRfZDdld1B5N3FCSTRoLWNROUVoMktaODI1aTlNZU91czhOREVZRUhpVW5Ea19JT1h3ZDY3bGNCWFRCQQ?oc=5"
     },
     {
       "code": "006220",
@@ -258,28 +242,20 @@
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqRjBvOVhFTTZFcktFRmQ5bUVyRGxyb242aHl5aUgxRzlhNi1UT2dyZVQ3MWFNdEdTeGJUVXpnM2Q1NHdaMlZwM0MzTUtWaTdOajFTV0k1cDcyeURNVDNrUw?oc=5"
     },
     {
-      "code": "006220",
-      "date": "2026-10-15",
-      "title": "네이버페이·제주은행 6억 출연… 제주 소상공인에 75억 보증 - 파이낸셜뉴스",
-      "source": "파이낸셜뉴스",
-      "summary": "네이버페이·제주은행 6억 출연… 제주 소상공인에 75억 보증 파이낸셜뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DUjFNYWRLTFdUVl9wUklvczhTWHB5aE9KamVwenY4Mm5MQVo2WVRLREx2UnVhRzFzTEkzWE5KX0d4bTlaVV9LNzM0aUFfMzI4SlZ0X3YzNEg0Zw?oc=5"
-    },
-    {
-      "code": "006220",
-      "date": "2026-10-19",
-      "title": "제주은행 대출금리 자동 인하, 은행권 최초 서비스 - 뉴스웰",
-      "source": "뉴스웰",
-      "summary": "제주은행 대출금리 자동 인하, 은행권 최초 서비스 뉴스웰",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0THRBbmw1UmNHSUY1ZU9SZlJxOG1Dd3Y0eWEzcWhIRHpndXFfRXRvdWVSMXQ4QTlpVHRtQ28xbEJPQXQ3YTZBU3Fnbk9Oa0RPdDlncFJtM25tNVdJUW1nYXdHaUFTZy1nQ3BhTQ?oc=5"
-    },
-    {
       "code": "323410",
       "date": "2026-10-20",
       "title": "카카오뱅크, 원금지급형 주가연계채권 펀드 선보여 - 뉴스프리존",
       "source": "뉴스프리존",
       "summary": "카카오뱅크, 원금지급형 주가연계채권 펀드 선보여 뉴스프리존",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9tOGU0RjR0ZTdNeEtPRG9tYllLbks5UVd4VzhuTmkydUU2Z1N2N05vMEVCeVNpOGdXenRzSzR2M3M3bHRWVTQ0SnNPbzZsbWplel8xU29sd3gtbUJ5R2dUeXM4RDItejM3NjhZVWx1UXRKdGPSAXdBVV95cUxNeW92cmVvNEd1cnhhM2VjY01SaDRpbWp0MHJSRkNPZ3FVRFE4dV9GbHcxMkFKaTBZUU5UU3g0RURjN3ZqMjVZVW1XdXVRdWd6WWhOSGxsSzdxVXpVNnhYQUlTY3dRNml2SGlCR0pMQV9TT0hxYUJyVQ?oc=5"
+    },
+    {
+      "code": "323410",
+      "date": "2026-10-20",
+      "title": "카카오뱅크, 원금지급형 'ELB 펀드'…코스피200 기준, 연 7.4% - 뉴스1",
+      "source": "뉴스1",
+      "summary": "카카오뱅크, 원금지급형 'ELB 펀드'…코스피200 기준, 연 7.4% 뉴스1",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1taXd0X1NfV3U2Z0JOdEYwdDdjd0FWbkZFZE56TXI2RFZYeHMwcXdhVU1RS3cwYUhRUEpFRm9nSUJncVlzc2lRa25TZ2tpajY0NFNJ?oc=5"
     },
     {
       "code": "323410",
@@ -298,14 +274,6 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RWkhPd28xMkU4NjE3ZnRCejczcElnSl9JOFVKUzZBV3cweERfRUwwLUtvRUxNZVlXSGt5Q1JMZExlUnI1QWxRVklkRnVTT1pUNnVHaVVMTkp5a0FiS0RSRmFDX1VaNVhxVjVjVw?oc=5"
     },
     {
-      "code": "323410",
-      "date": "2026-10-20",
-      "title": "카카오뱅크, 연 7.4% 원금지급형 ELB 펀드 출시 - 뉴시스",
-      "source": "뉴시스",
-      "summary": "카카오뱅크, 연 7.4% 원금지급형 ELB 펀드 출시 뉴시스",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1rSmU2NUZZSlFycUlvS3dyaGNNcktUX2gxWFFLZWc0QjZOMWlmdGU2ZU5ILUNlM3dlLXMtWlA0VDZyeHM1N0FQbFFwWEVybXJaUlJXbzNTekJUUFAzLXdUNdIBeEFVX3lxTE8yZDNvRTBhZ2kyUHdRNl8wLUZJc0Q5WkhhTzZmQmVPb0JVV1FFSDV1N0xTODFxU09lZTFtZVBNR1ByZmtIQzFxVzA3R2RycDBYMm5PejZRWlJFR2ZmUlhZdmxpaFF1UldmNi1JVmFteHR2S1lpV2RnOA?oc=5"
-    },
-    {
       "code": "279570",
       "date": "2026-10-21",
       "title": "[이슈+] 기업대출 여력 늘지만 케이뱅크 주식 팔지 못한 우리금융 속내 - 서울파이낸스",
@@ -315,11 +283,19 @@
     },
     {
       "code": "279570",
+      "date": "2026-10-22",
+      "title": "[이슈] 우리금융 케이뱅크 왜 못 팔까…공모가 36.9% 밑 - 자본시장뉴스",
+      "source": "자본시장뉴스",
+      "summary": "[이슈] 우리금융 케이뱅크 왜 못 팔까…공모가 36.9% 밑 자본시장뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12TW1kUHJOVHdIbGN1MExESmVaTmJXcTZxM2s2QzNmWV91RjZOeHlwXzg0UHR5U05sa0F0MzkwODRkQmlKM01Hc1VkdDJ0bzZhUHVsd0oyR0pCVWdLSkZxMEZocVRDaWs?oc=5"
+    },
+    {
+      "code": "279570",
       "date": "2026-10-19",
       "title": "오버행 리스크 턴 최우형號 케이뱅크, 주주환원은 온데간데 - 한스경제",
       "source": "한스경제",
       "summary": "오버행 리스크 턴 최우형號 케이뱅크, 주주환원은 온데간데 한스경제",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BU1dUNlBwMDVVeVpkSThMeF9wLXV4NzZVbm55amZiMHRRZENnNG1uLWpqNlQ4eFpYRXIwSUZETTQ2RGJZalpLNEdhbXMxbGN5NExETXc4YzVNalFFZ3JtMl9iOGVSRXUxU0dpONIBb0FVX3lxTE8yTF9VMEZldWFZU05oNUZOZGdza2UzMHpjSzRsczZ6UHlZdmF1ZTFvVm40MzI2RDZFUXprY3k3eVdmVm9tRTVUN3RTRk9jVzZzaXhLeE54RVR4eVgzNk41VkdOdThUQndMVmROUVY2cw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBzZGxwdWNJOWU1ay1EME90WndxdnptbHA4TDRyRG9fdmd5WlI1TC04aWRyMFpNajZWOXVhdG5lMUtrbE9DZUtJaFA1S1RPS1BBcUV4QWhsMGJhc2s3d0J3VHBzMzVRMjZhV2pz0gFvQVVfeXFMTzJMX1UwRmV1YVlTTmg1Rk5kZ3NrZTMwemNLNGxzNnpQeVl2YXVlMW9WbjQzMjZENkVRemtjeTd5V2ZWb21FNVQ3dFNGT2NXNnNpeEt4TnhFVHh5WDM2TjVWR051OFRCd0xWZE5RVjZz?oc=5"
     },
     {
       "code": "279570",
@@ -328,14 +304,6 @@
       "source": "메트로신문",
       "summary": "케이뱅크, 블록체인 거래 분석 솔루션 도입 메트로신문",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40UV9HWFIxMWlSYXFScGR2RVViempISU41anFSUGxScloyMGN2UHpwNjdoaHQ1SkU0Q05Oa19BVkxmaWdjTjVBQ1RtSHZDai1NTGJCZWsxNW8xZGVSSkYtSg?oc=5"
-    },
-    {
-      "code": "279570",
-      "date": "2026-10-21",
-      "title": "반기 순익 12억 차…토스뱅크에 쫓기는 케이뱅크, 3분기 ‘2위’ 가른다 - SR타임스",
-      "source": "SR타임스",
-      "summary": "반기 순익 12억 차…토스뱅크에 쫓기는 케이뱅크, 3분기 ‘2위’ 가른다 SR타임스",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2MDNiYXpndHp1V1FqQl8wMVNkRmhyZXpaci1iZmxtOFVtRFl2RkVtWHlJd214NUpYampTelhSSkFqeV9hYzFKQndKem1BNFN1aWdFS0k1VUZhU05DdHFDNE5EN24xR2vSAWtBVV95cUxNX2tEMjF5QUhRa3BzOC1LWjRxdENuTmwyLXpuZDNwQkVtVFR1UGdfWTNXVDhydnJLWHM0S1ZXMDhMeUE0d21WVmI5azNhYmdyQnkzTHp5Y2RmY2VsVFlOMW9SSjVGU3JRcHBmMA?oc=5"
     }
   ],
   "method": "Public RSS metadata only, not full-text AI summarization. No price-move causal inference."
