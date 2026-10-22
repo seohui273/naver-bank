@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T02:36:35.147900+09:00",
+  "updated_at": "2026-10-23T03:39:29.731497+09:00",
   "articles": [
     {
       "code": "006220",
@@ -2982,6 +2982,16 @@
     {
       "code": "055550",
       "date": "2026-10-14",
+      "title": "신한지주 주가 4,700원 하락 후 장마감",
+      "source": "아시아뉴스통신",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBTWmtCNkw1VUYwMjlBZ1VrV0NrNFkzSU82RzFZLVdQNkxFX2NveHdxT1BwVnlBcFBwVXdPMUlrZldwTEE0alVERDQ0dXVUNnNDaGw4YnV3dk9mQzQ4NlEzNHhB?oc=5",
+      "score": 2
+    },
+    {
+      "code": "055550",
+      "date": "2026-10-14",
       "title": "\"신한지주, 롯데손보 인수로 비은행 강화…경쟁사 추격은 역부족\"-iM - 머니투데이",
       "source": "머니투데이",
       "summary": "",
@@ -3007,16 +3017,6 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5qeEZJeG9NTGZpTjBJbUFncHBRRG0xaVNDSEQ4YjdHUVlmMXRsMkxqU1h4a0h6RlhsaEEtWVBsODhBU1F5cTVhTDgyM2E3bENfOG01NWZsMDlEdw?oc=5",
-      "score": 0
-    },
-    {
-      "code": "055550",
-      "date": "2026-10-14",
-      "title": "6933억에 롯데손보 품은 신한지주… iM증권 \"시너지 물음표\"",
-      "source": "뉴시스",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sdUJfdlgtQmVDLXBycWhmaWdqQTEtMnd1Uk5GZGlFbTNkazdPcjJ1NlZUNjdubjcwSzc4VXdDNkVrRTRDYTRKR01ua1RMVEloWk9DakdieDlIUUhEZ2xZbNIBeEFVX3lxTE1hUU5nVmtLakpZY29FVDdVcmJzZ19rZG0wMkhZczVVWHBXWmZxZlJoZU9QWHNkbkN5ejNyb0xlQnp5SkM0RTR2RERJRy1fbWVON2duOGZidVExMS1TcGt2TmpMZTA3ZHliMnQ5eFU4Y3JadzIxc2ZCNw?oc=5",
       "score": 0
     },
     {
@@ -7294,6 +7294,46 @@
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYem1NeDY3Snp1UUY4TC1IaWgzbVVhdlhoMWpFdWwtRGZldEFHc2JwY3MzY3ZFaTVxbE1DdXNPSEEzNGtQNHZpSWNsVXFrN09pVUpnVmN3UjBDdw?oc=5",
       "score": 0
+    },
+    {
+      "code": "323410",
+      "date": "2026-10-13",
+      "title": "카카오뱅크, AI 코칭 적금 출시…최고 연 5% 금리",
+      "source": "조세일보",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5qaFlXcVBrRjVsbFZGSjJPMlFnNFpDakR0QWtlQUtyWlBkZFd5Q0Y4SVh2bEh3WUxkbzBaSnV2cGhGQm5nbzhqYTFqNmdHUzhwVE1KV1JtTGhjTGdTc05R?oc=5",
+      "score": 2
+    },
+    {
+      "code": "323410",
+      "date": "2026-10-13",
+      "title": "카카오뱅크, AI가 목표 달성 조언하는 적금 출시…최대 5% 금리",
+      "source": "연합뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE56U2wxbTV1d0tUVWdfUVNqZlpOenMtclNiSFc0Vm45Zm1ZX2FxOEN0X0V5ZG9oTVFDVlY3a0cwNU5HeTNiVUZzOUVteVBNY1FXWXluRW0wbm9PdDTSAWBBVV95cUxNX0xrZ2JrejhqZzd6LXM2eWJncEpZbWdOZk9OYkVBaUJudU41VnFLcUZfZGwxMC1JSDJIOUFlVmJvRVB5MGgwaUZlNk53aHozektyb2RnYWxadjZxcVZOZno?oc=5",
+      "score": 2
+    },
+    {
+      "code": "323410",
+      "date": "2026-10-13",
+      "title": "카카오뱅크, 최고 연 5% 금리 ‘AI 목표적금’ 출시",
+      "source": "동아일보",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBYUHp4elFKUWdmTk1GSzBmd2lsZHl5N1FkRHlOTHkzU1JtQ085RjVhY2MwNWR4X1NZX0dWMElnRXpIcFdZbDdUd3VXN24tTzVlT2x4RXF5ZFVlUVN3YWhLc05yNjlqSjBRdWdCbm5TTi1wN2pGUUHSAWZBVV95cUxNNnFaNjh1emhCeGNkYmhEU3NtZEY4bEpNaUhaTHlwWXVkaWFQd0syRWo5a3UxQ3ZqNHRWS1oxTTFZRG81M09QUmN5SFhDUlZudmJOQUtfbWVPLU4tM2phSUtVcnpRaHc?oc=5",
+      "score": 2
+    },
+    {
+      "code": "323410",
+      "date": "2026-10-13",
+      "title": "[현장] 윤호영號 카카오뱅크, 외국인금융 승부수···내·외국인 구분 제거 [은행은 지금]",
+      "source": "한국금융신문",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5jZFNjQWVEdUZvMXVJSTIzNUZBbmhQMWduZGhLbGQwdl9VM2xQQWlYeC1SWk1nQ3BMc2hXMEdfLXoyU1AtWnBFOFFzUDZHeXg5UkMzelQ4dmhWODhjTk9mSFphYzlENWJINTJzZXZlU1Z0bHhhUVQxRmZqakw?oc=5",
+      "score": 1
     },
     {
       "code": "323410",
