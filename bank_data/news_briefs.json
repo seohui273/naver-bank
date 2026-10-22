@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T15:19:50.921031+09:00",
+  "updated_at": "2026-10-23T00:54:00.904153+09:00",
   "articles": [
     {
       "code": "006220",
@@ -1653,6 +1653,16 @@
     },
     {
       "code": "024110",
+      "date": "2026-10-13",
+      "title": "IBK기업은행, ‘2026 대전 일자리박람회’ 열어…“지역일자리 활성화 지원”",
+      "source": "동아일보",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyd21MRDNJU1N4bXFiRGxQdUlKaDY2TWxnNzU1TUQwSHFQQzZmYU5aT2tiUFRUQ2pOdFFTRXZEZHZ5SDZsZERkOU5ITmt0TEpwZEh1NWpJamt3X1NSLXVISE5xUzFzcmdRRUpIWTRMVnJJV05vY3fSAWZBVV95cUxNb0dheU9fX2pnV0JXWEhVRGJTTHN4bS14MVNldnRZN3Jxc2NmN2ZQbFo5TjNLMWo5VXJISUx4WUVDLWNJSTdrWmdHcEJKQUFEaFg4SjZSTVBsYkFZbnZmUkJ2RGhZZmc?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
       "date": "2026-10-14",
       "title": "[리포트 브리핑]기업은행, 'NIM 방어와 환율 효과' 목표가 27,000원 - DB증권",
       "source": "뉴스핌",
@@ -1814,6 +1824,16 @@
     {
       "code": "024110",
       "date": "2026-10-15",
+      "title": "기업은행 중기대출 장기 연체액 5700억원 육박…3년 7개월 새 6배",
+      "source": "알파경제",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBmdllFU1dMcm1PTlVoY3FmZG5XMlFibE9rdmJJNmFJYVB1enJzRDBUSWQ5dTZvcGkzcG9DX0Q1SGJsTjZmSXE5eWVMS05Ubl9LSzNOV0RKNmVycU05UFNJYlpTUG5JcmlkaXZvZFh3?oc=5",
+      "score": 3
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-15",
       "title": "기업은행 중기대출, 갈수록 깊어지는 상환난…장기 연체액 6배 급증",
       "source": "조세금융신문",
       "summary": "",
@@ -1879,16 +1899,6 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03N3N4U2w3YnRpWVlyVzA4SE55UVhHc2FHckQzeDBjLTFIZVpFZDB1SHB2ZFpsZDJYTFVWRjE3aUZRZFN2LTlicWpEbHczaFJOSnNXckF6dzRueW_SAWBBVV95cUxOeVdMY2k4LVlmQmNlem1lT0RRZXJaNHpZY2FBaDZvSFFTQ3NKMjJLUzZqejlHZ2l2ZXdzREpWM29HNEQ2SHhQTkpiRDNvNUdwOFJxekN4UURVX3BONzI1MG4?oc=5",
-      "score": 1
-    },
-    {
-      "code": "024110",
-      "date": "2026-10-15",
-      "title": "IBK기업은행, 정관장 제압하고 컵대회 준결승 진출",
-      "source": "스페셜타임스",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1fWXl0ampuVnkybUdjNTFWdVJpTjFkcXNtUm92U1JCNVpyc3lYSkNTdzBVbjNLNjRrSEhlM2h0TGJWbVVDcC1OQjJ4OXYtZUJCVllmU1pnMlZpMVk3dUV1OFJDdFVSNVpOeS1XTl81WkFJTjA?oc=5",
       "score": 1
     },
     {
@@ -2242,11 +2252,31 @@
     {
       "code": "024110",
       "date": "2026-10-22",
+      "title": "\"고금리·만기 부담 덜어준다\"…IBK기업은행, 1조 5천억 포용금융 가동",
+      "source": "더페어",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBEWXZONnFSVk92d1BBNTFscGJJb1BTVzBNNVp1alpTOWFRQkNmR042eGJYUXJuSWhUc3JESXp6STVjd1BXb25fSFgyUlIzR0RXeWdqRlFaUThWSThhcUduaGdicXNuakpnVk15TjRTZGY?oc=5",
+      "score": 3
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-22",
       "title": "IBK기업은행 분석, 코스닥 기업 영업이익 60% 급증…반도체가 실적 반등 이끌었다",
       "source": "리드경제",
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRaUNjWTFzdUxMNFNFeHNnRDZGeFFlOUtHcnVjaWxydVF5OUIyUE1VcFYtVjc0WkxXZjZpbHA2Y1p3eUM5NmdoS0lJaDhVSDRkOWl5ek9rMGxBSzV2SFlwSklyOUplVHdjYUgwVklHTDM?oc=5",
+      "score": 3
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-22",
+      "title": "IBK기업은행, '1조5천억원 금융지원 나선다'…소상공인·중소기업에 금리 감면 혜택",
+      "source": "https://www.ppss.kr/",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9seHFuQzNBc1hRcXZKMUdHNWpCU3VxcEVfbFJOZmozOXJOa21CZXNMZFdjYkNHMmFlUEJZbTFRSHFqSWhxckc5cTN1X2c5cnhOU3ZUUnU2YVhGR09IcVlFUi1sREo?oc=5",
       "score": 3
     },
     {
@@ -2262,6 +2292,26 @@
     {
       "code": "024110",
       "date": "2026-10-22",
+      "title": "IBK기업은행, 2026년 상반기 코스닥 상장기업 경영실적 큰 폭 증가",
+      "source": "시사캐스트",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QR3pTT1A0UldFMk1qV1ZuNUtpbkVYOTdmLUxGRUR6anpybnZlWUp3cmpzWkVjSzNrZEliUGZmenJObmRjUTZNdkNRbGtFZG5nOXNPbDJ3NTFHanU3b2F0S1ZpaHRYTHZi?oc=5",
+      "score": 3
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-22",
+      "title": "IBK기업은행, ’26년 상반기 코스닥 상장기업 경영실적 분석 발표",
+      "source": "내외뉴스통신",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mS3BpZEJnb1I3emRxbWRyZE5uVEpQdFpWRnZkcFNReWN1Vl9NNmhIZlVNek9vUkE5ZTA4dGJMM3hNalR3YW4tdkI3RllpZTNfY1NiUVZLWTBYanNWQ2Z4enk0NXBjcTdReEVZMm130gFwQVVfeXFMUHNmd01hNEQ0R0o4dEJTdVBWT3VyQXRWOHFNV2tsXzJmbG5RTkNOM2pkWjZiY0VqTE52SUszSEVUdlQzbmpMbWx6YzVBai1ERmxzSlZkY1NqSUl4SmF1YndWWTFMNzJLVjN1dFNTdHpNNQ?oc=5",
+      "score": 3
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-22",
       "title": "IBK기업은행, 상반기 코스닥 상장사 실적 분석…영업이익 60.4% 급증",
       "source": "일간투데이",
       "summary": "",
@@ -2272,92 +2322,62 @@
     {
       "code": "024110",
       "date": "2026-10-22",
-      "title": "IBK기업은행, 올 상반기 코스닥 상장기업 경영실적 분석 발표",
-      "source": "매일일보",
+      "title": "IBK기업은행, 소상공인 금리 감면 1.5조 금융지원",
+      "source": "뉴시스",
       "summary": "",
       "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xczlSbEpCWlV6d29ocXRmb1JfMWp1TTFyT3pXYUtXam1ZbXBaeFNMT1J2M3ZhSEc0U1ZMU3E2VGhYUHFBeXNMMGo4SVhDem9DX3owTGNFX044OGJLZUpnYWJySTA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE13T1NJVm9GSlJHV1JJQ09yUGVHbVVWeFl5S2xndjVOVmpmem5xajFqNUxneHo5eDIwYktxV3hxamI0TWRUWk1FYWFXNFRmM3l1Qi02b3d6NjktaG53QUZCVFhoelo1cXVHUk5ZQVZuaTk0RVlxZjZac9IBeEFVX3lxTE13T1NJVm9GSlJHV1JJQ09yUGVHbVVWeFl5S2xndjVOVmpmem5xajFqNUxneHo5eDIwYktxV3hxamI0TWRUWk1FYWFXNFRmM3l1Qi02b3d6NjktaG53QUZCVFhoelo1cXVHUk5ZQVZuaTk0RVlxZjZacw?oc=5",
       "score": 3
     },
     {
       "code": "024110",
       "date": "2026-10-22",
-      "title": "IBK기업은행, 코스닥 상장사 상반기 실적 분석…영업이익 60.4% 급증",
-      "source": "퍼블릭타임스",
+      "title": "IBK기업은행, 소상공인 금융지원 1조5000억원 공급…최대 1.5%p 금리 감면",
+      "source": "팍스경제TV",
       "summary": "",
       "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA5TmRsVVBDRk8xZ1NySXptN1RfWXVQcWY3UGp4NTNYVHI0a2FqdlJWYlVJdzhaNm1OUE94cmZ1akZGd2FEWktkdUZZNlNBUlM1YTYyT3dwcW8xbWpVMGZtZ2Nhdko4RHpBQ3fSAW5BVV95cUxNTDZCTTdqWGV2RTFEUVVqLURPV1djSjBESF80WUZvWU5IQ09kTnRwT0N5QkZPbXhNTVN5aDU1ZnpaMkFmSmNJZ0pIVE9SaWhaQjZSWGJXZUdzZDVNLXpIT1VQRmk1dUNndjBsSzcxUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA3LVlzNlJ6emhfOU1oVnNNbDNyNlU0bHZRTGw2M1UwME1zWXVTcHlfOUxFYjRpd0hEaTNOMG9YbDA4NUtFT2FGa0QxaExsblh2cXJJT3lHUTc2MTlvdnNvLVZWcFZNYzQ?oc=5",
       "score": 3
     },
     {
       "code": "024110",
       "date": "2026-10-22",
-      "title": "IBK기업은행, 코스닥 상장사 상반기 실적 분석…영업이익 60.4% 증가",
-      "source": "서울타임즈뉴스",
+      "title": "IBK기업은행, 소상공인·중소기업에 1.5조 금융지원…금리 최대 1.5%p 감면 By 알파경제 alphabiz",
+      "source": "Investing.com 한국어",
       "summary": "",
       "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8xMnRBMDg4X3N2Vm5YMkNOMnp3WEI4bVlaa0pwaElneXVzYnl4OUFjd1JtOEREbXdabFJ4eUU4UDJobERGQlV4VUZuUU5xVGI0SjBuXzZRWUZkLUs1QjhyZTBGdm5PQUR5ekNJ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFByLXg1UzZxRDZicnhxd3BsZXM4dU90c29yVllHaU1JTHRpaGNfRkZTbm9PbGd3QW04eTBhNjhxb1V6VnROdk44QjRQbXNXSjE2Q0MxZjFiMlI4SWNkSXpIeUVNN01IeXJXR0h4OVNneE0?oc=5",
       "score": 3
     },
     {
       "code": "024110",
       "date": "2026-10-22",
-      "title": "IBK기업은행…상반기 상장사 실적 분석 보고서 공개",
-      "source": "열린뉴스통신",
+      "title": "IBK기업은행, 소상공인·중소기업에 1조5000억원 금융지원…금리 최대 1.5%p 인하",
+      "source": "베타뉴스",
       "summary": "",
       "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5FYVZEdmxfTzR3M1VyemgtTzg5eFM2MFM4b0pna0x3TkdPdEIzOTJzX0trVVZUOWtNSk16S0xTSk56SU9aekwyZjVvTnBHVjF3MVhuNXIwR2x2OW8wUS1ZU0l2b3FMZw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0SWN6RFBHOU9yb25zamhnS1BLaGFEYU9XMkJOTHlHWUxyMF9Qc21TN1BzMXgtZ2tPcWd4bHMzVF9EQlNXNXB5VFRNS21GNDBfX1RwaTVYVzREWlRRRThQNzNIUDg?oc=5",
       "score": 3
     },
     {
       "code": "024110",
       "date": "2026-10-22",
-      "title": "‘상록수 배당 논란’ 기업은행, 국감 후속 대책에 쏠리는 눈",
-      "source": "브릿지경제",
+      "title": "IBK기업은행, 소상공인에 1조5000억 금융지원… 최대 1.5%P 금리 감면",
+      "source": "글로벌이코노믹",
       "summary": "",
       "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84elNXTmdGaGR4S0pYeDMwRENCYmI1Yk1RbWtDVzZiUThHVko2V0E1TTBKdnJYYUgydGtXLVFkZjlOUGhSaGF1VkRPQ2wzOWZHWF9Dc1NFSUNlUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdnRmWGplMmduZ2g0d0xpNmJLdHlKWWhPWDlyaEgwcUxtQVNpc0lFYlN6cGpDaU1mODNzN253MnVtNTFBMlhQNXBqTTFZUmR4a1YtSWpKZk4zbWNSdlk1RlFMdVdmQW5KcUZTQVdIV2t6LXhZWGl3Sm0tZWJnRlBkQ3daT3c?oc=5",
       "score": 3
     },
     {
       "code": "024110",
-      "date": "2026-10-22",
-      "title": "“반도체·의료 품은 코스닥, 가파른 실적 반등”… IBK기업은행, 2026년 상반기 상장기업 경영실적 분석 결과 발표",
-      "source": "스마트경제",
+      "date": "2026-10-23",
+      "title": "[단독] 기업은행 군 기부 창구 ‘깜깜이’ 선정 논란",
+      "source": "국민일보",
       "summary": "",
       "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0yNWRFYVpielpOZ2dzV0VjMW9EOGpjUXV2Sy0tcm1oYU9Kd0Zmb3lpUjRJVnJkQkhkNnNFTFBNUUxOOFk4d0VFc1J1Z1Z0eGZEVVZCOFFsaERiZThPZjRoS1hVY3lzeTNpTVVXeEczTnY?oc=5",
-      "score": 3
-    },
-    {
-      "code": "024110",
-      "date": "2026-10-22",
-      "title": "“영업이익 60.4% 뛰었다”…IBK기업은행, 코스닥 1581개사 상반기 실적 분석",
-      "source": "더게이트",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MbWxMUVdIUWlRa3BVSTBWcWlnQnhPOU1KbXJfczhuaDV2d05EREVoWFYtNUFuUXZLYS1rQ25JbnNkR1dSS3BBMkZOaUxJMmptYndXMU0xcTZ4WWowMDlncFJHcU9UQ2taRXBSNdIBbEFVX3lxTE1MbWxMUVdIUWlRa3BVSTBWcWlnQnhPOU1KbXJfczhuaDV2d05EREVoWFYtNUFuUXZLYS1rQ25JbnNkR1dSS3BBMkZOaUxJMmptYndXMU0xcTZ4WWowMDlncFJHcU9UQ2taRXBSNQ?oc=5",
-      "score": 3
-    },
-    {
-      "code": "024110",
-      "date": "2026-10-22",
-      "title": "기업은행 주가 하락 중",
-      "source": "아시아뉴스통신",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9sNnRVSHlfR0Nxd3BUQ2N4VUlZTzVVV08xZUpvRWlhU0lFOGFwcExiTlIxQzVvYVNDTGJQcG9jQXlPcC1IRDhNZjB1WHFzRGhfTVNMeXl0d3FNN3F3?oc=5",
-      "score": 3
-    },
-    {
-      "code": "024110",
-      "date": "2026-10-22",
-      "title": "기업은행, 코스닥 상장사 경영실적 발표",
-      "source": "BBS불교방송",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBpNGpnNHFTbWJxOXpUNzBYQ010cUFPS18tdERCbUg2a1QtVWZNMGF6Z21BeFYyUG5OUVhVVF9HdTNIb1dXWER6MDVVbl9yNGNxakQ4TkNWSWNCWXlXMFlmcFpqNWJ2dkpmSEEw?oc=5",
-      "score": 3
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Jb01HYldMdkd3aVNJbFhrd2ZWSVNWTmxxWWVCa2xWMWZNNFBUYmdhQkdwVUJyVlVMSVZ5dUFCUzBWanZRYXFwb1VZbXNNTms5Y3ZXbVh6MFQ?oc=5",
+      "score": 1
     },
     {
       "code": "055550",
@@ -3086,6 +3106,16 @@
     {
       "code": "055550",
       "date": "2026-10-22",
+      "title": "신한지주 주가 1,400원 하락 후 장마감",
+      "source": "아시아뉴스통신",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jTDF2ZnRwMXBFNUNZZVZCWG9UZnVBTzltbDdPMkFaRDl2d1FoQmNQSjl3ekpsMWZBcWhXLUVQYUwyQ2JLYzkzcEpOUlI2U24yRkVZNEU1NGpwSFlsalRyUG1RclBxMmNDUmhTUlF6bUZKa2Ja?oc=5",
+      "score": 2
+    },
+    {
+      "code": "055550",
+      "date": "2026-10-22",
       "title": "신한지주 주가 상승 중",
       "source": "아시아뉴스통신",
       "summary": "",
@@ -3732,6 +3762,16 @@
     {
       "code": "086790",
       "date": "2026-10-22",
+      "title": "4조 클럽 입성 뒤 ROE 12%로 눈높이 올린 함영주 하나금융지주 회장, 이익과 주주환원을 함께 키운다",
+      "source": "CEO저널",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBVLUo1d2o1SjlSZzdQU1I2NmtmM1pVc0l0bWpZYzh6X0FXVVFGVWJGX0JJT0NKck9sZEdjdUk5UXh1UWxEdXBJZGhSNTBvVXA0VjNPWjNiTTlBc0FNOHpVdHNTaDB3WXPSAWtBVV95cUxPSGZwMlR5ZGhWd3JJcGFiTG92LS1Wejd6QW53dF9ZeElFUVkwSDlYLV93bThGR2xjRkFOek4tR0VtV2NaM05MMjFnWGtUTVBUWjdxX0FxdzRLT3NuZzl3TlRKWnNRbUg0eFYyOA?oc=5",
+      "score": 0
+    },
+    {
+      "code": "086790",
+      "date": "2026-10-22",
       "title": "[밸류업 2년, 금융회장 성적표]③ 함영주號 하나금융, 현 회장 임기 중 주가 146%↑ - 파이낸셜포스트",
       "source": "파이낸셜포스트",
       "summary": "[밸류업 2년, 금융회장 성적표]③ 함영주號 하나금융, 현 회장 임기 중 주가 146%↑ 파이낸셜포스트",
@@ -4247,6 +4287,16 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9fRmVadzZxUFRiODBKazQxMjMwUFotRnJ5dUpIeGhpU0Z5WEdZcGFPZEY1emxNNUR3TmVUNW93TlRqamFFWW5lLXcyOU5ndXAtc25yRXRqMUx6UzFnWHFCejM5ODNiZw?oc=5",
+      "score": 0
+    },
+    {
+      "code": "105560",
+      "date": "2026-10-22",
+      "title": "[포커스] 상반기 줄이고 하반기 채우고… KB금융, 신종자본증권 운용 전략",
+      "source": "오늘경제",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0tMll3bDRiR2RJeEctLWxkMk50azh0cHJhY1BmWlpkRnhDd1ZFSHRjNGNYMnEydFRYRWdFQWZ4TjNva1RVeC1rNzFZRjZmSjc3czlJRUQ2U3ZNVU5Od3lqRDBlYktHZjl6SXplZVAxOUVOMGc?oc=5",
       "score": 0
     },
     {
@@ -4769,6 +4819,16 @@
     },
     {
       "code": "139130",
+      "date": "2026-10-20",
+      "title": "시중금융 도약 이끈 황병우 iM금융지주 회장, ‘연임 가도’ 청신호 켜졌나",
+      "source": "마켓뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9mYmU3T091am9kUzZvQ0luYUJtUHBCeTRVSGEtQmdiU0J0eDM1d29BSmpaODljdmhXejhsVS1fUVZoR2ozQ2pMbUJoVzIwSmVUd1pRSkpjbWZQU3FvRFptUmE3X3U3Y2NxRkNGcXhR?oc=5",
+      "score": 0
+    },
+    {
+      "code": "139130",
       "date": "2026-10-21",
       "title": "iM금융지주, 27일 3분기 잠정실적 IR 개최",
       "source": "비건뉴스",
@@ -4786,6 +4846,16 @@
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9fMnlPcy1wbTRrUlB4d2Q4eXNnaEM2cjZNV2JBaF9WM1lJeEJEV29IakJOLWNQSVR1VkdyX3dNbXl6a0QyYkhnXzRjd0VlOUlZbm9hd2JiMnFHc2FFNGhDN0FQWEdTTWPSAWtBVV95cUxPdmxLYWxtZjl1OXl1UF9nN29OS2NxbTFuT215cGZIcEswQWVSaEROYkhFRmFpTFAxZDh2TlpVejZSUWs0ZkdqSURLNXk4VWxYc0tmX0U1TGN0NjE0Q1lpbEJPZUd1eDRXOUVWdw?oc=5",
       "score": 0
+    },
+    {
+      "code": "139130",
+      "date": "2026-10-22",
+      "title": "캐피탈그룹, 지분 대량 매입···iM금융, 3분기 호실적 ‘기대’",
+      "source": "시사저널e",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ub2tlbno3aDRWOFBXZzJUWjVpTFhIV05EVVloOTMydG5JRGJxUm1sbExZS0ZkODYtSWpLS3RVS2hhMWhxTW90bnJlNnVPd2gwX3hfa2pvNlRxMk43TlpjYl85QUE2OUh5Ul95V01iU3lJSHBDOUHSAXZBVV95cUxPbm9rZW56N2g0VjhQV2cyVFo1aUxYSFdORFVZaDkzMnRuSURicVJtbGxMWUtGZDg2LUlqS0t0VUtoYTFocU1vdG5yZTZ1T3doMF94X2tqbzZUcTJON05aY2JfOUFBNjlIeVJfeVdNYlN5SUhwQzlB?oc=5",
+      "score": 2
     },
     {
       "code": "139130",
@@ -4909,6 +4979,16 @@
     },
     {
       "code": "175330",
+      "date": "2026-10-13",
+      "title": "JB금융, 1000억 신종자본증권 발행…자본비율 0.25%p↑",
+      "source": "한스경제",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KYWE3STRSVnRDYlhCaTRvdGs2Z0NTMjNyZ2x0M1R0NjhXRHdvelBrMUhlUHdaNy1OWVVtQ0NvWlpNLWNkMjZsN1RJSGZIZE1DZkZpM0VFQkE5UVplVnV2dlo4RWMwOUlTWFJj0gFvQVVfeXFMTWJPdzM4REE4MklFeVBfV19XR21Rb1hCa2JjRFNnTWhfTWZ0QzVWUmFzbzF5M1hrQzd6eWJpcTRWYy1KMVhrOGpYbWd1cUFaaGNVdWxnekNiMUZJSmpKVXNOQ1hjeVZiY1dqMjJTaENv?oc=5",
+      "score": 0
+    },
+    {
+      "code": "175330",
       "date": "2026-10-14",
       "title": "[특징주] JB금융지주, 장중 7%대 하락세… 2만6000원선 기록 : 기업주식정보",
       "source": "재경일보",
@@ -5006,6 +5086,16 @@
     {
       "code": "175330",
       "date": "2026-10-21",
+      "title": "[은행 임추위 돋보기][전북·광주은행] 후보는 지주가 고르고 은행은 재의만…JB금융의 '반쪽 견제'",
+      "source": "Naver Blog",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcmItLUNYTjlFSWdEemdHRU4tM2lMbGNCNmtCYUNlQXpQUlV3WWl5Nmg3UF83ZDRVM1oxemdlWTV4UlpsV2x3eG1XdzRuZVE0NVRDaVF0OUZfR3ZQbUYwYlRhU0dQc1dHTjR1Q09qUzBzeHNjTmttT2I5TXNjaWlTTWtEeTJWcmRDVkhNcWlRZw?oc=5",
+      "score": 3
+    },
+    {
+      "code": "175330",
+      "date": "2026-10-21",
       "title": "JB금융지주 3분기 경영실적 발표 27일 오후 5시",
       "source": "비건뉴스",
       "summary": "",
@@ -5026,12 +5116,32 @@
     {
       "code": "175330",
       "date": "2026-10-22",
+      "title": "전북은행(JB금융지주) 행장, 임원, 지점장 리더 대상",
+      "source": "브런치",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5nZUNBMGMzUFlmUkpsTkNSLUpsci1sSHhfVnliNzAzR01Sc3Zobm9qVnJCeXZIVmJtT1NTd3hCRUhQUldhX2dDOHRRSQ?oc=5",
+      "score": 1
+    },
+    {
+      "code": "175330",
+      "date": "2026-10-22",
       "title": "핀다와 JB금융, 저축은행 인수...\"어떻게 경영할 지 관심\"",
       "source": "데일리브리프",
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE53dUNQV2VOMl93VE1rLW1JYUZUU2dJZHViSDFxSjZRcmR0dFJjVk9HT05QVDA5LVotY0JUaHFyWUg0QjhrMzVuSFBIMXBGd3FxaE5NTEEyZURNUGpkaUxsaVkxYXo5Z0lLblhsNkxB?oc=5",
       "score": 1
+    },
+    {
+      "code": "175330",
+      "date": "2026-10-22",
+      "title": "JB금융지주 본점 전경. [사진= JB금융그룹 제공]",
+      "source": "전자신문",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiwAVBVV95cUxOT1BNWDhWUzlEeTd1QnpiSDFQU29ReGxFNkFlc1BvMmllTjZodkowNWZlUEJDblY3cTZQbzFGdDV3MG8tM2VYNVNYMS1xRzVDSG03YzJXamhyN0xiRlR1Rl90UndVd09jTTBjYXFrZk5MdHVFbElyaFNjVGhMUGFvNmdQdmc1bDlCNWN6ZG5xRk9jalg1RXRENlBWamtMLV9peVJrWUdoc3V4N0NneklJdkhBTEdqS0Y1UE5KVF9IeURGcGx1ejAtZGZhMGNYeU5YeU1kV2tKQW1YRnpJU2I2bDhNbXdnZWlycVB1Q2dLcVNjZ3kxbXA1eUZJWUhuUndjLVFGM3hyNVBHVFVJYVV4Y0xib3JrMlNUTlpxVnNWQXRRUXQ5aXZ6VHBGcGJGR05nTVlJbHpqQnFQbE1aLUlyYTdnQTRrLUxKMEhnWWprQmptS2IxeGpDRnZZMFd5bjdfQS1KVk1iNGFSSUpUZ0xjWmRBUEp5LWVpQjNvbnZkMHNHRmNOYURDeTdjR0JCNzRqRHFoRzFualdUWGlkVEVfOUlDand4eXZCMExuTExhbnpJSkpZQnNtLUVVbzdRTmhrcTRpSlA1RFJKVWwzT3FnYlBtVVcwblY3RFFieVNjMjRnWE1QTUtjZzV0TWxqSncwWm14ZTh2clZSSFQ5aFZ0Wld3Yld5OHk3TFRLQXowWE5QbGhlb2d3S01nbEplaEU0bmUzaVB3OEpTZVdScGlSSDF5NmVXdk5EZFp5Tjd4Qmw4bEZjZjdRVjlSZi1HQmpMVTlnZWRzVjNqMzdNZ3RjLVN0cTNmdVFlemhMVHhnVnpQODlrNUZzSTF5aHJvMUpRYW50aU1oN3pPN25RX3Y3bTJJVk42a3pRbktrOGdOMmN5N3dCaTZqcFdvSGNYNkhsQzY2cmoyNFFUc1lzbWN0Vw?oc=5",
+      "score": 0
     },
     {
       "code": "175330",
@@ -5693,6 +5803,26 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8wNjhaMTJIb2tncGZSSzdsRGUyTXZEbmdyczM2MURkOHNlaDFLT181R3ZpZWRkR1owQWxtR3ZtMzRvcFVjZW96UUF0emdnTXduM1l2S1piUTBtd3Z5M0NneGhEOF90T2I4MjU0dlRpbGJJUWvSAXdBVV95cUxORjRUWmxtTHpqVW53bk1JSm1PcEdSUDhzQmpWay1xejd6UDlaWk5HLXFjcDBpdUJaWU1NRXpUY3NRT0lqWVBrbXdkbkZ2WV9UaW1WM0Q0YjcxMEpLeVZuY3RVX0haUm1CVF9YR2xrd21EREZ3YS1Idw?oc=5",
+      "score": 3
+    },
+    {
+      "code": "279570",
+      "date": "2026-10-22",
+      "title": "금융당국 앞으로 은행 대출금리 산정 과정 공개한다 : 경남·제주·케이뱅크도 가산금리 인상 도마에",
+      "source": "허프포스트코리아",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ReU43eXNFdjAwMUU0Uk9sckcyS3k5SmdQdzNsX3VReWZseXVwMDVobTFKTUJ3N1pta2RzQWRBSjRhMmg4UUNtNWw4UHNsWHpaTFNseEZjRQ?oc=5",
+      "score": 3
+    },
+    {
+      "code": "279570",
+      "date": "2026-10-22",
+      "title": "제주·경남은행에 케이뱅크도 금리 역주행…산정 과정 이목 쏠린 까닭",
+      "source": "블로터",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1OTXctd0tESUNxYmR5S0ZuRnZ0Z0JOT3lOSlBMQ0kxaGRGY3FTUFA1R05SNGptNlQwTTJrc1BBT3hubk80aG5oOGxyRElVNGt3aXlUX3pvbEswQks3dUxmdU5VMW5Qb3J60gFsQVVfeXFMTmZDaVZhWTdtalVUNVBJMC12Q3hIN0txMjMwbEtSb0hob0hwcndVMGk2Z1FodGlPTU95aFozZk1lNkl4NklYcFp2OEF1YXQ4WHhJeVdYMnkycUNZN0Job1VNaWVSYTJJcmJKRzl1?oc=5",
       "score": 3
     },
     {
@@ -6383,6 +6513,16 @@
     },
     {
       "code": "316140",
+      "date": "2026-10-17",
+      "title": "[기업해부 우리은행 ③] 공적자금으로 살아난 은행…우리금융의 출범과 26년 민영화",
+      "source": "https://www.ppss.kr/",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9aandLalZjMmZlUElPZkdNOE5Fd0N1U0pGVzdjUk0wRmFKMk13V3l5WThpSEc1dHZMNExObVU5djROSEQyTGZLbDdXRTB5QTRmZzczeG02eU5mQ0JtS2M2SGUtVTQ?oc=5",
+      "score": 1
+    },
+    {
+      "code": "316140",
       "date": "2026-10-18",
       "title": "KB증권, 우리금융 목표주가 4만3000원 유지",
       "source": "비건뉴스",
@@ -6430,11 +6570,31 @@
     {
       "code": "316140",
       "date": "2026-10-19",
+      "title": "[마감분석] 우리금융지주, 0.96% 오른 3만1650원에 장 마감 : 기업주식정보",
+      "source": "재경일보",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBoT1NFa2xPM184QTJrLTRRby02YkpyX21xeTBLUzF6SjFlMzZBc3lTUllVSU5LdXpjLThsVmVDTU1GVWEtZWlpdkFhSQ?oc=5",
+      "score": 0
+    },
+    {
+      "code": "316140",
+      "date": "2026-10-19",
       "title": "[헷갈리면 손해] 하나금융 50% 환원 눈앞, 우리금융은 자본비율 반등…엇갈린 주주환원 전략",
       "source": "https://www.theconnectmoney.com/",
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9wRUMwdkpMcnZrRXl5YkpPeGxsN2doT21HVElnT1kzN193ajlpV0dkdWFRc21BWXFKQjhNZ0ptNkM0aVhSTVpnN0VCaHFKTjczZWtVZmdPQV9PUFRiSENmaQ?oc=5",
+      "score": 0
+    },
+    {
+      "code": "316140",
+      "date": "2026-10-19",
+      "title": "우리금융지주 주식 기술적 분석: ₩31,300 지지선 테스트에도 매도 우위 지속",
+      "source": "Traders Union",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRmRiZENhYW52X19US1VNTUhDbXpqS1dEMnVhSkJaaml0Mm9Tam1OREp4ZVZUc1lsR0dkdWdfRXJyQnhoM0otdXNmSlFxSHJqOWg4RUVUTW00MVRfZ1dqdlVhcWU5MmhuMTN4cG1DT214U0xxWnBfd2VtTlFMbGkydFFMTTkxOGxKSXRnM082Q05ISFlwRko4?oc=5",
       "score": 0
     },
     {
@@ -6518,6 +6678,16 @@
     {
       "code": "316140",
       "date": "2026-10-21",
+      "title": "[금융지주 임원 인사 전망][우리금융] 전임자 색채 지웠던 임종룡…이번엔 '자기 사람' 평가대 : 네이버 블로그",
+      "source": "Naver Blog",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOemJXYXA5ME1qUkYzQzdqWDhVajhrZWtrN2JEc2ZtV3J4c25paml4SlZ3VW8zbzN4VmhaaTFtVHV0LXNmSkJfMzZFOHdZSWdmc2d5VVlRS1J6U294dFRUdFZwSDI5cWNjbWdMZTRsMEh6eGhPM3JmNFpMaFBJcFlEeVh3bHJPeThocms5YUxNZw?oc=5",
+      "score": 0
+    },
+    {
+      "code": "316140",
+      "date": "2026-10-21",
       "title": "우리금융, 주주환원 1.5조 전망…자본비율 개선의 결실",
       "source": "PRESS9",
       "summary": "",
@@ -6528,12 +6698,42 @@
     {
       "code": "316140",
       "date": "2026-10-22",
+      "title": "업계 최고 수준의 퇴직연금 수익률 속에서 우리금융지주 주가는 지지선을 지킬 수 있을까?",
+      "source": "Traders Union",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYW9BRTV3cUdlaVZ0aGpWaXZUZFI2WlhPeF9IU0JCSU5tYmNpQ3lGZ1hkV3czSnM5b0ExVjlNSUtOMmwzNnlXZTNGQTEtRnR2QlBBc3E5bjgwNWhzYjJTaFBmZlVJQjAzRHQzZ3hpYy1LVlFfWkQ3SkVxR0NKdGs2SGJlZU9iWEh1eC1yaTV2Z09mVTFs?oc=5",
+      "score": 2
+    },
+    {
+      "code": "316140",
+      "date": "2026-10-22",
+      "title": "우리금융지주 주가 250원 하락 후 장마감",
+      "source": "아시아뉴스통신",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1oZHNHeDlCdWpETVdYSk9ZSGpleW1oQlR4cWZyeXllcjlYVEVYYmhFZnJsT0NSQXVjUHFWUVNQdlVOMHZlQ3VOQWQtUzNLb1pyRXA2UmkxdXg2TnFtYmdPcjQ3dDU3Y21Ha09TejJtTnZNeWZG?oc=5",
+      "score": 2
+    },
+    {
+      "code": "316140",
+      "date": "2026-10-22",
       "title": "[금융지주 임원 인사 전망] [우리금융] 대항마 없는 정진완…우리은행 '단명 행장' 징크스 깰까",
       "source": "딜사이트",
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1sSDl1Qy1xd3I3ZXhsQjR4VHh4M3VIU0xFQ1NiQVNWckZ4SFJfQmVZTEE3U21GUFZoRVlRblFZSnBaazlmRm0wVkxFbmN1Qzg?oc=5",
       "score": 1
+    },
+    {
+      "code": "316140",
+      "date": "2026-10-22",
+      "title": "우리금융, '순익 1조원·자본비율 14%' 동시 가시권",
+      "source": "PRESS9",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9FTjVaNzNMcFkwdzB3Y3RoOXRJc3RPUUZneXpQVEt5QV9IWllfZkVTTFUwNVpvMFdQWElEelgwTTFHYWE3aUdJaEhYUS01LXJqaThjY1NnMHJXMXFRQnlzRlA2RjQyUQ?oc=5",
+      "score": 0
     },
     {
       "code": "316140",
@@ -7046,6 +7246,16 @@
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5HZGxfWTlmNEpjakpodVY3eG9MYTZtUHlTWURvMTNyX3MxbWVkWlMwWkNnRi1aNHRSQWJ3Y1dTLWxfSHJKaDRralI5MXE4R3pzMC1uN3NmdVFSV25XVTZVeUNpREFTd9IBakFVX3lxTE9VMkVuc0h3MUZ2UWFTdkdtaEFsdDRDVnNPcWpNQmE0bjNYam1UWWtLVmx3Y2VhNC1meF81Qkg4eFlDSGp4MzFYVmJ3Z2VuSTRyeERwUnY2Ml9wQkI5ZU00TWRCeU5Ba0RzNUE?oc=5",
       "score": 2
+    },
+    {
+      "code": "323410",
+      "date": "2026-10-22",
+      "title": "카카오뱅크 주가 150원 하락 후 장마감",
+      "source": "아시아뉴스통신",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9MVl85Vl9IcVhRWU1HR0Q0dXVrcHJsV3d6NktYd2pkdjMzZUZKRE9wWnhndGpfNS1abGNaYlgxelE4VEh2WVpoNFctS2pTdVg4S0c3cmNLclZyQ3Rrb3Z2cExoZ09TN1BKNDFZNG9tZkJFY3Yt?oc=5",
+      "score": 2
     }
   ],
   "fetched_windows": [
@@ -7053,46 +7263,57 @@
     "006220|2026-10-06|2026-10-13",
     "006220|2026-10-13|2026-10-20",
     "006220|2026-10-20|2026-10-23",
+    "006220|2026-10-20|2026-10-24",
     "024110|2026-09-29|2026-10-06",
     "024110|2026-10-06|2026-10-13",
     "024110|2026-10-13|2026-10-20",
     "024110|2026-10-20|2026-10-23",
+    "024110|2026-10-20|2026-10-24",
     "055550|2026-09-29|2026-10-06",
     "055550|2026-10-06|2026-10-13",
     "055550|2026-10-13|2026-10-20",
     "055550|2026-10-20|2026-10-23",
+    "055550|2026-10-20|2026-10-24",
     "086790|2026-09-29|2026-10-06",
     "086790|2026-10-06|2026-10-13",
     "086790|2026-10-13|2026-10-20",
     "086790|2026-10-20|2026-10-23",
+    "086790|2026-10-20|2026-10-24",
     "105560|2026-09-29|2026-10-06",
     "105560|2026-10-06|2026-10-13",
     "105560|2026-10-13|2026-10-20",
     "105560|2026-10-20|2026-10-23",
+    "105560|2026-10-20|2026-10-24",
     "138930|2026-09-29|2026-10-06",
     "138930|2026-10-06|2026-10-13",
     "138930|2026-10-13|2026-10-20",
     "138930|2026-10-20|2026-10-23",
+    "138930|2026-10-20|2026-10-24",
     "139130|2026-09-29|2026-10-06",
     "139130|2026-10-06|2026-10-13",
     "139130|2026-10-13|2026-10-20",
     "139130|2026-10-20|2026-10-23",
+    "139130|2026-10-20|2026-10-24",
     "175330|2026-09-29|2026-10-06",
     "175330|2026-10-06|2026-10-13",
     "175330|2026-10-13|2026-10-20",
     "175330|2026-10-20|2026-10-23",
+    "175330|2026-10-20|2026-10-24",
     "279570|2026-09-29|2026-10-06",
     "279570|2026-10-06|2026-10-13",
     "279570|2026-10-13|2026-10-20",
     "279570|2026-10-20|2026-10-23",
+    "279570|2026-10-20|2026-10-24",
     "316140|2026-09-29|2026-10-06",
     "316140|2026-10-06|2026-10-13",
     "316140|2026-10-13|2026-10-20",
     "316140|2026-10-20|2026-10-23",
+    "316140|2026-10-20|2026-10-24",
     "323410|2026-09-29|2026-10-06",
     "323410|2026-10-06|2026-10-13",
     "323410|2026-10-13|2026-10-20",
-    "323410|2026-10-20|2026-10-23"
+    "323410|2026-10-20|2026-10-23",
+    "323410|2026-10-20|2026-10-24"
   ],
   "method": "Date-scoped RSS searches and persistent archive. Publication date verified. Summaries are RSS excerpts, not generated full-text article summaries. Not causal claims."
 }
