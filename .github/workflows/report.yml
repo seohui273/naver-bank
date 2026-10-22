@@ -7,6 +7,7 @@ on:
       - '.github/workflows/report.yml'
       - 'scripts/collect_news_briefs.py'
       - 'banklab_v2.js'
+      - 'banklab_insights.js'
   workflow_run:
     workflows: ["naver-bank-daily"]
     types: [completed]
@@ -85,6 +86,7 @@ jobs:
           mkdir -p _site/research
           cp index.html _site/index.html
           cp banklab_v2.js _site/banklab_v2.js
+          cp banklab_insights.js _site/banklab_insights.js
           mkdir -p _site/bank_data
           cp bank_data/news_briefs.json _site/bank_data/news_briefs.json
           test -s reports/research.html
