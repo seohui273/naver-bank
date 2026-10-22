@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T15:00:36.894713+09:00",
+  "updated_at": "2026-10-22T15:12:52.629704+09:00",
   "articles": [
     {
       "code": "006220",
@@ -514,6 +514,16 @@
     {
       "code": "006220",
       "date": "2026-10-19",
+      "title": "제주은행, '다이나믹 금리인하 서비스' 시행...은행권 최초 매월 신용 재평가로 금리인하 검토",
+      "source": "세정일보",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE83bzNQMWwyRFhkZ09pVHJhSWpBb2xWZG1tRVdEWmNQRTQzM0szbzk2b2s2LUJXaXRuUHlxc3JvR3I4dGk3ZlE4OUtEYU96VEcwRkJ4OW50dHFKeHVLdkh6cnIyYlZDN3Y1NTAzZg?oc=5",
+      "score": 3
+    },
+    {
+      "code": "006220",
+      "date": "2026-10-19",
       "title": "제주은행, ‘다이나믹 금리인하 서비스’ 도입...고객 신용 상태 매월 재평가",
       "source": "아시아에이",
       "summary": "",
@@ -603,16 +613,6 @@
     },
     {
       "code": "006220",
-      "date": "2026-10-19",
-      "title": "제주은행, 매월 신용 재평가해 금리 조정…자동 인하 서비스 출시",
-      "source": "데일리한국",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBWZXR0WG5BX3dkTTFBTGN2bG9xMG11eFFhSHhvU1lKX0luTXRtandmeWFGVHNhN1Z5WFVFdi1Eb2laZ25CVXRvMUpuU0pJNTBsQTk5MWwxVzk1NDZ6YmNsNXVsb2h5VlNSbzAwNnJBd9IBc0FVX3lxTFBtZlhSalhiRnB1eWlaR1AxSk1oaFJSc1pJX19yMzZPVmxCYTZBQjB3LVF0aGloanhYTWJmZTA2WUdkMEFlNHFTZmc1d05OX0oxM3NtUHNoVHN4czhRZ3dQSVh2YWhzSTVzZkJ2V0JmOWpmc00?oc=5",
-      "score": 3
-    },
-    {
-      "code": "006220",
       "date": "2026-10-21",
       "title": "제주은행, ‘제주 상생포용적금’ 출시",
       "source": "뉴스N제주",
@@ -620,6 +620,16 @@
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ET3h6V3U4TmNOMEhlc29tcWdTUmVjdVRfZUFLVEI5Y19HM2toZnBYMV9VRUp2SGVaTDFTR3ptVl9wSXB6aEdxeXdRWVNaRFdOSFlCdU5WSTVLT2JsOG1ZQkJ3NHd1SE5Nb1hpNg?oc=5",
       "score": 1
+    },
+    {
+      "code": "006220",
+      "date": "2026-10-22",
+      "title": "제주은행, ‘제주 상생포용적금’ 출시…연 7% 금리 적용",
+      "source": "미디어제주",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NSWYybHpUaGN6WlR4OXBKWElGSkFOWnBBRS1QZGh3bWNOUDRFYUxqV2xOa2FYN1hpXzFYTE5JSjFVeXlrbFVWOVJqSE83S29pLTgweEVuOExuTkhUNldiNDE3WWtoM0FuOWFSbtIBcEFVX3lxTE5HUWY5V3ZRbEw0RTNGTXQ0T1V2VXZQR1M2ajVXTEc2T0xrUmhCNFBzVmE4NGxGSmV2M3dfdzhKOXVycGV1a1dxNmZTQ3V0MlJKem1vcTBTaDh3S21IRHV0VFJqY0dJcjNrcVVqVml3UkM?oc=5",
+      "score": 3
     },
     {
       "code": "024110",
@@ -1714,6 +1724,26 @@
     {
       "code": "024110",
       "date": "2026-10-14",
+      "title": "IBK기업은행, 9년 만에 베트남 법인 설립…현지 중소기업 공략",
+      "source": "디지털투데이",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8yRmlkWWs3bllydjNtQm1kd0FOU3FaMFBEeXc5LUVIX09EOThoRHBzSE9TVkd5RXpVQWFDVnVuaThFckxyQ19URmVtT3VqNXc3bU9hUXNhQjFZQVlkazZuUHI5VHZRaTV5ZE1sNFZtVE05UDQ?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-14",
+      "title": "IBK기업은행, 9년 만에 베트남 현지법인 공식 출범",
+      "source": "이코리아",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE96ZDVrbkhJU1lweWIzeXo3X1liNnZZeG94VkttUW9iYkJLTHdlQTRmSjhMclBTY2pGTmM4ODhrQ2o5Z2lXR2dFNjZxS1YwTV9Kb3RNWWdyN1Fsd19ueUhfdTIxNkJMRkhONktoZ0tubw?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-14",
       "title": "IBK기업은행, 9년 만에 베트남 현지법인 출범…중소기업 금융 확대",
       "source": "FETV",
       "summary": "",
@@ -1743,23 +1773,13 @@
     },
     {
       "code": "024110",
-      "date": "2026-10-14",
-      "title": "IBK기업은행, 베트남 법인 출범…한국계 세 번째 은행으로 영업 확대",
-      "source": "ER 이코노믹리뷰",
+      "date": "2026-10-15",
+      "title": "\"중기 연체 폭증\" 기업은행, '1년 이상' 중소기업 연체액 5700억 육박",
+      "source": "파이낸셜뉴스",
       "summary": "",
       "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE00NlJ3SllIaFo1TTFyY0c5UV9jZzQzNjVCUlZzODFNZWkycnJyNXZmdmhIQUs2RERtMjRkWTBrUkk0TmVkWlFhMktRbEJmUXdPaHY3OGc5cDE3VjVjcGNhOFU0ZGlwYjY3X2FnVg?oc=5",
-      "score": 1
-    },
-    {
-      "code": "024110",
-      "date": "2026-10-14",
-      "title": "IBK기업은행, 베트남 현지법인 공식 출범…중소기업 '생산적 금융' 지원",
-      "source": "전자신문",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1EdWtOcTFKTUtROTZDQW95YkstU19zM1JieWptRXUtVWZoUVUyZ0xMU2llSy1RNWU3Y2xlaTFvYU15NTNFdGJmLWpiMjFCdw?oc=5",
-      "score": 1
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBpZktOM2lPQXJYdExOalJnOXl5Zmp0dXpkeUFHc1kwSTZaa0xfNFYzQ3dvRUpCb2picGdua1lWdzJQWTIwaEFQa0l3ak1GaUZ5UERNWmFOTkFWQQ?oc=5",
+      "score": 3
     },
     {
       "code": "024110",
@@ -1869,16 +1889,6 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1fWXl0ampuVnkybUdjNTFWdVJpTjFkcXNtUm92U1JCNVpyc3lYSkNTdzBVbjNLNjRrSEhlM2h0TGJWbVVDcC1OQjJ4OXYtZUJCVllmU1pnMlZpMVk3dUV1OFJDdFVSNVpOeS1XTl81WkFJTjA?oc=5",
-      "score": 1
-    },
-    {
-      "code": "024110",
-      "date": "2026-10-15",
-      "title": "[2026 국감] 김재섭 \"기업은행 소상공인 대출 증가분 82%가 부동산업에 집중\"",
-      "source": "뉴스핌",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1JRmI5ZTBCXzRYWlNkRHN5OTFiWmVudW05bUNxMU5BelcwVFFRNGliSUZET1dzWTJuYmhLVHhFU1R4STBpN1UtcEd0WXVYYjY5aGpSeF9GMC1qVWcy?oc=5",
       "score": 1
     },
     {
@@ -2062,6 +2072,16 @@
     {
       "code": "024110",
       "date": "2026-10-19",
+      "title": "IBK기업은행, 내년 상반기 혁신창업기업 100곳 모집",
+      "source": "코리아리포트",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE83QnJ2Y1hhMTVfLUhBMDN6RmhGd2ZhTEpnRXA5QUVHclFub2NHa1ViT1RmcXRSUV9QeDFEYkxFQUpfMllkUG1VRmZoQkZkRFNFdFJSakM4dlJ1TGtmS1puTUd6QlV6M3IxUmo5Vzc4WWQ?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-19",
       "title": "IBK기업은행, 혁신창업기업 100개사 모집…금융·해외 진출 연계",
       "source": "초이스경제",
       "summary": "",
@@ -2087,16 +2107,6 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB1M243aWJkTVQ1VUFDbTFEUlN4N1dabTRHTF9qbTZybExIZFUwYVlJaXFXTmVZMlVsR19OLXd0LW85TzZLZ2RmdFNYd2IwMEVCaHhMQnA5OWphTmdFUGc4ZXNHN2xuZHhQX1ljbWVTZng?oc=5",
-      "score": 1
-    },
-    {
-      "code": "024110",
-      "date": "2026-10-19",
-      "title": "기업은행, 2027년 상반기 IBK창공 혁신창업기업 모집…11월 13일까지 접수",
-      "source": "비즈월드",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1xZU5UWk16NEY1QVVHUXZaOW16V3ZKWVF5QVVOWkdGNDBrZ2Juenk0aXNUVEdfNlZZN0FXUUgzQ2N2dE95MFZKM0lwNFZIc1JJbkdiTm92RlAzcXRlR0VDV2V0ZG9NT0hjcmZn?oc=5",
       "score": 1
     },
     {
@@ -2342,11 +2352,11 @@
     {
       "code": "024110",
       "date": "2026-10-22",
-      "title": "﻿IBK기업은행, 코스닥 상장사 상반기 실적 개선… 반도체·의료 업종 성장 견인",
-      "source": "비즈니스리포트",
+      "title": "기업은행, 코스닥 상장사 경영실적 발표",
+      "source": "BBS불교방송",
       "summary": "",
       "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1feURWLXpiTDUwejZzTGViSUZBWUQtT0t5R3VESTdJTDJjbmxmMHA5QUExejloRGFSYV9nM19Xem1yRVZJbWhoTXFCVU9BX1pZYkdGY0UzQUhCTTFkN0Ffd2pGQTlHckZnaWNTdkNkRQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBpNGpnNHFTbWJxOXpUNzBYQ010cUFPS18tdERCbUg2a1QtVWZNMGF6Z21BeFYyUG5OUVhVVF9HdTNIb1dXWER6MDVVbl9yNGNxakQ4TkNWSWNCWXlXMFlmcFpqNWJ2dkpmSEEw?oc=5",
       "score": 3
     },
     {
