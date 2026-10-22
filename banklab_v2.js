@@ -37,7 +37,7 @@
     '<div class="toolbar"><div class="controls"><label>종목<select id="signalStock"></select></label><label>거래일<select id="signalDate"></select></label></div></div>',
     '<div class="grid" id="signalMetrics"></div>',
     '<div class="sectionhead"><h2>이례적인 움직임 분석</h2></div><div class="card" id="signalResult"></div>',
-    '<div class="sectionhead"><h2>관련 뉴스 · 짧은 요약</h2><small>출처를 확인할 수 있는 기사만 표시</small></div><div class="card" id="signalNews">관련 뉴스를 불러오는 중입니다.</div>',
+    '<div class="sectionhead"><h2>선택 날짜 뉴스 브리핑</h2><small>출처를 확인할 수 있는 기사만 표시</small></div><div class="card" id="signalNews">관련 뉴스를 불러오는 중입니다.</div>',
     '<div class="note">통계적 잔차는 개별 악재의 증거가 아닙니다. 뉴스와 주가의 동시 발생도 인과관계를 입증하지 않습니다. 역사적 KRX 다변량 회귀의 결과는 위 연구 보고서에서 확인하세요.</div>'
   ].join('');
   nav.after(panel);
@@ -103,9 +103,52 @@
     document.getElementById('signalResult').innerHTML=text;news(code,date);
   }
   function news(code,date){
-    const articles=(newsData.articles||[]).filter(a=>a.code===code && Math.abs((new Date(a.date+'T00:00:00')-new Date(date+'T00:00:00'))/864e5)<=3).sort((a,b)=>Math.abs(new Date(a.date)-new Date(date))-Math.abs(new Date(b.date)-new Date(date))).slice(0,5);
-    if(!articles.length){document.getElementById('signalNews').innerHTML='<p class="v2-narrative">선택 날짜 전후 ±3일에 저장된 검증 가능한 관련 뉴스가 아직 없습니다. 뉴스가 없다는 사실을 주가 원인으로 해석하지 않습니다.</p><a href="https://finance.naver.com/item/news.naver?code='+encodeURIComponent(code)+'" target="_blank" rel="noopener noreferrer">네이버증권에서 기사 직접 확인 ↗</a>';return}
-    document.getElementById('signalNews').innerHTML=articles.map(a=>'<div class="v2-article"><strong>'+esc(a.title)+'</strong><div class="v2-source">'+esc(a.date)+' · '+esc(a.source||'출처 미상')+'</div><p class="v2-narrative">'+esc(a.summary||'본문 미확보: 제목만 확인할 수 있습니다.')+'</p><a href="'+esc(a.url)+'" target="_blank" rel="noopener noreferrer">원문 보기 ↗</a></div>').join('')+'<p class="plotnote">언론 보도와 주가 움직임의 시간적 일치는 인과관계의 증거가 아닙니다.</p>';
+    const box=document.getElementById('signalNews');
+    if(!date){box.textContent='비교할 거래일을 선택하세요.';return;}
+    const target=new Date(date+'T12:00:00');
+    const gap=a=>Math.abs((new Date(a.date+'T12:00:00')-target)/864e5);
+    const relevant=(newsData.articles||[]).filter(a=>a.code===code && gap(a)<=3)
+      .sort((a,b)=>gap(a)-gap(b) || Number(b.score||0)-Number(a.score||0));
+    const exact=relevant.filter(a=>a.date===date),others=relevant.filter(a=>a.date!==date);
+    const articles=[...exact,...others].slice(0,7);
+    const archive=(newsData.fetched_windows||[]).length;
+    if(!articles.length){
+      box.innerHTML='<p class="v2-narrative"><strong>'+esc(names[code])+' · '+esc(date)+'</strong>에 대한 검증 가능한 기사를 보관한 자료에서 찾지 못했습니다.</p>'+
+      '<p class="v2-narrative">뉴스가 없다는 의미가 아닙니다. 외부 뉴스 검색은 GitHub Actions 실행 시 수행되며, 사이트에서 날짜를 선택할 때 직접 인터넷을 검색하지는 않습니다. 검색 누락이나 매체 제공 범위의 한계가 있을 수 있습니다.</p>'+
+      '<a href="https://www.google.com/search?'+
+      'q='+encodeURIComponent(names[code]+' after:'+date+' before:'+new Date(target.getTime()+864e5).toISOString().slice(0,10))+
+      '&tbm=nws" target="_blank" rel="noopener noreferrer">선택 날짜 뉴스 검색 결과 확인 ↗</a>'+
+      '<p class="plotnote">백그라운드 아카이브 검색 구간: '+archive+'개. 주가 변동의 원인을 확인할 근거는 부족합니다.</p>';
+      return;
+    }
+    const sourceCount=new Set(articles.map(a=>a.source).filter(Boolean)).size;
+    const sameDay=exact.length;
+    const items=articles.map(a=>({
+      ...a,
+      title: String(a.title||'').trim(),
+      summary: String(a.summary||'').trim(),
+      source: String(a.source||'').trim()
+    }));
+    const thematic=[
+      ['실적·수익성',/실적|순이익|이익|마진|NIM|대손|충당금|연체|건전성/],
+      ['주주환원·자본',/배당|자사주|주주환원|증자|CET1|자본비율/],
+      ['금리·환율·정책',/금리|환율|규제|금융당국|정책|대출/],
+      ['증권사 평가',/목표주가|투자의견|매수|매도|증권사/]
+    ].filter(([,rx])=>items.some(a=>rx.test(a.title))).map(([label])=>label);
+    let headline='선택일 '+date+'에 보도된 기사 '+sameDay+'건';
+    if(!sameDay)headline='선택일 당일 기사 없이 전후 3일 자료로 정리';
+    const summaryLine=thematic.length
+      ? '관련 기사에서 '+thematic.map(esc).join(' · ')+' 주제가 언급됐습니다. 아래 기사별 핵심 내용과 원문을 확인할 수 있습니다.'
+      : '선택 기간 관련 기사 '+articles.length+'건이 확인됐습니다. 아래에서 개별 보도를 확인하세요.';
+    box.innerHTML='<div class="v2-narrative"><strong>'+esc(names[code])+' · '+esc(date)+' 뉴스 브리핑</strong>'+
+      '<p>'+esc(headline)+' · 화면에 표시된 기사 '+articles.length+'건 · 언론사 '+sourceCount+'곳</p>'+
+      '<p>'+summaryLine+'</p>'+
+      '<p class="plotnote">제목의 키워드를 기반으로 주제를 분류한 것이며, 기사 원문 전체를 읽은 AI 요약이나 주가변동 원인 판정이 아닙니다.</p></div>'+
+      items.map(a=>'<div class="v2-article"><div class="v2-source">'+esc(a.date===date?'● 선택일 당일':'전후 관련 기사')+' · '+esc(a.date)+' · '+esc(a.source||'매체명 미확인')+'</div>'+
+      '<strong>'+esc(a.title)+'</strong>'+
+      '<p class="v2-narrative">'+(a.summary?esc(a.summary):'기사 제목만 확인됐습니다. 본문은 확보되지 않아 내용을 추측하지 않았습니다.')+'</p>'+
+      (String(a.url||'').startsWith('https://')?'<a href="'+esc(a.url)+'" target="_blank" rel="noopener noreferrer">기사 원문 확인 ↗</a>':'')+'</div>').join('')+
+      '<p class="plotnote">표시된 보도는 관련 가능성이 있는 자료이지 주가 변동의 인과적 설명은 아닙니다. 정보가 부족한 경우 원인을 단정하지 않습니다.</p>';
   }
   document.getElementById('signalStock').addEventListener('change',signal);
   document.getElementById('signalDate').addEventListener('change',()=>{const code=document.getElementById('signalStock').value;const date=document.getElementById('signalDate').value;signal()});
