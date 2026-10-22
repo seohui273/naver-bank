@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T03:39:29.731497+09:00",
+  "updated_at": "2026-10-23T05:35:39.685587+09:00",
   "articles": [
     {
       "code": "006220",
@@ -5839,6 +5839,16 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12czdQZWZwazAxdy16QUVXTDl3MXRvY3Qta3Q1cWhRQ3E0bmhULUI0WmhSazdUeUhHZEI2STFKdndTRkxqRThzZkFtRS1wem5PVmtTWG9zY05sZw?oc=5",
+      "score": 1
+    },
+    {
+      "code": "279570",
+      "date": "2026-10-17",
+      "title": "[금융 게시판] 18일 금융거래 일시 중단…카카오뱅크·케이뱅크·경남은행, 전산 점검",
+      "source": "라이센스뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9OQVBNMTNpbXBLRjRyLWdIV3BJeVB0X1VRTVpGT1NsbmhLM0hULXVPYTVJTFVkWjVWSWNlSW1HdHNZdXAyV0RiRXF4MnpGYUpLTVkzWGZrMS1PaDRiMURQZFpBT3ZBS0Y3YVJv?oc=5",
       "score": 1
     },
     {
