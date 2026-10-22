@@ -9,6 +9,7 @@ on:
       - 'banklab_v2.js'
       - 'banklab_insights.js'
       - 'banklab_explain.js'
+      - 'index.html'
   workflow_run:
     workflows: ["naver-bank-daily"]
     types: [completed]
