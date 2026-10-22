@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T00:54:00.904153+09:00",
+  "updated_at": "2026-10-23T02:36:35.147900+09:00",
   "articles": [
     {
       "code": "006220",
@@ -1663,12 +1663,112 @@
     },
     {
       "code": "024110",
+      "date": "2026-10-13",
+      "title": "IBK기업은행, 대전광역시와 '2026 대전 일자리박람회' 개최",
+      "source": "연합뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE41cEtQXzlUM29nUGxwN28yZDJhakE5N2xNTmVtanZTaktCUDBXbmdhMnBTTXplWkVyQlp5b0tOS2M4Rk4tRXRuY2ktNy1Gd0FfQXFTbXJEVU54TVnSAWBBVV95cUxQWTF0LUVKemlzbVVSSzZKa3k5cnY2MVpqSmJ4LURBX3BaYUQ4aWVhZ3lac3pzODJ2VTFqZlBqb2p1WGNMb21NM3lVaHZ1S0V2QkJTZ1kteUJLdGlFSHNxbDA?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-13",
+      "title": "IBK기업은행, 대전광역시와 일자리박람회 개최",
+      "source": "BBS불교방송",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAzSDVzS2J0em15Y2lLdXV5QnpNc3hHbVpNMmM2QlhoaExrZU5yU0dwZmFvZ3BYSUk2WDdYVGR2UnkxMzBvRGQ5TDNVOHF5TVh2LWgyWEs3RXUwY1B5a1RReGN0TmZkWW9XcU4w?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-13",
+      "title": "IBK기업은행, 대전시와 '2026 대전 일자리박람회' 개최",
+      "source": "뉴스핌",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9uQnhzdVRzbFJOQV9zOUxCazlzclVFYkJzS3dWSXFHMkFnTS1VUGhMYkpFQXZfZEI0UWFBNVVZX3lWSFJEX0lDQVVkZkl0dUJiRnB5bzhicXNkMFc3?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-13",
+      "title": "IBK기업은행, 델 데이터 백업복제 솔루션 도입",
+      "source": "디일렉",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9RNzZadEk4bFdfZjRrQUpFNUFheG82RFM2OFk2T3NIa0lJakdQeVNzeHlUSU9FbFVBXzA2M2R3UmIwRWJjS0ZLel9DSzFXaEViRmdUVkktNTJFOHNzYWtWS042UmhXQQ?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-13",
+      "title": "IBK기업은행, 델 솔루션으로 백업 체계 고도화…랜섬웨어 대응 강화 - 머니투데이",
+      "source": "머니투데이",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9GRGVFSDFFRndGTVZqZ3dSUGJGd3JGU0FxME9kaUVXSHpTNFV5aG5Gb1d3Z0prLXNtQ1ZRZHFyRThvQm94WFBRLXczTWxfWGZNelBUdGtmZ2Z5WlNCU3BtMUV6cS14aTjSAWxBVV95cUxOaDdiMzFYLUhzWFNjbEMzNjF6aE9SRUtKamJLclIyT3RsOUVEbFBQa25ac0dLWHQ5U1pDem9xSGZYVlRtRXZrandqb1hHVHcwWm5fbnZUR3hmUG43M2FKSEl3d1dHeFh0YzMtczM?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-13",
+      "title": "[게시판] 델 테크놀로지스, IBK기업은행에 데이터 복원 솔루션 공급 등 단신",
+      "source": "AI타임스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBTQTZFMXpEeGM4c0h0dDhyRUpDbUdINmVjX1lEOWZuLTNSUFhBcUFQaW9NMk9VMWVTcmZ4TGktM3RocU1va190N0ZxSUZUblJpVU9xOTJISjlfaURZV1Z3OHZacVFiRGlTS0E?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-13",
+      "title": "기업은행, 코스피200 따라 최고 9.1% 적용",
+      "source": "한국경제",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95cDdwMHNESVRUVlVjM0JVUkdfMF9FNEFwM3JpWkpaMERzNWVqSm1TdUZfS3YxeTBsRjVIV0NtZE51RnZiR2R1MlNYSFNqcEJkcko0UXJWSmpoZw?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-13",
+      "title": "델 테크놀로지스, IBK기업은행 하남데이터센터에 ‘사이버 복원력’ 입혔다",
+      "source": "보안뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1WbklFM09mSWk4b3lIVUhfai0xRTBma1U5M1JaWEUzU0JydWMxTlpIVVZPVFQtT0Q2WVM5VTM5LURBdnFXMFhBNDBNN05oMnpBSWpGdFJTWG81OFdfeDFEX1JjTVBNQS0xRGRn?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-13",
+      "title": "델, IBK기업은행 금융 데이터 지킨다…사이버 복원력 강화",
+      "source": "지디넷코리아",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pUlhiaDVOVF9nVmRiNE84YzZhOHMyVEZTT2NOc01ldzd2THJWNlhwUDc0MTBsS29WZDBqZVdoSlpGcUZDRjM1ck4zaGs5empIQ3dmVUtR?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
       "date": "2026-10-14",
       "title": "[리포트 브리핑]기업은행, 'NIM 방어와 환율 효과' 목표가 27,000원 - DB증권",
       "source": "뉴스핌",
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBsOGZhd1gwYXA3eEFYYWx5QlgybkNDQ0NBb2k1bDlTQmhFdXh0d1ZTR2JROUNmbnNvM2hXQ1NrRVJ5anFxemt5MHlRb1hNMERISzl6eTc2NnFzbEFj?oc=5",
+      "score": 3
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-14",
+      "title": "기업은행, 中企 장기연체 3년여만에 6배",
+      "source": "TradingView",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBXRWhYaDlGRlI2VTVSa0NCUmRCWlR4VUJtMktBSTlJWmVJT1c4TjNYMGZmOGR4bEpUUlhwZ0E0bHJPbUd2S2FHdDVINXVPU0dSX0dmajdOMXdxMEVPM0RGTjVsSmJEYUJV?oc=5",
       "score": 3
     },
     {
@@ -1769,16 +1869,6 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5FY3lDSjE3NXVJNWFlNlRfeGhlNllsT1lVcEs5Z25SSEdfTjhoRk54MGxFdnVVTFdmWWxXUEIzNUdlRnFkUHFtMTFWTV9GVWZnNC1BZVRsRTF2S1JXLW8zaXhrQTFWcjZwOEJ5Yg?oc=5",
-      "score": 1
-    },
-    {
-      "code": "024110",
-      "date": "2026-10-14",
-      "title": "IBK기업은행, 베트남 10번째 외국계 은행 법인 출범…중소기업 금융 강화",
-      "source": "헤럴드경제",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE92bWVjZjI3Tng5QkNrUlZvMTlxbUJTX1JnT0NFMDlhLUliYl9sdTEtN3JiT3RUd0tVVGQ1Y0UxRHV2LTNmRkFVaE5tU0ZWTGlVendzcF9B?oc=5",
       "score": 1
     },
     {
@@ -1894,11 +1984,11 @@
     {
       "code": "024110",
       "date": "2026-10-15",
-      "title": "IBK기업은행, 정관장 꺾고 컵대회 준결승행…도로공사와 격돌(종합)",
-      "source": "연합뉴스",
+      "title": "IBK기업은행, 베트남 현지법인 출범…중기금융 확장·수익성 확보 과제",
+      "source": "한국아이닷컴",
       "summary": "",
       "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03N3N4U2w3YnRpWVlyVzA4SE55UVhHc2FHckQzeDBjLTFIZVpFZDB1SHB2ZFpsZDJYTFVWRjE3aUZRZFN2LTlicWpEbHczaFJOSnNXckF6dzRueW_SAWBBVV95cUxOeVdMY2k4LVlmQmNlem1lT0RRZXJaNHpZY2FBaDZvSFFTQ3NKMjJLUzZqejlHZ2l2ZXdzREpWM29HNEQ2SHhQTkpiRDNvNUdwOFJxekN4UURVX3BONzI1MG4?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE95bUZsZE9kMFBFTHVMYWlLbzBJTzhkWnlyVi1qXzE0YkxpMjZRektLUTlXVldOeEpKM3g1ZS1YTk1RYktCdHZNeXVJeFlDUU9OSWx6cldYMmRwWjNUcEotUlFBVW9FWVV2UGZj0gFvQVVfeXFMTnpPM0hTTkRfczdIZkRNbVhOWUhnUlFsbVJLMGpzaWt5MzZMYVl6aHB5NUpFbHdSVGUtemhSb0VFQUxEcnFUVUhudWhtOGNONWxRWmFrOUp0OHRRMUloN3pTb2llODNFcThSNlc3ZFlZ?oc=5",
       "score": 1
     },
     {
@@ -1961,6 +2051,46 @@
     },
     {
       "code": "024110",
+      "date": "2026-10-17",
+      "title": "'모마 18점→강소휘 완벽 부활' 도공, 결승 진출…'감기'빅토리아 범실 10개에 무너진 기업은행 [여수 리뷰]",
+      "source": "스포츠조선",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQkViX0NTUjdLTDBhQXFXNGpQNVJ2T1UzdHRjYk9KVDdqX0Q4X1lQQ3dkNzEwU2xvcVFnVEQybmhZZWR1UTlTVmo0Wkk0bWtBNUozTGxtY0Y2WG1ld056WGhQbERJci1zdGVDdkg5aGpEN1lrUGkwRTBYZTJoV3pMbw?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-17",
+      "title": "`바람 때문에` 한국도로공사 마미, IBK기업은행 상대 리시브 흔들린 이유 [MD여수]",
+      "source": "마이데일리",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE44N1VPcEg3VzZXZ0JDcTI3STdpbTVTc0hkekJIZFJ6dElZTG54SExJU1Vxd1NTUzVHcUZybUkxVl9rc1Nod2NoaEtfblZicm5GaUlSSXhZLXFYZEtyYkpvSw?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-17",
+      "title": "서브 잘 통했다…강소휘·모마 27점 합작 한국도로공사, IBK기업은행 꺾고 컵대회 결승행 [MD여수]",
+      "source": "마이데일리",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxcjFOZlFWSnB6WTR6Nml6N3U5bG5WRnBHMkpmRmRqdFZ6ZVlQOUhiTXFMS3VueXk5ekJ1dXUxZ1h3Y0s0aWZJdVlaUzA3UktZRXM0d2E0LXlqVnY1cUlKMA?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-17",
+      "title": "연출을 건너뛰면 결과도 달라지나요? 기업은행 토토",
+      "source": "Calgary Roughnecks",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQRGhybWpmRXJqSUFTWGcxRjNOOUhDOXhqckt6TXNFZERuWl9uaEZhZGlPNGp1dnh2Z0FUdTQxUW5WVmJ4cjc0Y3V1VGtCRVFPTktUZTNsNmJSd1VKQXVsUlNTMm02UzhPVlZkMkZudFBPZDRmYXROZEM2VmU0blhka1pvV0hRbnlCZjJScU9SM2twYWZza0ZobkNlSGpWZlFmZ3NuQ3JMbjJHeERva2ZabzBHSlQ1OEdfZndWdzNVeTFtT0p5M1NqaFVFQTNCbWw5a2EwRXBGX0E0MGFIczlsa29TNUtZa3Z5Z2JzSlpVVTROSFBUX0VLYXppT0FGLXRKMUV0MW1mWUpfTk1RZ0w0?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
       "date": "2026-10-18",
       "title": "기업은행, 홀로 NIM 상승에 실적 개선 기대…주주환원 여력은",
       "source": "이코노미톡뉴스",
@@ -2002,11 +2132,51 @@
     {
       "code": "024110",
       "date": "2026-10-19",
+      "title": "IBK기업은행 'IBK창공', 2027 상반기 혁신창업기업 모집 시작…총 100개 내외 선발",
+      "source": "뉴스티앤티",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBjTzBhd0JES1VKb2pXeEw1SDBSdWh2WHJOcG9XOG04VEpjbTYyTl84a2U4U24zLVBYaE93aERSTnROWUZmQ2NFTVp1T2J1dzY5dGZFZUNSaU0wVlB1UFc4OVdoVkpCaEdrU2c?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-19",
+      "title": "IBK기업은행 ‘IBK창공’ 혁신창업기업 모집…총 100개 내외",
+      "source": "인더뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBIV3Vqd1VSTDYzZDJOMDJQNDZxVlNHNk85U0lwSEdsdVh2SWVDNXhTbWxhcElJOWQtVXBYMU1TbTA4UW95TFhQN2RHbGVHa2U0MTFUOUItWF9EODBLWUxKQjRjTmM?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-19",
       "title": "IBK기업은행, '2027년 상반기 혁신창업기업' 모집···11월 13일까지 접수",
       "source": "한국NGO신문",
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAxWVNjTjVjdW9aT1NVVHR3bXRtN1d4Ml9YSl9qQmo2ZzV0QU45MnMtV2VxemhKR1VEekZpOWcxX2pxVTJJQlF6YU1Wb2JaRHJmMk9faS1aNDQ5UGREU1JIN2RyUnJhVUZx?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-19",
+      "title": "IBK기업은행, 2027년 상반기 'IBK창공' 혁신창업기업 모집",
+      "source": "뉴스프리존",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MYk5jSGprQ05WNk5Ycm96SXFCWUQtSlZUZ0x4bzRsbGlqd3FWV0FWdy1BSnR3OFpKQnRDS1NxM0dnWXFRRWd4c2c0RWthUmRsUzBkWVViOThOWWxRWU1SLXNwdGxtR1pydkhFNzQ0cjNOM0XSAXdBVV95cUxPQmRYNW8xNjBVRmw4VC1NS2RXYmZkLWVpTmR6dTRXMURzQmp0UUxUZC1IeHZJV2VuVlpOSkIwMS1qZE42RjQ0a0tVVWVsYWZPdXZmd3Z4MGcwcUdPVF9oN3JRREdPeEVCQjNxaWlwX3MxVjZlM0Q5UQ?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-19",
+      "title": "IBK기업은행, 2027년 상반기 IBK창공 기업 모집",
+      "source": "서울타임즈뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA0NldaRGFWVzBZbDU3ei1KUl9Vd0t1Y3ZYN01EUDNQX2FpenhNa0dzNUYwdE9GdjJCV2tGZUVhMzRGX0tSdDl6NS1EVzhkSTIxNHRjXzNGeEdlVXRNQWs3MjdaellqS2lyTzFv?oc=5",
       "score": 1
     },
     {
@@ -2022,6 +2192,16 @@
     {
       "code": "024110",
       "date": "2026-10-19",
+      "title": "IBK기업은행, 2027년 상반기 IBK창공 참여 스타트업 모집",
+      "source": "투어코리아",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE56SlNaT0NYSGVPemZvUHRxV0EwMVhMV1NHa05SZmZBMjFpbW9WRGlEQTNhd0lJYzRsNkpKVncweGpBRklHOGVJLWhUYjBqXzhUV1BNSV9QRkhPS1hPR01Jd2Y1LVlnYkZMWEpmZHdR?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-19",
       "title": "IBK기업은행, 2027년 상반기 IBK창공 혁신창업기업 모집",
       "source": "한국경제",
       "summary": "",
@@ -2032,91 +2212,41 @@
     {
       "code": "024110",
       "date": "2026-10-19",
+      "title": "IBK기업은행, 2027년 상반기 IBK창공 혁신창업기업 모집…스타트업 100곳 선발",
+      "source": "폴리뉴스 Polinews",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBlQWdHNm9NM3pZakc5SC15SFIwTUFnZEFMV3VOUVBnYk1BY2czcUVka2RGaWFHcXRoWXNkUkN1WS02V0xRWHFkMXRlNmdZc01DOXFQakpTcFVFWEZNaFdXT1RZWjYwR0FHUEU3Wldn?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-19",
+      "title": "IBK기업은행, 2027년 상반기 혁신창업기업 100곳 모집",
+      "source": "이지경제",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9reVh5WG5DSkFUMGRrNVBjZ2hGOU4zUTNNZDhxZ25rbVpucTFKRVVKbVNvRG42bkVDVDFmNnNLNGtLdk1HemRVMEJQQ0hyeFhrMWUzVHpWSnQ2MVloQW5GUEljRUhndWdKMEJxcld3?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-19",
+      "title": "IBK기업은행, 2027년 상반기 혁신창업기업 모집 개시",
+      "source": "레디앙",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9DdFdXWFF0VXRrdGdaXy02OGp2TkJ6WjFCMkJHMHJrb2xmR0ZjRzFoZUlZYk9BejRrRU82Z05wRVdOQ0ZSTzN1b2dzaENKRmVHMERqbWFfQXNiZFk4dVA1c2d2aVJPLVdC?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-19",
       "title": "IBK기업은행, IBK창공 새 기수 모집…혁신기업 성장 지원한다",
       "source": "뉴스투데이",
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9rSWtfSHkweFpsQ19pSUlrMWlkUldDVWdjTXB6UjhRZGNqTWd4X0NmbmdONVRCRVpwa0dxcndCeVJORHc1QXl3UFRBckZFUkdWbG5LYVB6dEJZd2gwSWc?oc=5",
-      "score": 1
-    },
-    {
-      "code": "024110",
-      "date": "2026-10-19",
-      "title": "IBK기업은행, IBK창공 혁신창업기업 모집",
-      "source": "BBS",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBackdudUhyMi1LU01mdHBXREpBNFRHX2xDX0UweS16Z3h4QVBCd3ZaWUZjRldFeWhkc2pKb2c1TDkyOGNva2FIbzBvUHhKWDhRZkF5bGI0eExORWppZ29TdmU0bzFfWUE4SlhN?oc=5",
-      "score": 1
-    },
-    {
-      "code": "024110",
-      "date": "2026-10-19",
-      "title": "IBK기업은행, ‘최우수 AI 기반 SME 은행’ 선정",
-      "source": "뉴스웰",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fQUhJbnVWMHBlLU5iVDRzbm1weF9HREYyTU5vSl9Ham5ra1hTZEFUek1PM2ZESjBpdENPQ0NfNk1QU0FBenB1N0xvVnpKa1BlckJhS3l4Y3VuYXlxQ0V5LS1wU3A0OXJ6Z3hxZQ?oc=5",
-      "score": 1
-    },
-    {
-      "code": "024110",
-      "date": "2026-10-19",
-      "title": "IBK기업은행, 내년 상반기 'IBK창공' 혁신창업기업 모집",
-      "source": "연합뉴스",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CNHFSNFhrWjZYMTFzQ3diMFl4NDZoTVhPeU9GbGpFY2h0b1J6QzlQaXcxakN0bUFSaVd5WlVXMlYwenNKSUtuQWNsUG1RV2hUdUVZRWxRQ2Z0ODDSAWBBVV95cUxPUzU3c0JrWnZCOHE2Xzl2Mmxkdi1Ka3BaYlh4WFpsa01VR0tQdGV0eXRCUzBXXzR4MGtjRE1oUzVtczlzQnFvRW5pbGJCYkdXZEd6bnEydk1uV0xZcktlb0M?oc=5",
-      "score": 1
-    },
-    {
-      "code": "024110",
-      "date": "2026-10-19",
-      "title": "IBK기업은행, 내년 상반기 ‘IBK창공’ 스타트업 100곳 모집",
-      "source": "더트래커",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB0Z2RaZWVlR2JkUk1WUG5mRDZaLW1GUjVrR2xlZnk5dHd5NnJEMXYxdDV5VWtaMFRjNFRfYi11TmpkTFh6U2hzdUNIV0tKZk1sMFFpT3cwT28?oc=5",
-      "score": 1
-    },
-    {
-      "code": "024110",
-      "date": "2026-10-19",
-      "title": "IBK기업은행, 내년 상반기 혁신창업기업 100곳 모집",
-      "source": "코리아리포트",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE83QnJ2Y1hhMTVfLUhBMDN6RmhGd2ZhTEpnRXA5QUVHclFub2NHa1ViT1RmcXRSUV9QeDFEYkxFQUpfMllkUG1VRmZoQkZkRFNFdFJSakM4dlJ1TGtmS1puTUd6QlV6M3IxUmo5Vzc4WWQ?oc=5",
-      "score": 1
-    },
-    {
-      "code": "024110",
-      "date": "2026-10-19",
-      "title": "IBK기업은행, 혁신창업기업 100개사 모집…금융·해외 진출 연계",
-      "source": "초이스경제",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBKc2VheWlyZV9EdlNSZk1ibVB2Yl9nT3NHcU80SDFWa2xmbUIxcmREd2trUmdrSXNfMm1WMHFub21DMlBrLWI1Y2RXR0xERmg2cGx6Sks2aE1zRFdGNHNxYVVnLU91Vmt2Z2V4Y2NDNNIBc0FVX3lxTE1ISEdiWmtyMEFKbnM1ZzZTTDdyV1R0OGw2dHFRMVFHVTktbHlJbkJ6aGNCS3Rac3RwTFpmRV9VZllRQW43ODA2SHpKMTNwZW14eVAyS1c2ZHpUUERvVmZPeTZ3LTBCOGpSa19LWXdzQXYxdEU?oc=5",
-      "score": 1
-    },
-    {
-      "code": "024110",
-      "date": "2026-10-19",
-      "title": "[기업 톺아보기] 기업은행, 돈 빌려주는 은행 넘어 '성장 파트너'로…중기금융 역할 바꾼다",
-      "source": "굿모닝경제",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5TbEFCZHFPX25xZzlUWjdBeU9BUy04b1VfQW5Bb09LVGpHbi16QWtpOFdtNkhJOTV6dVpxZ0xkTzA1QXJPMlJKaFN2NTZ6UVhrRWdBS1FHaWpwSzA4bWtjV0hhS3hVbVdYNTZfWA?oc=5",
-      "score": 1
-    },
-    {
-      "code": "024110",
-      "date": "2026-10-19",
-      "title": "[뱅크 NOW] IBK기업은행·Sh수협은행·케이뱅크",
-      "source": "위키리크스한국",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB1M243aWJkTVQ1VUFDbTFEUlN4N1dabTRHTF9qbTZybExIZFUwYVlJaXFXTmVZMlVsR19OLXd0LW85TzZLZ2RmdFNYd2IwMEVCaHhMQnA5OWphTmdFUGc4ZXNHN2xuZHhQX1ljbWVTZng?oc=5",
       "score": 1
     },
     {
@@ -2692,6 +2822,16 @@
     {
       "code": "055550",
       "date": "2026-10-13",
+      "title": "신한금융, 인도네시아 금융지주 출범...\"해외진출 차별화\"",
+      "source": "메디컬투데이",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QMjM2VXBzSEdENUtPX2Myd3FhdzRDbGdOR2FRSHRnT0FVbGY0aUQzYmVQLXNIbzNQN0lZTGl5T3FQbkNJSExRZFU3QjQxUmdwTkM4T1NTWVduSHpMSW9qd3pxXzMtWVFGbEpYbQ?oc=5",
+      "score": 0
+    },
+    {
+      "code": "055550",
+      "date": "2026-10-13",
       "title": "신한금융지주, 롯데손해보험 지분 77.04% 인수 결정…6933억원 규모",
       "source": "베타뉴스",
       "summary": "",
@@ -2722,6 +2862,16 @@
     {
       "code": "055550",
       "date": "2026-10-13",
+      "title": "신한지주, 롯데손보 지분 77% 인수…\"종합금융 경쟁력 강화\"",
+      "source": "리드경제",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96LTZDMzB5YXNEWENwTUp1cXJHREpIYjFncVlUcTU1OTFZTzdmdV9VQVc2T2hqM2phdE9SYUlVaTRuTlh2bzBFS1VMSktqb0l3OUg5SXhqMkgyVk5oTzJTT3F5QlMxVnlraENmTTB5Rm4?oc=5",
+      "score": 0
+    },
+    {
+      "code": "055550",
+      "date": "2026-10-13",
       "title": "신한지주, 롯데손해보험 지분 77.04% 6933억원에 인수 결정",
       "source": "데이터투자",
       "summary": "",
@@ -2737,6 +2887,16 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9QN1k3dElVTF9JcERFSVpZYlMxVEZpSVFqMHlMVGV6eFFxd044aDUyMzY5LW5LRVN5VWlXZEN6VnQzSEpZbl9fVGdJYlViOWcxcDhDNzlFczJ6eWxsYXZJOFp1UFhzOHJC?oc=5",
+      "score": 0
+    },
+    {
+      "code": "055550",
+      "date": "2026-10-13",
+      "title": "신한지주, 롯데손해보험 품는다…지분율 77% 확보",
+      "source": "중앙신문",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOZVJJQ3ZJVmtqMDJUWGhaQVdHbTF3b0t3aWhBV0xLalJTZUtXbHhuaXZWdDBTYTZickZzZmQteERobEVkNlAxRmpIUGNKbDBUMWk1Yk95bUY5cWM4TjhKOVRXNFJMWkxyd3dYQzd6V1RyZmkxYnN3QXhlTTYxMlF2LW44SVlUZXJrMHYyV0VmTlFGeHIyVmI5NDVmNkZmWGxXUFdpcU5mb3RCZHFiV0RHZWQtV2lnaHVEZHNjak45NDhNczZQc184REJVZzZ3TnZJU1BLdE9kVHJOc0J4WjN5Q2J6VEtqZE9SVm43amJFYTFVR0k3VS1QS2tXSmJzMEtHYUtaVlNpQ29PLTM4V0xhWXV1bXVVYWhxSmpZYmF0ZEdfTXJjMGpWU18xdmhZVUJmQzFaSmstTUdtdw?oc=5",
       "score": 0
     },
     {
@@ -2966,6 +3126,26 @@
       "source": "글로벌에픽",
       "summary": "[Epic Why] 신한지주는 왜 롯데손보를 품었나 글로벌에픽",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9GUDMwZ0pYemVMWGE2UW80ZVdBNF8xcHFnbHZqelpYZ3A4ckxzX2xDUm13eWpYRjRGOGdOdTE2MnJ1aFVmYXZfbF8zRTctUk9JQ3RhZjA5c0xHbnFCWXowM2JaMG0xR0EzSF8yYjBfdVlfOGRRNElXWTVKZw?oc=5"
+    },
+    {
+      "code": "055550",
+      "date": "2026-10-19",
+      "title": "[마감분석] 신한지주 소폭 밀리며 9만3300원 마감 : 기업주식정보",
+      "source": "재경일보",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1GRldxTTNabVdKNzd6MkF0RnN0MFNDWUpRa1dpWUR4YXRpYkdqZ09GLXliRmQ3eFVGYVRlRTU3dnZNMFNxZ2FESFExUQ?oc=5",
+      "score": 0
+    },
+    {
+      "code": "055550",
+      "date": "2026-10-19",
+      "title": "신한지주, 1%대 내림세 보이며 장중 9만1900원선 : 기업주식정보",
+      "source": "재경일보",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBtRUxxMU13WEg5cWlfVnhTcUJTRGNiWFhrdExTTzJOZGR0bXVtTWYycFgxWVFGQnJXaV9KTm9wN29JNmlibjBybEhWcw?oc=5",
+      "score": 0
     },
     {
       "code": "055550",
@@ -4718,6 +4898,16 @@
     {
       "code": "139130",
       "date": "2026-10-13",
+      "title": "[Who Is ?] 황병우 iM금융지주 대표이사 회장",
+      "source": "비즈니스포스트",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9OWHZmSmFyam4wc2ItVDNQUUtTS0tfejlXWFFmTkk0MkNHc0lZY25FT1piSklJcGVfZXFmajFQWkktdmF5cmRCNG9nRDNUMlItWVRWVVJWZjU0cEY1SjYwTW5oelRKNExndlpEcUY4Q3hlRTA?oc=5",
+      "score": 0
+    },
+    {
+      "code": "139130",
+      "date": "2026-10-13",
       "title": "iM금융지주 회장 활동비 이중 수령 논란에 \"책임 있는 조치\" 촉구",
       "source": "OhmyNews",
       "summary": "",
@@ -5614,11 +5804,11 @@
     {
       "code": "279570",
       "date": "2026-10-14",
-      "title": "케이뱅크, 개인사업자 담보대출 최대 10억 지원",
-      "source": "글로벌이코노믹",
+      "title": "케이뱅크, 개인사업자 담보대출 상가·오피스텔까지 확대",
+      "source": "팝콘뉴스",
       "summary": "",
       "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOHd4eVlhNThSZjNVa0NIYzd3MDEzZVdoN0h2TGZpQ3M4Z29yYjNxMWZhQzBwUFNlSk5ScWFiMFMwbjhRSEhBRkJMWk9fRXRkSHVrdDJJMzVmUG1pTWp6cEhOTVU1d1VqMFgxMlJIalE2MEQxWnZ3YXFwYUdneDVVRUJocTU?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lV3Mxd3dzR09PcjRoMGFTMFVaU0pVUmQ3Q2lGTTNqSUxWall6V2J0TmhsdGVnMXV6dHRRUmFOYm9XbEVGWnZ3MWJraDAtMHFKZGxPMmE3Uko1UXpMakphWFkwOEJGS2JNUms4QzVB0gFyQVVfeXFMT2FYU2F2UDNrMzFtZ0JPXzdSUUh0MGxrY0dWNFF0Z3Q1bTdEME5MT1otcjliTGhkUTIyU2poVEFsNF9XMS1hUjg3MFhsalItVGI2dG10TkhzY2VwVDJ3bUcydjgyMnN4Z2FBQTZET19xaG9B?oc=5",
       "score": 0
     },
     {
