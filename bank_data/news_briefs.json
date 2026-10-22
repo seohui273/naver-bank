@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T14:48:47.954091+09:00",
+  "updated_at": "2026-10-22T15:00:36.894713+09:00",
   "articles": [
     {
       "code": "006220",
@@ -4136,6 +4136,16 @@
     {
       "code": "105560",
       "date": "2026-10-21",
+      "title": "[금융권 소식] KB금융ㆍ신한은행ㆍ하나은행(10.21)",
+      "source": "위클리오늘",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TZnN6YTRYS19SY0hWaTZ0WTlDSnM4cTdfOUF3NDQ5R1MwMlFxRXBaUTJmWGc4NFh3X1ZOWTVnZjlOX1VMY0NOd2JfMV9YbXZWcjY2MEJMYWNINzNIYWQ3ZWpfOU1GS0NyS0hRSm5R?oc=5",
+      "score": 1
+    },
+    {
+      "code": "105560",
+      "date": "2026-10-21",
       "title": "[단독] 이재근號 KB금융, 인사태풍 예고 … 차기 국민은행장 정문철 급부상",
       "source": "뉴데일리",
       "summary": "",
@@ -4151,6 +4161,16 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5VU05wWVVPQXRmMGFxM1kzdVhhQ29WSUxrNjhKekNOVWlhVkFFWjNCdUpCMHlrRGcxMVdlMlBPTGFrb3Ftbmw0UlJyM2I0NklvSzJWMkl3?oc=5",
+      "score": 1
+    },
+    {
+      "code": "105560",
+      "date": "2026-10-21",
+      "title": "[은행 뉴스브리핑] KB금융 금융사기 예방 대국민 캠페인 전개",
+      "source": "아시아타임즈",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE85NVVkMEZPZmRJWFdsMU9jTFAyemowR2Y3cmIwLWRLbnBhRUlLcjZzN1AtVE0ySl9EdDREcnBlaWNEOFhYZEtsN0pEV2Z2MWpEaXp6bFVNZ21nQ2NlaUE?oc=5",
       "score": 1
     },
     {
@@ -4197,24 +4217,6 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFSFZWYzh0dXRwQlhROTJpZ2VkT09sSzJwZTEzODAwRjVCV3luRFhsOElWbWEzYVBJTl94WGJ3SllBQkhzTDJwNUFxTWQ3b3FoM0hwak5PazdGMklxVTdRLVN2dkVTSklsOVdYZw?oc=5",
-      "score": 0
-    },
-    {
-      "code": "105560",
-      "date": "2026-10-21",
-      "title": "KB금융·경찰청·안실련, 금융사기 예방 캠페인 전개 - 핀포인트뉴스",
-      "source": "핀포인트뉴스",
-      "summary": "KB금융·경찰청·안실련, 금융사기 예방 캠페인 전개 핀포인트뉴스",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1sbUUwd2FBM3kxSEpCUFZCc3BxTVdQejlkdnhyb3oyTHN6d1BrdldSU3JIekU1QzM1Njd1dEo4b0NELWpVM0tMYTZ6SVg4TWZjLUpBTVJ1ak9CQUpMOUxRV1JsWnNpTDNZTlRVTWpENlh3LTjSAXdBVV95cUxQanNDZlBpTE9aSnBnQmN4WXZZc0QzbUFOLXIyOC0yNkk4aHJlaEU4ZmJoeHFDSVUwUDFHb1hpRVg3YWNYVFQ2eW54ZDBpcjBtQ1BXWEJMMkF1Xy1YbDdlM1hFcnh5ekxKR1JCbzFiUW5BUHI4SDNFMA?oc=5"
-    },
-    {
-      "code": "105560",
-      "date": "2026-10-21",
-      "title": "[리포트 브리핑]KB금융, '추가 주주환원 동력확보' 목표가 206,000원 - IBK투자증권",
-      "source": "뉴스핌",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBFNVVRNTBZXzNtMHdmc1V2WUdxb3lMcWRJWVpZYjRtRjV3WDB1V09tUTZYaU9EWWZoSDJhWGZGMW9ERVZUZ0lWWTJ4bnlmWG1fQlcwbld0cThmZUdz?oc=5",
       "score": 0
     },
     {
