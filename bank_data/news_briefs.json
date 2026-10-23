@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T02:29:52.063102+09:00",
+  "updated_at": "2026-10-24T03:30:00.136895+09:00",
   "articles": [
     {
       "code": "006220",
@@ -3936,6 +3936,16 @@
     {
       "code": "086790",
       "date": "2026-10-16",
+      "title": "[마감분석] 하나금융지주 강보합 마감 속 기업설명회 공시 : 기업주식정보",
+      "source": "재경일보",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE56aWU0N3FFb0tuUVBrNVp5TkM2OXAySzNLdTFPZ2EtZDQzMVRmZWtEbmhna04xZXFfN2RqZ1JwaWstMGx1VC1IcS14Yw?oc=5",
+      "score": 0
+    },
+    {
+      "code": "086790",
+      "date": "2026-10-16",
       "title": "[청년금융③] 하나금융지주, 창업부터 일자리까지…청년 자립 지원 전방위 확대",
       "source": "PRESS9",
       "summary": "",
@@ -4344,6 +4354,16 @@
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5rMkJucFBVa19oblFmSEkteDJZOVRHb1pRSFlWWjk5Y205a3ZVWjQ1V2ZjLWg1TUdMcndFU1FLQnZpbXNIQ1luR1FXekY4S3RIT3F0M0RRV05UUDE2eVE?oc=5",
       "score": 2
+    },
+    {
+      "code": "086790",
+      "date": "2026-10-24",
+      "title": "하나금융지주, 2,500억원 규모 자기주식 소각 결정",
+      "source": "TopStarNews",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1GRGR2RUhndTVlNF9EcmYwRzFkdlVTWGlRZ1dPUzQwTVhnSzEwMjc4d1Fpa1VLY3BOX0dVSDJFTHZwREJSZkM1NVY1cGR0MGVESjZhTmxydnROdTFSR0dXalVEZ3U2MjQwOVhNa0VRTENQdw?oc=5",
+      "score": 0
     },
     {
       "code": "105560",
