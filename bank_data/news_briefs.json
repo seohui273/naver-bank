@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T00:45:24.408424+09:00",
+  "updated_at": "2026-10-24T02:29:52.063102+09:00",
   "articles": [
     {
       "code": "006220",
@@ -650,6 +650,16 @@
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1tNUpwc2FKRVJyMVJTVXhRMndmV3B5NEdQVDdBYzh1ek9VWlU1NlNXSFZOZW1VZVJCdS1PUm03dnZEbmtQNDR1SkZDX2Nnd0Vab0lMdVJBSW5JZXRCaTN5c1hobDZqOExKdWRRRV9B?oc=5",
       "score": 3
+    },
+    {
+      "code": "006220",
+      "date": "2026-10-23",
+      "title": "1.1.1. 제주은행 임직원, 지역 아동 위한 봉사활동 및 후원",
+      "source": "일간제주",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Sczc1dnd6RXlsV3lnZTVVS3U5TnE1RzVIam1LZlR2ZGR2d1VFd1JQR2g0T0NnbnAzSERSTlVtbUZlbFFOM01ob1cxT0dvN2EyTzMwaFI5aDZhY2c1V2JaeWhodURkRVpQd2tr?oc=5",
+      "score": 1
     },
     {
       "code": "006220",
@@ -2690,6 +2700,16 @@
       "score": 1
     },
     {
+      "code": "024110",
+      "date": "2026-10-24",
+      "title": "기업은행, 보통주 2주 자기주식 소각 결정 단주 처리",
+      "source": "TopStarNews",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB5LVMxcmVxdXI2MS1NWGk3SnhvbE5DWVdKNnEybWI2YlhwVTl6Q3ZHVmZLWFltWDVsTmhld29XOGFjdERKRFU1X0xyRzdpczFXLTExbjVkd3NHcEN6dEVlR1dvUGxvVkg0U2JEcGxIYzA4UQ?oc=5",
+      "score": 1
+    },
+    {
       "code": "055550",
       "date": "2026-09-29",
       "title": "\"신한지주, 올해 최대 실적·해외자회사 경쟁력 강화 '긍정적'...목표가↑\"-BNK證",
@@ -3032,6 +3052,16 @@
     {
       "code": "055550",
       "date": "2026-10-13",
+      "title": "신한금융, 인도네시아에 ‘금융지주’ 깃발",
+      "source": "스트레이트뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0zNUxmYmRCNjFTYzcyMUNJZHNlVjJXbk10STMwQTN6dkduaWNEXzBJbVc5N0hQWGJTZWZsT2FDM3dJZkQtNmhpS0lRa3ZmR3ViOGlrazY4bXk5MjNaNEczT25wbFAyNlZadVc3VU03d0M1SDjSAXdBVV95cUxOTHl3WGxoNHdndkd1dlQ3WE9CVHotcmpacUROZ29oVHA0VmxEb2c2WHRrbkROV05IZXdRM0ladV9pa1dONmliTmRiakdYUjJINnpXN3RkSEFyQVkxUW84VW5XM0pWUDI2aUxFSTM2NG1nQ1dnWEN5SQ?oc=5",
+      "score": 0
+    },
+    {
+      "code": "055550",
+      "date": "2026-10-13",
       "title": "신한금융지주, 롯데손해보험 지분 77.04% 인수 결정…6933억원 규모",
       "source": "베타뉴스",
       "summary": "",
@@ -3067,16 +3097,6 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcElaeExRaGlZQS1XUnJIVXhmd2xCRTBESl9vZktESEl6R0ZkT0Z5UnRTMlRVdTgxaXVpNDNoSUxLQW95V20xSmxTdnE2MTNXNXBOSU5xU19ucUhRZ1pNZndKWFJjOHRuaDFhS3BISFcyS0J0ekxiWmNkd3JsUi0xcHZYMA?oc=5",
-      "score": 0
-    },
-    {
-      "code": "055550",
-      "date": "2026-10-13",
-      "title": "신한지주, 롯데손보 지분 77% 인수…\"종합금융 경쟁력 강화\"",
-      "source": "리드경제",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96LTZDMzB5YXNEWENwTUp1cXJHREpIYjFncVlUcTU1OTFZTzdmdV9VQVc2T2hqM2phdE9SYUlVaTRuTlh2bzBFS1VMSktqb0l3OUg5SXhqMkgyVk5oTzJTT3F5QlMxVnlraENmTTB5Rm4?oc=5",
       "score": 0
     },
     {
