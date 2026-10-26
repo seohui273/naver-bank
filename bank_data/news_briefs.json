@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T06:40:23.317413+09:00",
+  "updated_at": "2026-10-27T08:58:12.141569+09:00",
   "articles": [
     {
       "code": "006220",
@@ -2842,6 +2842,16 @@
     {
       "code": "024110",
       "date": "2026-10-25",
+      "title": "IBK기업은행, 5000억 대출 공급… '자금난' 중기 유동성 지원",
+      "source": "글로벌이코노믹",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQd1hDYklhUm1CdG5zWTlRcnpkWkRqdUZYQ20xVHd1TE45UEJlME9tYUpKeXBjRERqUjYycDBzaDUxNW1BQWhtNV9zaW9HSzRaNVJOWk9OZS04bHJLcXQycEhiYk8wY0twSnkzNDZHQ1N5cHpUdFlSVkZlS0ZPUDU0c29kdno?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-25",
       "title": "IBK기업은행, 5000억원 규모 KOFR 연계 대출 출시…중소기업 단기 유동성 지원",
       "source": "라이센스뉴스",
       "summary": "",
@@ -2907,16 +2917,6 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0yNmJYZ0lsVWJOYjM5WjJLR0VJM2pCQTRjNk1hOFZTelhyeGh3Wk5CSTRLZ29FQWJ5QnR5b0hSMjM0SG45c25tWlp4R09XN0REQ1FMRzdpN0xZSmhteVV6eGdKN1ZmQW9UQTFaLVp5cVVKZE14aUd4VdIBeEFVX3lxTE0yNmJYZ0lsVWJOYjM5WjJLR0VJM2pCQTRjNk1hOFZTelhyeGh3Wk5CSTRLZ29FQWJ5QnR5b0hSMjM0SG45c25tWlp4R09XN0REQ1FMRzdpN0xZSmhteVV6eGdKN1ZmQW9UQTFaLVp5cVVKZE14aUd4VQ?oc=5",
-      "score": 1
-    },
-    {
-      "code": "024110",
-      "date": "2026-10-25",
-      "title": "기업은행, KOFR 대출 5000억원 출시",
-      "source": "BBS불교방송",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9QYWlwamJYZ3pKRTJocFdrSDc2SGdIdUQwVEVXSVVCZWZobjFMemdta2s5VTZ2bmhwTkdxSG9LbC10TUtXakV4YlVacHpnV1N4WEw1R0FWejlMSS1CVHlSNVNiWXBmOGdlaE5N?oc=5",
       "score": 1
     },
     {
@@ -4757,6 +4757,16 @@
     },
     {
       "code": "086790",
+      "date": "2026-10-25",
+      "title": "하나금융지주, 보통주 208만주 매입 뒤 소각",
+      "source": "제주교통복지신문",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JVmNQcDJXbFJORkg1SlN5VlV3M3dEUW1oam5OT2xoM0hIY2VPTEhTOThOampEM2dWM3kwOVRiSlZob3dFZVk3Z044dXc4TDM5R3htMnNGSVFXOWJCaHMwSQ?oc=5",
+      "score": 0
+    },
+    {
+      "code": "086790",
       "date": "2026-10-26",
       "title": "[공시분석] 하나금융지주, 2500억 규모 자사주 소각 단행…‘주주가치 제고’ 속도 낸다",
       "source": "메디컬투데이",
@@ -4788,6 +4798,16 @@
     {
       "code": "086790",
       "date": "2026-10-26",
+      "title": "“돈 더 버는데 주가는 과소평가…하나금융지주, 역대 최대 실적에 ‘주주환원 50%’ 조기 달성”",
+      "source": "뉴스퀘스트",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA4TW53T1BvX3JFanZTSEtwLWRseldYNG5PMUtiU3p5bUVqMHpzWmhHdmlTOTlXQjlYeHNlWHAzM3p0Z0cxX0dfYUVia2FTdXpQNFVhMGtPTENSeGtsLXFtNmlvNmRvVlJzc0RTeTI3MA?oc=5",
+      "score": 4
+    },
+    {
+      "code": "086790",
+      "date": "2026-10-26",
       "title": "“하나금융지주, 3분기 순이익 1.2조 ‘선방’…비과세 배당에 주주환원율 50% 육박”",
       "source": "뉴스퀘스트",
       "summary": "",
@@ -4813,6 +4833,16 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWSmUxaUg3eHh0ZVY3aUlTR1N6d3VoTE14N29uek1YVU4wZG9uQnRCZllaTkFsOHhCeXFERzk4YVFqLUVrODhmQjk1VlJGNC1vbjVWZ1RxWXFzaXk2R3BVcmxlZXRaRVYz0gFuQVVfeXFMUDVQS0Vsc0lDc0ZuM3RHMVRHY0RjZFFkVV9KMFM1djEwSlFzUUF2VEhoNmVMYWZkOUlwTmtSbXpja1FRV2RhMlJJdExkS1Zlc0pLeWxwR2E4ejBkeHVVMXdCV1JnWEVONFF4ZFQ4VHc?oc=5",
+      "score": 2
+    },
+    {
+      "code": "086790",
+      "date": "2026-10-26",
+      "title": "\"하나금융지주, 이자이익·비이자이익 고른 개선...견조한 연간 실적 기대\"-교보證",
+      "source": "베타뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5SWnZNQkhha0E5MmRMMDdSLXdQRDlod0pnRXpwVmIyckxzRExNU1d1aWxmMWc1b0pscUY0dlFjbzFfaUJwcnFGTG91bnNqdFFxN0xwMktnazZYTEh6Y1NLVEp5Y20?oc=5",
       "score": 2
     },
     {
@@ -4853,26 +4883,6 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9DY0dHWnA3OURQUnpOdEpSWmZZaVFMdUY4b0JiTkh3Y2k2V19ld3RFQ0xNT08zV3g5Wmd1bUtMUWNCOXVvTTJ5aktKa0xKZHNuLWxKYnctczU5Vzh5?oc=5",
-      "score": 2
-    },
-    {
-      "code": "086790",
-      "date": "2026-10-26",
-      "title": "[리포트 브리핑]하나금융지주, '무난한 3분기 실적' 목표가 168,000원 - NH투자증권",
-      "source": "뉴스핌",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBvci16SURkNTNzbWJ3STZzQllIbkJyMEtsdnZEVXZjSnRsUHVXWW1yc19uajBhRkFYVkJaRUdzV3R0QUZJSnU1ZllsT29OcTcxVU55Rk5mZU9PTUNW?oc=5",
-      "score": 2
-    },
-    {
-      "code": "086790",
-      "date": "2026-10-26",
-      "title": "[리포트 브리핑]하나금융지주, '비화폐성 환차익에 기반한 무난한 실적' 목표가 161,000원 - iM증권",
-      "source": "뉴스핌",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1McDBhYnRKM2pZLWVIVzZBVUM4UzZIeTZBUkxjNFpHb1I1cngxY3FWT0xyZHZUYVVmSHJhamJrVUJOaGprZEFZZk5FTEpKcGQzcDE5WE9YT3lGbEdK?oc=5",
       "score": 2
     },
     {
@@ -8498,6 +8508,16 @@
     {
       "code": "316140",
       "date": "2026-10-23",
+      "title": "우리금융 순익 4.9% 감소···은행·카드 실적은 개선",
+      "source": "여성경제신문",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBfVXR2M1NvMVh0NE9IMWN4U0MtX0lBLWE4aWZzNW13YXNrOTlycTN6Ql9idnA5eDBuUGFfbV8zSi1TMXd4d2dBUUh5d3QzSDdmSmlCTmFPRjZoN3gxd1FNR25hMVlRdHdwaXNGSVdseEhDbG_SAXdBVV95cUxQWUhoSS1OOUhwX203UUk0RDhtNDRsY1J2UFd6TDI5Mng5Yl9FUkhqcjNMRldlZmptTThPM2tFQlRZNk5KaDRYcWhzcVlvSXBseWVmeFNSVjRuZlJFWE93TVNFcUZyM0x4SG1RTTdESUtUU1NqNS1tZw?oc=5",
+      "score": 3
+    },
+    {
+      "code": "316140",
+      "date": "2026-10-23",
       "title": "우리금융, 2분기 연속 '1조 클럽' 입성…은행 역대급 실적에 수익성 개선",
       "source": "굿모닝경제",
       "summary": "",
@@ -8593,16 +8613,6 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9BOEN0LW41ejhNR2VNaDg1WTUwZXAwZzBicVlUbjdnVlBpTnV0cVo3QVlRdEJLOUpYcUlwbW5CV20tOWQ0RkpWRG1vV0NNZUI1aGpjVEZpYnhoMG03RGx6cnRB?oc=5",
-      "score": 2
-    },
-    {
-      "code": "316140",
-      "date": "2026-10-23",
-      "title": "우리금융, 두 분기 연속 순익 1조원...누적 순이익 2조6천581억원",
-      "source": "청년일보",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSMzQzLXZyWEtWaU15d0dXZnRPcEFTYjAyTGRjQUhtNC1tLVZwVVpJN19UajFmbjYxVW0ycDEyX2ZTdTVkbnR3WHp4QkltVm9lNWptRFVjbzlVX0VuNFZtMHpGTFRUck0?oc=5",
       "score": 2
     },
     {
@@ -8748,11 +8758,11 @@
     {
       "code": "316140",
       "date": "2026-10-26",
-      "title": "우리금융지주 주가 850원 하락 후 장마감",
-      "source": "아시아뉴스통신",
+      "title": "우리금융, 실적보다 주주환원에 쏠린 눈..증권가 \"내년 확대 기대\"",
+      "source": "한국정경신문",
       "summary": "",
       "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE45a1JEcy1YNjM4bUJPOFdoWkNUYld2Q2ZGcWJFM2FIc21iT056cHIxd1lpaDg5VVdrTXcwY2llcUU2XzNtdUxMZTNUbnBtdzNtRFBWRVZGdjJnNnAwNGdLdUxnUlByQVA4Q29OVl83NHN4RVJj?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Ec25nQ0tmcUZxMUl0cU5OMTdxWVVFUld3Sl84dHRKRVEwWmFZZmNQaWJBazZEZ3dGQm5uZHBvLWlsQ282bG9pUFhvR2pQZ2hhYUE?oc=5",
       "score": 2
     },
     {
