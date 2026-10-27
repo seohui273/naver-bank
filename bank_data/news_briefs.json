@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T04:30:34.655831+09:00",
+  "updated_at": "2026-10-28T06:22:26.400072+09:00",
   "articles": [
     {
       "code": "006220",
@@ -760,6 +760,16 @@
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1WdDY3M1JPV2xCU2NzQWJfYUI2c0JBQUd4aFVVSGVrLVVDUXNWRnNTWlVRb2tnRmlTY1dMZ0lmMF94WkxTS004eVdZQ0NTVE1fOUh4bw?oc=5",
       "score": 1
+    },
+    {
+      "code": "006220",
+      "date": "2026-10-28",
+      "title": "제주은행 3분기 순이익 53억400만원…전년 동기보다 25.75% 증가",
+      "source": "비건뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5UOXk5ZkdZM3duREZJcVhmMWxhRHlZNjNZLWZvbmtiS2xKcFBFUXlpQ2hwSzhxMHlYRUFHTjVfdGkyTmwxTkZHQW44QkxlR0VGWDduQnQtam9heWxmcXUtN0JRWjdUdw?oc=5",
+      "score": 3
     },
     {
       "code": "024110",
@@ -2932,6 +2942,16 @@
     {
       "code": "024110",
       "date": "2026-10-26",
+      "title": "IBK기업은행 3분기 순이익 7712억원…지난해보다 2.7% 상승",
+      "source": "노컷뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5tQ1hNUVpsMUpuYTVSaWI1QTBsTmhLTmVLZWE4TmxUV3I0a1Z6ZHNLdFdQNElOTnZ2eldWdzZjSFByMGVmNEp6NDlxZE5mdUhvaWc?oc=5",
+      "score": 3
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-26",
       "title": "IBK기업은행, 3분기 누적 순이익 2조 2141억원 달성",
       "source": "인더스트리뉴스",
       "summary": "",
@@ -3027,16 +3047,6 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOVDhlSGVhQlBNZ0JYMXBJcEtEQlVNQ2MwVUpRZTBNckt6QTdyMjBTVzZiVHpBWGxJRU5mUVBpUkJFcGZ3QnI3YUxvQlZtaUZvY3E3WVJCYzF6WEVQenBia1pTV0d6ckU?oc=5",
-      "score": 3
-    },
-    {
-      "code": "024110",
-      "date": "2026-10-26",
-      "title": "기업은행, 1.1% 연체율 방어 총력…CET1 비율은 11.48%",
-      "source": "블로터",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5mQ1NHc1M0czJiWGhlNXdOLUZhTHBBbTZiTmVmMFAwMGJHRWppYjhfQzBCclNZWU9ZcU55ZHlFaUhGZ0hIbWFkM3JhbkV5amZzRHJvNzk0dHo1MTk3cmdIQVdwM1lOTXRMV0xUaNIBbEFVX3lxTE5mQ1NHc1M0czJiWGhlNXdOLUZhTHBBbTZiTmVmMFAwMGJHRWppYjhfQzBCclNZWU9ZcU55ZHlFaUhGZ0hIbWFkM3JhbkV5amZzRHJvNzk0dHo1MTk3cmdIQVdwM1lOTXRMV0xUaA?oc=5",
       "score": 3
     },
     {
