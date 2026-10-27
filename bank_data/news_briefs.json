@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T03:16:31.830816+09:00",
+  "updated_at": "2026-10-28T04:30:34.655831+09:00",
   "articles": [
     {
       "code": "006220",
@@ -3160,6 +3160,16 @@
       "score": 1
     },
     {
+      "code": "024110",
+      "date": "2026-10-28",
+      "title": "[속보] 기업은행, 3분기 영업이익 1조313억원…전년 동기 대비 5.6% 증가",
+      "source": "CBC뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CVVFRZWJzbGp3VHNDbzJfXzJ3aVBadWhGNFc3QVJfcVVGcXZ2dmxBVnA0dmdkNEF2YzNuRWtlZjlwMERaMjJybEd5MjNfYkUtQzlFT3dqTndONW9EV3N6VmxNUzhfR0lH?oc=5",
+      "score": 1
+    },
+    {
       "code": "055550",
       "date": "2026-09-29",
       "title": "\"신한지주, 올해 최대 실적·해외자회사 경쟁력 강화 '긍정적'...목표가↑\"-BNK證",
@@ -5658,6 +5668,16 @@
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE81R19rVFkxNUMwazNuSllPRkJmUEpoMEpiYWdhZlh5TC1kLVByLXE4bjh4N19venZWVGc4VG5zSUc4MkpsbWdreUZjQUgzMlVhSUg0T2MtN2NTR3BoS2xlZVBCOGFVQQ?oc=5",
       "score": 0
+    },
+    {
+      "code": "105560",
+      "date": "2026-10-26",
+      "title": "KB금융그룹 주가 전망: 모멘텀 약세와 과매도 RSI로 하방 압력 지속",
+      "source": "Traders Union",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWTVYTm9MRkdCQWZxWFBBSGJpUC1aT3lFT2ZTVWFiVnphbzdMa1VHOFZLVm9iYUFVZjlzRnhsVkVxdmRiUV8wTV9CZGlKTW5vVENtaGhONzVGMUltWFhWSWF5NXpYZ2htTmVkQ1VyOVRyVDFYNmZlM0VpdkdESEUtRlBNVlItZDdMeWl0dGhhR21xbHh5?oc=5",
+      "score": 2
     },
     {
       "code": "105560",
