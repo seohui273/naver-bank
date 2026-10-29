@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T02:26:07.991911+09:00",
+  "updated_at": "2026-10-30T03:39:46.135504+09:00",
   "articles": [
     {
       "code": "006220",
@@ -804,6 +804,16 @@
     {
       "code": "006220",
       "date": "2026-10-28",
+      "title": "IT 관리 미흡·불성실공시 제재…이희수 제주은행장 첫 연임 문턱 넘을까",
+      "source": "뉴스워커",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3WDhhWFRPVXNkcGR0OGlzTm9xRVZtUHc4dHY1M0RYdHpPMUdSLVBOTzdVclczZTV4OHlCOTVqbVZjbGlubkprY1NPT0xWUU9PRHA0TWV2czNBMDN4ZDBuRUR2V0JjOGFnM2hMSTd3SzDSAXRBVV95cUxOS2ZkVEJoZS1zZk50RUdFOFZJUG9QTHl5Z092b0dOOHF5WWhTeVRPclcxWExXM3FfZXRKSmx5cU1VYUo0SkVOOTlfQm1FS1BxWEJjeEdQQ1FFRXJGQ1A3MVBhazB0V2p4NkxvN3RLMFNWRFE5Mw?oc=5",
+      "score": 1
+    },
+    {
+      "code": "006220",
+      "date": "2026-10-28",
       "title": "[속보] 제주은행, 3분기 영업이익 63억7300만원…전년 동기 대비 30.59% 증가",
       "source": "CBC뉴스",
       "summary": "",
@@ -899,16 +909,6 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5SOF9DZjlfMHEtLUZVNUYwQnZHMTlPVzJmWExMRlFnRDJLSnk3QkV2aUoxQ0VCRTZPN1dCWHVoc1NXMW5wVW5BaHJQOUVibExpeXVkdlJ1dm5CdldM?oc=5",
-      "score": 1
-    },
-    {
-      "code": "006220",
-      "date": "2026-10-28",
-      "title": "신한금융, 차기 신한·제주은행장 1차 후보 압축",
-      "source": "TradingView",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5oZHJwWVplUFJOd2NnYmpqbnFwVEpRM3FQZ1RHLXBkTzYzWmhOd0NQcURGRzBKNVZGcGVVaEJhcldpRVBtX09WdFZiTzBXYXpSR2pjMGlzM1ZEcWhGUC1MVkFxSUhMWnd6?oc=5",
       "score": 1
     },
     {
@@ -3612,6 +3612,16 @@
     {
       "code": "024110",
       "date": "2026-10-29",
+      "title": "IBK기업은행, '공공기관 AI 혁신 챌린지' 우수상 수상..의미는?",
+      "source": "초이스경제",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9zd0RBQXUteVZLbm91SlNmVWZWbTR3QjBEQ3ZteFdkTGd6aDVlb0VwRjJYT1B3T2doMk9BZmVobFNWa3pOeTJOWVlyZnR6YkdPXzdsakNYejhQeU4tcWg0ckdwbUk4ZFFjenFrMXp5amnSAXNBVV95cUxPU1F2b0tSejJ6Wll6WFBCTE1qZjdxb29QeGZvdlZuYVFDSjl2NGRaLVE3SWlJOXdUWWpOYVQyODRZay1wYV9LRGJqOHY0OWtIOHBhb19sVHA1ZVppaTBsNjZSX0daQUU2MEdhX3J6QjI3cnhv?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-29",
       "title": "IBK기업은행, '공공기관 AI 혁신 챌린지' 우수상…보이스피싱 피해 구제 자동화",
       "source": "뉴스핌",
       "summary": "",
@@ -3667,16 +3677,6 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1WOHFpNWExRmRmR2ppOHVJa1JwLXNmb2FlRlRaSEwzWlFnUVRDUVNTMDlINmo3RzhWd3laNFM0MDBfNjUtYU8zdTl3eHdBbEpZZll2eG9STmFka3dKQ09melA3RkY3c1FMMG9UUUJ3?oc=5",
-      "score": 1
-    },
-    {
-      "code": "024110",
-      "date": "2026-10-29",
-      "title": "IBK기업은행, AI로 보이스피싱 피해 막는다…지급정지 ‘골든타임’ 확보",
-      "source": "리드경제",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBkeGNLbXRHNUpVY2FiUGplcE1Nd0pROW85WE1zYzBaUVhHYTN5VmNORE1YSG9BOWwzaFpfdjlDYnlXdU82c1k0S3BhZlBoMU13WDFoN2dQNjlOUmJJdldncU1PbkI5dGVVWGYzNV9IREM?oc=5",
       "score": 1
     },
     {
@@ -8100,6 +8100,16 @@
     {
       "code": "175330",
       "date": "2026-10-20",
+      "title": "JB금융그룹, 업스테이지에 400억원 투자…AI 전환 속도",
+      "source": "뉴스핌",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13N1NPeVZyUWwwUFltdmJ3SUt4Yl8tNHRYaXMzOTItN2ROSlkteUtqVmJ5RzdJc2ducWIxMW1OaWNvc0JwQ2M1UzNYb1JfM1dETTFCME1oV0J4ckZo?oc=5",
+      "score": 0
+    },
+    {
+      "code": "175330",
+      "date": "2026-10-20",
       "title": "[금융 풍향계] JB금융지주, 업스테이지 지분 2% 확보…400억 투자로 ‘AI 동맹’ 外",
       "source": "에너지경제신문",
       "summary": "",
@@ -9606,6 +9616,16 @@
     {
       "code": "279570",
       "date": "2026-10-29",
+      "title": "인터넷 전문은행 브랜드평판 10월 빅데이터…1위 토스뱅크·2위 카카오뱅크·3위 케이뱅크",
+      "source": "네이트",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iOWFfUTBDb2d5eko2TGoyZHp4TnJhanhJUFVBSGVKUXBBOUhyeHd5ajNVNlp4V0E3cWZPaUJWc29QRUZrY0otdDRrZnROV1FQYzBR?oc=5",
+      "score": 1
+    },
+    {
+      "code": "279570",
+      "date": "2026-10-29",
       "title": "토스뱅크, 10월 인터넷 전문은행 브랜드평판 1위…카카오뱅크·케이뱅크 채권 뒤이어",
       "source": "팝콘뉴스",
       "summary": "",
@@ -9621,6 +9641,16 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5DYW1fYUt3WWpDajdTVTBGUUI3TkV1Skx3MWplY1hVdEtFa21zREU1TkZQbXRsQm1iSE5xckI0bDNUaUlERXhDVEtpRlFBd2dVaUFGS2RNLUNMdFhLWGkwVHhhOXR4M09oR3hmRGZ0Q0ZKZ03SAXdBVV95cUxPeEVZWFRRMV9XdWdEQlhwa2hPc2RGUFZBNV9IbWh5NjVWYldLeWNaVElpbklsdDNTR20wa3lDaGxQMzFnNE44N3RLMVJFSHQ1QUt4a05uN0RnaV9ZTm9iMWJQdjJvZjVXcWV2aE9VYjlHRnc1dkxpQQ?oc=5",
+      "score": 1
+    },
+    {
+      "code": "279570",
+      "date": "2026-10-30",
+      "title": "‘1600만 고객’ 토스, 카카오·케이뱅크 넘어 시중은행과 주담대 ‘정면승부’",
+      "source": "직썰",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16Q1Q5MmZlWnV6N1NmUzRsNEJkT2k3UWJvNE9qOWp3aEJwU0ZWQ2c1cjVYSERnaC1WR3NJb2xRbkdTdTFtc0hWdTBGSW0tTjQyNmJEX3k3VXkwV0lXU2h3TlBDUVNMZnRH?oc=5",
       "score": 1
     },
     {
@@ -11865,6 +11895,16 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9oaXZRTWJTcHFCZ2xNYl93ZjFXbC00OWd6bk5wRG1NTlJlZFYzdzNpak91b1NuazJVcmNKQkdtbVlkQkpwZFhKWVJJMU9ldnRNWk9WUDNyUzdidndwVnVnREhhenNWMTlUVU4tcFpmSmVZUQ?oc=5",
+      "score": 1
+    },
+    {
+      "code": "323410",
+      "date": "2026-10-29",
+      "title": "인터넷 전문은행 브랜드평판 10월 빅데이터…1위 토스뱅크·2위 카카오뱅크·3위 케이뱅크",
+      "source": "네이트",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iOWFfUTBDb2d5eko2TGoyZHp4TnJhanhJUFVBSGVKUXBBOUhyeHd5ajNVNlp4V0E3cWZPaUJWc29QRUZrY0otdDRrZnROV1FQYzBR?oc=5",
       "score": 1
     },
     {
