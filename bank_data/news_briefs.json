@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T06:50:40.909354+09:00",
+  "updated_at": "2026-10-30T08:58:07.927439+09:00",
   "articles": [
     {
       "code": "006220",
@@ -1029,6 +1029,16 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMzBYYXEyaUFSaUM4dWNHNUlOWWdVaWduWlNjUjdBSVgzbDJmYk5NQzNTVV94WUZWUnROcWFUOXl0QlFVd2FEcm9ESkNPdEZ2bXNaV2xTWmJSVDhZQW1HZFQ4SXB1dlQwU0oyMHRhTXlYSTlBU3RWRWoyVXdWNFc5SlAzSjY?oc=5",
+      "score": 1
+    },
+    {
+      "code": "006220",
+      "date": "2026-10-30",
+      "title": "[이슈]제주은행, 지방은행 최초 법인 비대면 ‘DJ Easy-one 보증서대출’ 출시",
+      "source": "뉴스N제주",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53S3ZOWjhPajEwTTI4a2g0VjB0T0xXUzl4LURtb3cxdHp0azdxaGFOSU1MQ3NBNzB5cndhZDFsSEZiTjM1TExzcUVtMEhnMUtmWi00SFgzNnNwa093NkE2N2I3QW92T2NzeWRPVg?oc=5",
       "score": 1
     },
     {
@@ -3690,6 +3700,16 @@
       "score": 1
     },
     {
+      "code": "024110",
+      "date": "2026-10-30",
+      "title": "IBK기업은행, 퇴직연금 소액·정기투자 서비스 출시…월 1만원부터 투자 가능",
+      "source": "퍼블릭타임스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50ak9EbkIwajZZUnJMWHAweW5OYVZVUWhBX2VzM2ZNRm5SdnJScVVURlJoOEd5anZrLUVnN0hpcUF4bUZYaWo4TC11TWxkTGtXczlicm9rR0JLNGFoNjZlWWRrYlM0ak9KQXfSAW5BVV95cUxQbDgtQkhJZzFjSnBBdVVCY1cwRU9zU2lzei05a3A4RFo1NC0wenFvQ3BfUUxQTzN4LXU0SGRoNG00SktaUG5BeWZ3TXViVVZwMjlQa1g5bGMxY3EyWGNZbFNLZTk5ZnZZOVA2Mkw1Zw?oc=5",
+      "score": 1
+    },
+    {
       "code": "055550",
       "date": "2026-09-29",
       "title": "\"신한지주, 올해 최대 실적·해외자회사 경쟁력 강화 '긍정적'...목표가↑\"-BNK證",
@@ -4350,6 +4370,16 @@
     {
       "code": "055550",
       "date": "2026-10-20",
+      "title": "[금융지주 임원 인사 전망][신한금융] 롯데손보 품은 신한…장정훈·나훈 존재감 커진다",
+      "source": "블로그",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9EamZRVmlFcmFFdTZ0bDR2QjY0Wk9tUkpGUUZscWQ5bWxJY0ZreGxlLV81d1BRRzNvRUpsWVJhdHNmZXhMUkFGanViV2htSFh3blZwOEQyY3VVZw?oc=5",
+      "score": 0
+    },
+    {
+      "code": "055550",
+      "date": "2026-10-20",
       "title": "롯데손보에 숨은 3.6조…신한지주 자금회수 불투명",
       "source": "DFT 대한금융신문",
       "summary": "",
@@ -4792,6 +4822,16 @@
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE11c0VtSEotR3BscHhReXFOc2RlelkyaFg1WlJ2Zzk3bUVfRUNnX2FXWjYxd1BFNDBlV1BIaktuMHh4OUw3a1VEUlVudGluTFYxcjh6TG9majZvTHdSZ1NWQXo3LWpISFczNmRrSUdfSWrSAXRBVV95cUxORDZOd3c5azI4d0hjTWt6cTlUU2hDeU5XNGx5elBBSmxxNGI5NFRGdjl1YmRENnNvY0ZaMk82U1RvTmthYVVjaklYQUE1TjIwbkFoUnd1MjlxSDg0cWFhQmNWWUFEYWxERHd2bkNWVVVwYlFKZg?oc=5",
       "score": 0
+    },
+    {
+      "code": "055550",
+      "date": "2026-10-30",
+      "title": "신한지주, 4500억원 자사주 매입 후 전량 소각",
+      "source": "비건뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBkb3Q0ajNJRVpJc0lFek1ORWJCVGkyLXo3bUpreW5QMjJNbmdONG9nMTNqOGdld2VFelI5akdsckNMOXJ3X09xVkE1c2JHMjhmSjNmVG9qU2RvVnZ3M2h3NWJ6czdJdw?oc=5",
+      "score": 2
     },
     {
       "code": "055550",
@@ -5886,6 +5926,16 @@
       "score": 0
     },
     {
+      "code": "086790",
+      "date": "2026-10-30",
+      "title": "하나금융지주 2500억원 자사주 매입 후 소각",
+      "source": "비건뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1FdnQxUkVjaGJjYzcxM29GNmE3WnRfOHB3UTN0MmFQTVJPOHV2SVNNLUI2MlU5T0l4UFFGSG12MXNLUzBUeDNieGJyMjZOQ3E3TWlFa1J1bWxUUy1EaWtPaXRBNDR2dw?oc=5",
+      "score": 2
+    },
+    {
       "code": "105560",
       "date": "2026-10-01",
       "title": "KB금융지주, 93조 생산적 금융 AI·반도체로…CET1 13.74% 기반 성장투자·3.7조 주주환원 병행",
@@ -6702,12 +6752,112 @@
     {
       "code": "105560",
       "date": "2026-10-30",
+      "title": "KB금융, 증권·카드 선방에 비은행 실적 방어..목표주가 22만6000원 유지",
+      "source": "한국정경신문",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB3QjA0akktcFRNRngyTXRIUF9iNWZXVE80c2t2SUNIaDY1VEJzQjZ6QjdjWXhfWDJ3ZndCV3oza0Zrbm5zUUJMWU80UzQtVXM1Wnc?oc=5",
+      "score": 7
+    },
+    {
+      "code": "105560",
+      "date": "2026-10-30",
       "title": "[KB금융 실적] KB국민은행도 역대 최대 순익…은행·비은행 균형 성장 빛났다",
       "source": "CBC뉴스",
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUWmV1N3V1bWFKbUNaZ0trSU5SS1B4ekxVWUUybDExVzdUQmQtRlpyV2xMUzhiNkNtTGNkd0lCdThxRHlmbGdwU2VrNWdYSmFMRUQ5Y1lPcTdXYk1KM3NwaGtLMFpMMFla?oc=5",
       "score": 3
+    },
+    {
+      "code": "105560",
+      "date": "2026-10-30",
+      "title": "KB금융, 3분기 누적 순이익 전년동기 13.1% 증가...채무조정·심리상담 지원 등 사회공헌도 이어가",
+      "source": "데일리팝",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBTGkyM2dQMGtrREZQcnNkcGFQZThhY0poQU1ManNQMGtxRjdkOFRncTNMZ1ZzbnhMMllWYUo1YU9SSlhHcGZPTlZvRks2OV9EVzNUSk9DNmJkdFVidlpFcjFZTHNFbkxU?oc=5",
+      "score": 2
+    },
+    {
+      "code": "105560",
+      "date": "2026-10-30",
+      "title": "KB금융, 3분기 최대 실적 '올웨더 펀더멘털' 과시",
+      "source": "톱데일리",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5YMXhuZmRaeGtSMFg2OWt6b2ZaTkpTY2N4NlNpdGNUWThRWDdHaDA2eldtSkxLc1ZmbndqbklqRjg3N3p2RjF5TnFadml1R00?oc=5",
+      "score": 2
+    },
+    {
+      "code": "105560",
+      "date": "2026-10-30",
+      "title": "[DQN] 양종희號 KB금융, 분기 순익 개선 주역은 이자수익 아닌 '법인세' [2026 3분기 금융사 실적]",
+      "source": "금융신문",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1Sbkd0UlZTRjFVOTN3R1FZVndNTUhzc2RDU09xRVlqNEtUNW40QTAyM3pVRklWdjJQQVVFT05lTDY4SnkxcEk5Z2hrei1rSnhSY0ZfLUhha1BoNW1pMXlXLXlId3JKUWFzMUZ0eDNFOUlYbWlXREJkOUZLZms?oc=5",
+      "score": 2
+    },
+    {
+      "code": "105560",
+      "date": "2026-10-30",
+      "title": "[금융실적] KB금융, 3분기 누적 순익 5조7921억원…13.1% 증가",
+      "source": "비즈월드",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1CQkxiVTI0d1dUV0JSYU9nWHVkZnI3SXJSQ3NrWnFuUnl0YUcwS1FTc3RoR0lJaFNha25LRTE0Q2gtUFF2TGVPWTN1bjdDV2ZWRHZVU29Ub3NhajVzTDE3LXd1VDRISmNtMnc?oc=5",
+      "score": 2
+    },
+    {
+      "code": "105560",
+      "date": "2026-10-30",
+      "title": "[모닝 리포트] \"KB금융, 주주환원율 55% 전망…배당 가이던스 검토\"",
+      "source": "뉴스핌",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSSkZDNklrVVdrUmFoUDVSSDlTSGhOMGU5ZVJLRU5CdnBFakVPQzlWbmF4V2JtcUtSUHlaMFpzWUxZQzU0anJLb2tfc0JOVW5Nc1RhMWhaTjBUUE9f?oc=5",
+      "score": 2
+    },
+    {
+      "code": "105560",
+      "date": "2026-10-30",
+      "title": "[키-리포트] NH \"KB금융, 증권·카드 실적 선방\"",
+      "source": "뉴스드림",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE90TFMwcFpnQVlUM0ZnREhQa2ROMENGa251S2wwUVdmNEo2RENqSDFtM3FhclFZUEd1RjBlYnFCVlg5YkVoVDExS0VIZERKN25oWm5EWWtXaXQ4RmFLMU1fMWpuNXFDckdRNnNn?oc=5",
+      "score": 2
+    },
+    {
+      "code": "105560",
+      "date": "2026-10-30",
+      "title": "상상인증권 \"순익 줄어도 '21만원'…KB금융, 배당에 쓸 1800억 남았다\"",
+      "source": "더팩트",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1WNW5nUUVkRk9nZ2Y0YVZKVXUyWlNWSFBRY1hBOHNTa3pzNGota21xSllhN0NuWjA1V0Qya1VkZDQzRk5XUWxRTHdrTERJU3NmWW94TzI1ZzZwd9IBVEFVX3lxTE40WVpTLWRCTVpCU0lWQlBjZTlKUHhZOFhha21VeEtubTRDa0ttbGo0QmhHbHRVMUQ5NzFrX0o2MHF5dUJiRXNMaUZUbGhwYXJOdk9haQ?oc=5",
+      "score": 2
+    },
+    {
+      "code": "105560",
+      "date": "2026-10-30",
+      "title": "유안타증권 \"KB금융 순이익 시장 전망치 상회…목표가 유지\"",
+      "source": "중앙신문",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQMnhiUkVCckE1YVB0VkYzMXJJT3RZOUozMXpNZ2NBZWlsR2twLUZHWjVGcy01OUc5Mmc0eWxWYXdmamxnS3lyYnVDRDFpZ1d3cGtHaFB4MU9XeFFIWWNXR0ZmYi00YV9LUTFxMVNnVl9WajZDTFM0U21pUVVUX2hfTWU4QWZSVklsd1ZlR0Q3bUNhVV80M2hfdzA1NVVTNG4tZnFjTHlQMlJnVU1uUWM3RS1UVGdSUE9rZmFIdzFRQlNGbmZSM3luZ2F6NGNCYzBFTkZCaktlcEo0ZThQSEI2b3RfclZoMURhRFVaSjFIeGNDZHlfTG9heTgzTGpqLURuVlV6U1FDdU9pNGVpZW50SlFPbTNuZE1PWmhMUy14ci1kSVdrWi1Mb25WQm9yYkRYT2hLNFJMU3NkNTQ0dnpLVmkyeTVfb1NYSnVCVGhOU0hMSVpuOEM5VnNDaHdmczcz?oc=5",
+      "score": 2
+    },
+    {
+      "code": "105560",
+      "date": "2026-10-30",
+      "title": "KB금융, 비이자이익 감소에도 투자 매력 여전···주주환원 기대감↑",
+      "source": "뉴스웨이",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1EZGowQVFrSzVmaGx4aTlDemkyVThkWkdERGZFR19IeWNSbFA2aml2My1Qam9zaUt2YUlFRFlxOS15eThNZ1NEMnZ4bURwSFNqMkJUMVVDcTJ3aDdqOHhONF83bVJlZHNGN0E?oc=5",
+      "score": 0
     },
     {
       "code": "138930",
@@ -7323,6 +7473,16 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5VOVdidXY5VG5SdS1QQlJlV0w5NUZmQk9hQnR3X2VQNlJDRDUwOUdjSlE3ei1KT3JYTUJWcWxYUExLbnJvcGc?oc=5",
+      "score": 0
+    },
+    {
+      "code": "138930",
+      "date": "2026-10-30",
+      "title": "BNK금융, 3분기 영업이익 37%↓…2394억원",
+      "source": "국민기자뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1meHNaclBQS2ZLVndaVTZnLV9yZlhkNkJLSVhwSWdRaldyR3dNN3NpTVFwazgyV2JFaTZycUxBWTEydTNNTFZpR01YXy03TzRqeXNSbmswTG1SQXRxMFdWY3Z2OVBuU1HSAWdBVV95cUxNZnhzWnJQUEtmS1Z3WlU2Zy1fcmZYZDZCS0lYcElnUWpXckd3TTdzaU1RcGs4MldiRWk2cnFMQVkxMnUzTUxWaUdNWF8tN080anlzUm5rMExtUkF0cTBXVmN2djlQblNR?oc=5",
       "score": 0
     },
     {
@@ -8792,6 +8952,16 @@
       "score": 0
     },
     {
+      "code": "175330",
+      "date": "2026-10-30",
+      "title": "김기홍 회장은 왜 저축은행을 인수하는가 [JB금융 리로드①]",
+      "source": "금융신문",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5JM2t4UWxGSm9MVmtid2VsSTJvcGhlb1VaQXJJRWVJd2JPSHVPdnJSckR0VEh4cU1EM082c1ZEdTRNQXZlWENHbkQ1VHJ3M2xLeFhFbDd5b0tIb1I3aldveWxnRl9QdmhldzQyZnl0d3dpdVRlUnV4Q2U4NGk?oc=5",
+      "score": 1
+    },
+    {
       "code": "279570",
       "date": "2026-09-29",
       "title": "[뱅크 NOW] NH농협은행·NH농협금융지주·케이뱅크",
@@ -9692,6 +9862,16 @@
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5DYW1fYUt3WWpDajdTVTBGUUI3TkV1Skx3MWplY1hVdEtFa21zREU1TkZQbXRsQm1iSE5xckI0bDNUaUlERXhDVEtpRlFBd2dVaUFGS2RNLUNMdFhLWGkwVHhhOXR4M09oR3hmRGZ0Q0ZKZ03SAXdBVV95cUxPeEVZWFRRMV9XdWdEQlhwa2hPc2RGUFZBNV9IbWh5NjVWYldLeWNaVElpbklsdDNTR20wa3lDaGxQMzFnNE44N3RLMVJFSHQ1QUt4a05uN0RnaV9ZTm9iMWJQdjJvZjVXcWV2aE9VYjlHRnc1dkxpQQ?oc=5",
       "score": 1
+    },
+    {
+      "code": "279570",
+      "date": "2026-10-30",
+      "title": "케이뱅크 30일 3분기 실적 발표 IR 개최",
+      "source": "비건뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZXzM1eHQyYUE3MnM2b2xWbU5YYmtiMHVjUWlTS3pHcklxaFlPMUtoWDJIc1VkcHhTMDdmc1A1Wm1JQ25CZkJVZk5OQzVESXdoM19jclVRcTBQa1J1RTJtTUplVllOdw?oc=5",
+      "score": 2
     },
     {
       "code": "279570",
@@ -11126,6 +11306,16 @@
       "score": 0
     },
     {
+      "code": "316140",
+      "date": "2026-10-30",
+      "title": "비은행 수익성은 \"아픈손가락\"...우리금융지주, 두 분기 연속 ‘1조 클럽’",
+      "source": "청년일보",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkcnplSW1YaVBlNVJ3T1ZrZi1BVGVBZkRBcVFwZm9HSXVZX2loMW5FdE5FTXFqQ2pTZmxVc0lrempSdmh5WmtkM2NhSXM4cjM0cnZRTk1FQVdQWHJ4RmZ3VGMyWjFsdFlHV1E?oc=5",
+      "score": 1
+    },
+    {
       "code": "323410",
       "date": "2026-09-30",
       "title": "은행권 예금 경쟁 재점화…카카오뱅크 성장세·KB금융 실적 기대 주목",
@@ -11686,6 +11876,16 @@
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5HZGxfWTlmNEpjakpodVY3eG9MYTZtUHlTWURvMTNyX3MxbWVkWlMwWkNnRi1aNHRSQWJ3Y1dTLWxfSHJKaDRralI5MXE4R3pzMC1uN3NmdVFSV25XVTZVeUNpREFTd9IBakFVX3lxTE9VMkVuc0h3MUZ2UWFTdkdtaEFsdDRDVnNPcWpNQmE0bjNYam1UWWtLVmx3Y2VhNC1meF81Qkg4eFlDSGp4MzFYVmJ3Z2VuSTRyeERwUnY2Ml9wQkI5ZU00TWRCeU5Ba0RzNUE?oc=5",
       "score": 2
+    },
+    {
+      "code": "323410",
+      "date": "2026-10-21",
+      "title": "[주목! e금융] KB국민·신한은행·우리은행·IBK기업·카카오뱅크...\"기업 자금관리부터 모바일 신분증까지\"",
+      "source": "한국면세뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uZWVjS2JLLVVFWUtZaTJhLVJnLXVsV0xwaVctZHgzSkI2TVFTZWh4MVdwLTlFdkNYMjY2eXd3em1rYXZEN0dtb1J0c20ySGVKMnZ4SzFNN3duNmw1UXZ3SnkxdW1YZ3dsY2c?oc=5",
+      "score": 1
     },
     {
       "code": "323410",
