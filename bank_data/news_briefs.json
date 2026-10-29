@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T04:44:41.016530+09:00",
+  "updated_at": "2026-10-30T06:50:40.909354+09:00",
   "articles": [
     {
       "code": "006220",
@@ -2682,6 +2682,16 @@
     {
       "code": "024110",
       "date": "2026-10-20",
+      "title": "IBK기업은행, 법인 공공 마이데이터 제공 확대…서류 간소화 - 머니투데이",
+      "source": "머니투데이",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4tYmFYRDBaeG9Id0l5Q1diOGRNNTZyc2JRaDJyWEF0b2hXUFFEVlkzUzZ0dEFXeUhMdjIwYUo5X0pLd3NpNmJRVU5hbVJtWWIteENyM0VDckdQU1NmbWFWaTVyQVlUaThVcjRF0gFwQVVfeXFMTkhLQXJfQ1haeldYZWRGczlkMEV4NTVUMk1EWWM2NU9RakJpLXU5Y0tjWmEySnZYSjN6S0ZuWEctWlY0b2F4SnZIN3NhVGZsZTUyQWZLN2hxNHdWS19kalBUVXZ4eHRSNHVqUnlPUVQ2SA?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-10-20",
       "title": "IBK기업은행, 법인 수신업무에 '기업 공공 마이데이터' 도입",
       "source": "연합뉴스",
       "summary": "",
@@ -4784,6 +4794,16 @@
       "score": 0
     },
     {
+      "code": "055550",
+      "date": "2026-10-30",
+      "title": "[금융지주 임원 인사 전망] [신한금융] 신한금융 계열사 12곳 CEO 임기 만료…진옥동의 재신임 셈법",
+      "source": "딜사이트",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9KUjZlRU1rMG1QYlNORzhHWmY5dGlzUUh2aWxodDRkc3ROaFh4VW9OdEgtZHFmakVUcTIxMVVfRV81QURRaWJfdm5zVk5RdUU?oc=5",
+      "score": 0
+    },
+    {
       "code": "086790",
       "date": "2026-09-30",
       "title": "BNK투자 \"하나금융지주 목표주가 상향, 역대 최대 실적에 올해 총주주환원율 51% 예상\"",
@@ -6678,6 +6698,16 @@
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjUDBXb3dycFVVU3BOSHk2ejVvNy1lUGVxOHR1T3ZRWVRsaHZCbjBiS2JwVjVsRVB4Qlp0SkhiTlcyMEotN1lMOUdMcHFmUVNxVHRJaXhEQXI3NUFYM2dtVEZnWWRTNUk?oc=5",
       "score": 2
+    },
+    {
+      "code": "105560",
+      "date": "2026-10-30",
+      "title": "[KB금융 실적] KB국민은행도 역대 최대 순익…은행·비은행 균형 성장 빛났다",
+      "source": "CBC뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUWmV1N3V1bWFKbUNaZ0trSU5SS1B4ekxVWUUybDExVzdUQmQtRlpyV2xMUzhiNkNtTGNkd0lCdThxRHlmbGdwU2VrNWdYSmFMRUQ5Y1lPcTdXYk1KM3NwaGtLMFpMMFla?oc=5",
+      "score": 3
     },
     {
       "code": "138930",
@@ -9636,6 +9666,16 @@
     {
       "code": "279570",
       "date": "2026-10-29",
+      "title": "토스뱅크, 10월 인터넷 전문은행 브랜드평판 1위…카카오뱅크·케이뱅크 뒤이어",
+      "source": "팝콘뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9GVkhDYXhOQW9JU1FBTWFhX1JibEQ1UkpGQkJReVNDb1FmckFKNTB3VDdxbzlsSjVBYWJpRnJBYXZycmJNc040U24zc1VJZGpaS09vWEJHYkJBc256ekRZQ0pVMklPc3FUZzY3akFB0gFyQVVfeXFMTVBVNkNQWDl6V0tYam1wa0xiRUpiVDdYTzIyTmJLRlpMVzE2c3ZEaUJpdTBzdV9YMGdNUlM1T1IxaHVuaTJLWVZqNGg4RWRDMWVJUU9tSmMxSERwdU1CLUprNldJSlhxZGRwaVp4WGY1cWVn?oc=5",
+      "score": 1
+    },
+    {
+      "code": "279570",
+      "date": "2026-10-29",
       "title": "토스뱅크, 10월 인터넷 전문은행 브랜드평판 1위…카카오뱅크·케이뱅크 채권 뒤이어",
       "source": "팝콘뉴스",
       "summary": "",
@@ -11925,6 +11965,16 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9yX1J3cW1GT1FjeTJETmZKb3c1TFJ1c2hrSHoxS0ZDRHQ5MGVRN294cFc5MVhxWDc3dXpmRWVxSjdPQ1hfQUQ0Wk1UVQ?oc=5",
+      "score": 1
+    },
+    {
+      "code": "323410",
+      "date": "2026-10-29",
+      "title": "토스뱅크, 10월 인터넷 전문은행 브랜드평판 1위…카카오뱅크·케이뱅크 뒤이어",
+      "source": "팝콘뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9GVkhDYXhOQW9JU1FBTWFhX1JibEQ1UkpGQkJReVNDb1FmckFKNTB3VDdxbzlsSjVBYWJpRnJBYXZycmJNc040U24zc1VJZGpaS09vWEJHYkJBc256ekRZQ0pVMklPc3FUZzY3akFB0gFyQVVfeXFMTVBVNkNQWDl6V0tYam1wa0xiRUpiVDdYTzIyTmJLRlpMVzE2c3ZEaUJpdTBzdV9YMGdNUlM1T1IxaHVuaTJLWVZqNGg4RWRDMWVJUU9tSmMxSERwdU1CLUprNldJSlhxZGRwaVp4WGY1cWVn?oc=5",
       "score": 1
     },
     {
