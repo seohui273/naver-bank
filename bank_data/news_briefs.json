@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T11:19:59.906510+09:00",
+  "updated_at": "2026-11-04T03:26:44.322270+09:00",
   "articles": [
     {
       "code": "006220",
@@ -1109,6 +1109,16 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5oSkRCVHVRU3kzNEN4bS01bVVmTmZBVk5HTnMwQnFkQS1RNmNvSkZJUGRFX2VmNlRMeUpfNFdjN0hwa19LekJHNWhmbjMzY0hBc01XYlRfS3NhQ1FpS1NQVHpuRmVNazA?oc=5",
+      "score": 1
+    },
+    {
+      "code": "006220",
+      "date": "2026-11-03",
+      "title": "제주은행·제주평생교육장학진흥원, ‘글로벌 금융 리더스 아카데미’ 성료",
+      "source": "일간제주",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5EaHQ1YTJVUjJ0dHFrYnkwLS1ZZlJQTkU3cGp4Zm92MzNoQmtrNFl4OGFva2RjSGZUMnNCcVVSeTJzV0dfN1pnS3BOU2hlbWhSWUw0WGhhQ2c2eEtqQjRZNVR3VlM5RENhNllj?oc=5",
       "score": 1
     },
     {
@@ -4107,6 +4117,156 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE54dmwtbDZBVG1VMnN4dWNleGN1WnpyWHZKUk5JcF9XYjdyZm5oam5pNDN5NGR1UmxZLXJDc0FPbHJIV2JQNU1wcThOS1Z0OERrdm9VNzREMy15cDR1UjhwakFNUGVoWWdUOTJnVGdBVGZOVm8?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-11-03",
+      "title": "분기배당 확대 나선 IBK기업은행…주가 반등 신호탄 될까",
+      "source": "아시아투데이",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9odXdFV3ZzTkR4N200c0c1N1RIS3NtaS1NaXlpZzVyR1F5QUd1dGJ2cHZUaUtTQzJZRkNNMUdobGVHQXNuX1ZYSk5WWWl6amFnYTJKZzBrRk9PMWx4S3NvZmdYODFJTFJWR2J0eQ?oc=5",
+      "score": 5
+    },
+    {
+      "code": "024110",
+      "date": "2026-11-03",
+      "title": "기업은행 3분기 실적 반등…외환·파생 늘고 수수료는 뒷걸음",
+      "source": "위키리크스한국",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB6SFZIZ21DN0dJdUpiSlJFZTNGNDdabWEteDQ2d1F4RWdmZHduWHVZbS1YVkZsWEhqODZRQXc1dVIyanRGNUhfbzhhZ0g5UjVkUk5ucHVBMk95bFVIOGlsZkJPYUhPdmRudlRnZlVCRko?oc=5",
+      "score": 3
+    },
+    {
+      "code": "024110",
+      "date": "2026-11-03",
+      "title": "'빅토리아 21점' 여자배구 IBK기업은행, 현대건설 3-0 완파",
+      "source": "뉴시스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5QY19RM18zRkdLRkFKakNNTGFZaGpWa18yS3Z6QkxfR2QtR25Qbkc4RnBtUnRrLWtkaHhrbUFXbDdiM1hoMTFtclRzYXJYdjYtLWVGeEp6c3o1S3JBYXRmWmtEaVFNV3NTZGhwTDZHLVpaS3Y1LVRxc9IBeEFVX3lxTE5QY19RM18zRkdLRkFKakNNTGFZaGpWa18yS3Z6QkxfR2QtR25Qbkc4RnBtUnRrLWtkaHhrbUFXbDdiM1hoMTFtclRzYXJYdjYtLWVGeEp6c3o1S3JBYXRmWmtEaVFNV3NTZGhwTDZHLVpaS3Y1LVRxcw?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-11-03",
+      "title": "IBK기업은행, 강원도와 관광·금융 상생협약…지역경제 활성화 추진",
+      "source": "일요주간",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzZHgyR3NUVzdpWDdHbnNqYmRqRWU3cjQ3bHpqamRNelUxS1ZuVG56b1dYdERkdDZTOWc2ck8tLXN3ZzNZa2ZTRGJLX2FEblctNWdGbndqZDhwNldTVE1hN25nMElwc3pYQW9ZNEZnaGZlYWc?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-11-03",
+      "title": "IBK기업은행, 현대건설 3-0 완파…마나베 감독 정규리그 데뷔승",
+      "source": "스페셜타임스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1OV0ZUOFh0NkF1alBKVVg1WFI5a2NhUl8xNGNZUTlld1FoRS1wOVo2UDZMM2pneUFLb0JBa1YxWEhmMWJfV1Q1UWdEdkVfUUxfR00tZm5qMV9BSDNZbDcwbGJJbmFHN0lpQ2VxLVpza2dicE0?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-11-03",
+      "title": "[금융소식] 우리은행·KB국민은행·신한은행·NH농협은행·하나은행·IBK기업은행",
+      "source": "천지일보",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE10UlhVQjBqVXZCYVVTRzlJWlhVSk80YUUwYXhFZllKR2JaNmF3ZExqcXN1THdqMWRsUTQwYUdWb21yS204SE1ma1F4dTZJelV4QmRnako4Qjc1REJtQUk0VDJhUEFfTjdkSUE?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-11-03",
+      "title": "[포토] 홈 개막전 앞두고 화이팅 외치는 기업은행",
+      "source": "풋볼리스트",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QRi1fWHIzRjRnQmp1emdFTDVQdHJFSGlDNF9XZ0dzd0ZwMTdUNE5UU0MzVnhnZ3ZQOVZSZDJVX1BxMGhIcUpUVWY0bDJqaTZYblMtblktSUI4b2RlSktqRjgxYVkwQk1BZk5IblFWR2w?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-11-03",
+      "title": "[프로배구] '빅토리아+최정민 38점 합작' 우승 후보 기업은행, 현대건설 3-0 완파",
+      "source": "뉴스핌",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pQ3ZLUU9jQTFRVVBEdDN0V2lDcFFGWndmLUJqVVpzTUhrVTNLVnBZLWdTaGpCU2t6blNOdVNJUlpLdjRLVkVISXI2dk5KZGtEWDZPWkJETThpa3FS?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-11-03",
+      "title": "‘데뷔전 승리’ 마나베 기업은행 감독 “최정민, 어느 포지션도 제 역할”",
+      "source": "스포츠월드",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9kVmN6eHpTWlZlVmlKMVRXX1ltTUo1RkhjOURfbmp5aVJOckF1YXppV1JlaWNBeUhrZjBaT2s3YWpkWXVoTF9Xb2JWaVRSbFpkQ200RnhwZnNLX1FOQUM2MVZR?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-11-03",
+      "title": "기업은행, 현대건설 3-0 완파…마나베 감독 정규리그 데뷔승",
+      "source": "news.sbs.co.kr",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRVVEZy1pbWI3clpVZC00NHRnUk04cGdTczJKcEhtN2F6RGhZajVjM3NmaEU0aXZHU0ZvQ0JsTFhKdTVZYkpaZGxBZEh3aDhPcHRnbW5LNkNteUtGYWxmUzE4RnlKbld2R3IwNWFQY1F3OVhzalVzWFFtVC00SzRnSDRzOWFuam5LZV9VVjdlZw?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-11-03",
+      "title": "기업은행, 현대건설 3-0 완파…마나베 감독 정규리그 데뷔승(종합)",
+      "source": "연합뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rV1BBeUM2Yk5YN1d5WDhnZ0FJdmZQUTFSN2NLbjNoekNEWTRXejFvTkZBV3F5UzJsUzBydWNETE5MMGx3eHJSN2VHRDluQmV3c1ZpOFFfMVMzQ1JnYS1Vb9IBYEFVX3lxTE9rV1BBeUM2Yk5YN1d5WDhnZ0FJdmZQUTFSN2NLbjNoekNEWTRXejFvTkZBV3F5UzJsUzBydWNETE5MMGx3eHJSN2VHRDluQmV3c1ZpOFFfMVMzQ1JnYS1Vbw?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-11-03",
+      "title": "높이 앞세운 기업은행, 현대건설 완파하고 홈 개막전 승리",
+      "source": "뉴스1",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4wSEtTUk5JNGw2YWhBY2F0dF9jZ1RST2NmRWdoZXV3aEhpaFBQRHd2amRyWG9FTTF3TU5JYmZsM09xTnpXY3llSzNnT1VqeHVWX2pJRzFRRXVEUQ?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-11-04",
+      "title": "[포토] 기업은행, 홈 개막전에서 기분 좋은 승리",
+      "source": "풋볼리스트",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1GRUdxV1BfVU9LWE9QNEhKeWY2aURqbk4yeDN4UEN0VHBUbmNDUTBPa0pPbTRkQks2TGRiTU5OMm9rYWNGbXd6UVIwYXNVclRZS01haTBtT0pHS3dtVjhNWnJhSU1ENTF3TkpBRmJvSHM?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-11-04",
+      "title": "‘마나베 배구’ 첫판부터 통했다... IBK기업은행, 현대건설 3-0 완파",
+      "source": "STN SPORTS",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBkaC1uUTN1MG9lWkdfODhablpGNzg3WWpLdDg2RGpKd0RrWFgzUHJYLVVDczR5ZlM3OVF1azdwaEVsYzVBOWFIaFRwQ1FhRi1uendiNmdGcWlMUFpQMlFIalFaaUNhbUVKd1pucnMwTQ?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-11-04",
+      "title": "화성특례시의회, IBK기업은행 알토스 배구단 홈 개막전 참석",
+      "source": "동방일보",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FUS05Q0xoMVg3OFN6LU5IMXl2SmV2N2tKbGJuVGFkd1FtTWJwZDBjd1htRkU2dkhoMmtEMDAybjc3WmVKTmpoU2lHSFE2YjlsYXdjeElMWXU1UVRtbWFWcUN6RXNSejNlYUJraTIwdUhHQjA?oc=5",
       "score": 1
     },
     {
@@ -7452,6 +7612,26 @@
     {
       "code": "105560",
       "date": "2026-11-02",
+      "title": "희망제작소·KB금융, 사회적가치투자대회 개최…시민 투자자 모집",
+      "source": "포커스경제",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE90OFZGbGFtMnVuVXF6STVTQlV3TzhITmpHM1RQWG9aVG1YS1FoWTBaUm0tamw4RlRBY3pkMU5aSmo4V2IwZldiTlgzRjJIYnIxei1FUEJOd3k5R1RYOXpfZXdsbFZYTWUwSXlZOFlR?oc=5",
+      "score": 0
+    },
+    {
+      "code": "105560",
+      "date": "2026-11-02",
+      "title": "희망제작소·KB금융, 시민 참여형 소셜투자 확대…청년·지역소멸 해법에 4000만원 투자",
+      "source": "나눔경제뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4ta19qWEIyQ3JkNE4wSEVSM2d6dkl0cVc0MURCeU9ZRFNsbVB2M0tjX0t0Yl9SU1E1WF82N19EZ3Q0QVcxVExVSGZPbmM5aDNkTmN5VFZlcmh4b0NnMXViRGdGdHVZOHFGeW9wRg?oc=5",
+      "score": 0
+    },
+    {
+      "code": "105560",
+      "date": "2026-11-02",
       "title": "희망제작소·KB금융그룹, 청년·지역 소멸 해법에 시민 투자 잇는다… ‘SIR대회’ 소셜투자자 200명 모집",
       "source": "충북데일리",
       "summary": "",
@@ -8134,6 +8314,16 @@
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8yY1BxblZrby1HTHF0UlB5TXNlMlMtQXd6ZXd6dWQ2Y0Y0RW94aTFlbVY5R3Vham5ZazVYbmc0SmVJa3RsLVJrcnF2bm1mUUQtNHBMTUJEamRPNWVjc3FuUWc2LW1xZw?oc=5",
       "score": 2
+    },
+    {
+      "code": "138930",
+      "date": "2026-11-03",
+      "title": "[부고종합·3일] 배헌 BNK금융지주 상무 부친상 등",
+      "source": "세이프타임즈",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1kQ0JFRmg2MER0YzRCVm5NVnlxTXJYMUZDN1RGMWw5clpDeHBuaEY1aERyU3B6cWtEeS03NTN5RnBmbXpsRXotdVBCZ0tGOGY2NzV6aFdOQldCWkg2LTkzOGZSMjZwakxUVkZkcnRqT2VYZU3SAXNBVV95cUxNZENCRUZoNjBEdGM0QlZuTVZ5cU1yWDFGQzdURjFsOXJaQ3hwbmhGNWhEclNwenFrRHktNzUzeUZwZm16bEV6LXVQQmdLRjhmNjc1emhXTkJXQlpINi05MzhmUjI2cGpMVFZGZHJ0ak9lWGVN?oc=5",
+      "score": 0
     },
     {
       "code": "139130",
@@ -10894,6 +11084,26 @@
       "score": 0
     },
     {
+      "code": "279570",
+      "date": "2026-11-03",
+      "title": "실적 두 배 뛰었지만 52주 최저가 근접…케이뱅크 고전에 우리금융도 골머리",
+      "source": "서울신문",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9FSDhHWDNTY3JlYjhSM2dPUVhSTEh1TE1JdEVrUEx4Rm5EYjNRMHRHVGtKdEEzclRyYzhGS3NWN0lPSVBjV1lGZUtlYTdxZHB4TE9LQThBWQ?oc=5",
+      "score": 2
+    },
+    {
+      "code": "279570",
+      "date": "2026-11-04",
+      "title": "실적 2배인데 주가는 52주 최저… 케이뱅크 고전, 주주 ‘우리’ 끙끙",
+      "source": "서울신문",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBraU42UjBwWHpTTlhVcEhDbnZQX3RCT2JBQlFHUktuTTJPaW51Zkx1TDA2QnprVDJQSmFuc3pucmhSbXdhRlNRbGp1Rm5nQ2wyZWNLS0kzQmt6MU1FOWZ1bFVzT2IyZjdqNGJmeXdfN3gtSlBHYWh1cUdB?oc=5",
+      "score": 4
+    },
+    {
       "code": "316140",
       "date": "2026-09-29",
       "title": "임종룡號 우리금융, 3분기 CET1비율 14% 넘을까…비은행 이익체력 확대 [2026 3분기 실적 미리보기]",
@@ -12408,11 +12618,31 @@
     {
       "code": "316140",
       "date": "2026-11-02",
+      "title": "[금융지주 임원 인사 전망] [우리금융] '한일·상업' 균형 깬 임종룡…계파 청산, 연말 인사 '분수령' : 네이버 블로그",
+      "source": "Naver Blog",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZlVGRTdQeUd6LV9uSmlOQ2pMc1ExUXRkM0dUNzNqazBabXBFT1poS1VxS29kcGEtQU13aVk5TzRFRW9GNXJ0N0lITUhQUFFLNTFmQjZOLW5jZGlrYUtkUXBaYlFzaTMyd3BUYTBveXRkWGcxSm1XMTlEQTdHeUt0Y1F5Uk5GMGVsaGJScHRsUQ?oc=5",
+      "score": 0
+    },
+    {
+      "code": "316140",
+      "date": "2026-11-02",
       "title": "[금융지주 임원 인사 전망] [우리금융] 임종룡의 '오래된 참모' 3인…2기 체제서 재신임 받을까",
       "source": "딜사이트",
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ZZDNTZWNhVFkxOUFWQ0tqc3MzSE01SGZNeW41d0tHSzdJRG9rNjNwWlYzY2VrbXNfUWdFUzNha0dkYUhuaTdnb3JUbkd4NFE?oc=5",
+      "score": 0
+    },
+    {
+      "code": "316140",
+      "date": "2026-11-02",
+      "title": "[금융지주 임원 인사 전망][우리금융] 임종룡의 '오래된 참모' 3인…2기 체제서 재신임 받을까 : 네이버 블로그",
+      "source": "Naver Blog",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOLXNiWUQxenFCbnRnX0RDbnhYdVUyVy0tM1NNaEpJc2hXcjNzRDVHdDF2dnltMWZEWHJiMWlCaU54d3Y1ajZNU3JnN0JndDhfZTNBVFBzblc2WmZnSGFMaGdHQ25xb2VNSDlEZHVfLURZQzBjOThaTlJaUDNMcjl1SjBrNEkyWXFkbmVldFpIUQ?oc=5",
       "score": 0
     },
     {
@@ -12424,6 +12654,16 @@
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5nR2JpZkhEMmh5dnlJcEItMXJ5ZjZkSEM5cHBRZk8zQTI3TzZkRjZEWGthX0VIcmhvbF9IOFEzYk1mQ2Zfc2JFaU43THBFQ3pNMk1LWjBvdlZtcnNiZVpfYjIza1B1ZzhHNXZmUmtXam1uaUU?oc=5",
       "score": 0
+    },
+    {
+      "code": "316140",
+      "date": "2026-11-03",
+      "title": "[은행 뉴스브리핑] 우리금융 무형유산 담은 '2027 달력' 배포",
+      "source": "아시아타임즈",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE42Rkc1X1dHLW4ySWRYSGZSNGhqMVZ5bDJOZzZrdW1kVTFhSnVnUDFySTFBQjMteHFZWVJqS2RsaGF6YzF4cGtRSmZtRGxHVHB3N3dLSDdmU2hzSHVfanc?oc=5",
+      "score": 1
     },
     {
       "code": "323410",
@@ -13420,6 +13660,16 @@
     {
       "code": "323410",
       "date": "2026-11-02",
+      "title": "카카오뱅크 '신용대출·부동산담보대출' 토스뱅크 신용대출 신규 입점",
+      "source": "마일드경제",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9iU25aeFRkQTM4ZDU1cnVCWnhHeUxEZjlNcWpCcVR4d012a0pQdWFfb3JSaGdXUi0wN2pBTkp0cWQxSWY4aDIyVW13OUd4RkVnMXBUZzVRVWFsMkRvRUdaYmVvd0lMblFEZ21r?oc=5",
+      "score": 0
+    },
+    {
+      "code": "323410",
+      "date": "2026-11-02",
       "title": "카카오뱅크 개인사업자 170만 돌파…4년간 대출 7조원 공급",
       "source": "이데일리",
       "summary": "",
@@ -13456,16 +13706,6 @@
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBqLURCaDdfWk93MS1LeDk0VjdNUWM0N1dnTkZHR09fSERmWERyRE55VWhqRkJfRXJUaTlkOHFSZkVfNWZuSEh1ak8zRF9lVFhqdnBSTXhtVkJYV3R6aGs0d0xual9KaUdYMUJ3bkEwUQ?oc=5",
       "score": 0
-    },
-    {
-      "code": "323410",
-      "date": "2026-11-02",
-      "title": "카카오뱅크, 개인사업자 고객 170만 돌파… 대출 누적 7조원 공급",
-      "source": "비즈트리뷴",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRLVZ2RGp4YUJkVGVpM0xnNFhqLTVDZG5VazJ3aHRRTGxyaVh2cE5iNUxfb3hLNldVUU5JZWktSWFvbS1HNHNYVG03LUh1YlAxSDBxOGdDSE5YZWxVREloRl9TNnUxMzk1eVUwQ1Rpd3A?oc=5",
-      "score": 0
     }
   ],
   "fetched_windows": [
@@ -13483,6 +13723,7 @@
     "006220|2026-10-27|2026-11-01",
     "006220|2026-10-27|2026-11-03",
     "006220|2026-11-03|2026-11-04",
+    "006220|2026-11-03|2026-11-05",
     "024110|2026-09-29|2026-10-06",
     "024110|2026-10-06|2026-10-13",
     "024110|2026-10-13|2026-10-20",
@@ -13497,6 +13738,7 @@
     "024110|2026-10-27|2026-11-01",
     "024110|2026-10-27|2026-11-03",
     "024110|2026-11-03|2026-11-04",
+    "024110|2026-11-03|2026-11-05",
     "055550|2026-09-29|2026-10-06",
     "055550|2026-10-06|2026-10-13",
     "055550|2026-10-13|2026-10-20",
@@ -13511,6 +13753,7 @@
     "055550|2026-10-27|2026-11-01",
     "055550|2026-10-27|2026-11-03",
     "055550|2026-11-03|2026-11-04",
+    "055550|2026-11-03|2026-11-05",
     "086790|2026-09-29|2026-10-06",
     "086790|2026-10-06|2026-10-13",
     "086790|2026-10-13|2026-10-20",
@@ -13525,6 +13768,7 @@
     "086790|2026-10-27|2026-11-01",
     "086790|2026-10-27|2026-11-03",
     "086790|2026-11-03|2026-11-04",
+    "086790|2026-11-03|2026-11-05",
     "105560|2026-09-29|2026-10-06",
     "105560|2026-10-06|2026-10-13",
     "105560|2026-10-13|2026-10-20",
@@ -13539,6 +13783,7 @@
     "105560|2026-10-27|2026-11-01",
     "105560|2026-10-27|2026-11-03",
     "105560|2026-11-03|2026-11-04",
+    "105560|2026-11-03|2026-11-05",
     "138930|2026-09-29|2026-10-06",
     "138930|2026-10-06|2026-10-13",
     "138930|2026-10-13|2026-10-20",
@@ -13553,6 +13798,7 @@
     "138930|2026-10-27|2026-11-01",
     "138930|2026-10-27|2026-11-03",
     "138930|2026-11-03|2026-11-04",
+    "138930|2026-11-03|2026-11-05",
     "139130|2026-09-29|2026-10-06",
     "139130|2026-10-06|2026-10-13",
     "139130|2026-10-13|2026-10-20",
@@ -13567,6 +13813,7 @@
     "139130|2026-10-27|2026-11-01",
     "139130|2026-10-27|2026-11-03",
     "139130|2026-11-03|2026-11-04",
+    "139130|2026-11-03|2026-11-05",
     "175330|2026-09-29|2026-10-06",
     "175330|2026-10-06|2026-10-13",
     "175330|2026-10-13|2026-10-20",
@@ -13581,6 +13828,7 @@
     "175330|2026-10-27|2026-11-01",
     "175330|2026-10-27|2026-11-03",
     "175330|2026-11-03|2026-11-04",
+    "175330|2026-11-03|2026-11-05",
     "279570|2026-09-29|2026-10-06",
     "279570|2026-10-06|2026-10-13",
     "279570|2026-10-13|2026-10-20",
@@ -13595,6 +13843,7 @@
     "279570|2026-10-27|2026-11-01",
     "279570|2026-10-27|2026-11-03",
     "279570|2026-11-03|2026-11-04",
+    "279570|2026-11-03|2026-11-05",
     "316140|2026-09-29|2026-10-06",
     "316140|2026-10-06|2026-10-13",
     "316140|2026-10-13|2026-10-20",
@@ -13609,6 +13858,7 @@
     "316140|2026-10-27|2026-11-01",
     "316140|2026-10-27|2026-11-03",
     "316140|2026-11-03|2026-11-04",
+    "316140|2026-11-03|2026-11-05",
     "323410|2026-09-29|2026-10-06",
     "323410|2026-10-06|2026-10-13",
     "323410|2026-10-13|2026-10-20",
@@ -13622,7 +13872,8 @@
     "323410|2026-10-27|2026-10-31",
     "323410|2026-10-27|2026-11-01",
     "323410|2026-10-27|2026-11-03",
-    "323410|2026-11-03|2026-11-04"
+    "323410|2026-11-03|2026-11-04",
+    "323410|2026-11-03|2026-11-05"
   ],
   "method": "Date-scoped RSS searches and persistent archive. Publication date verified. Summaries are RSS excerpts, not generated full-text article summaries. Not causal claims."
 }
