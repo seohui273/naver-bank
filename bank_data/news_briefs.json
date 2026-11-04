@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T05:01:05.258542+09:00",
+  "updated_at": "2026-11-05T05:52:42.198463+09:00",
   "articles": [
     {
       "code": "006220",
@@ -14230,6 +14230,16 @@
     {
       "code": "323410",
       "date": "2026-11-04",
+      "title": "역대 최대 실적에도 멈추지 않는 카카오뱅크…신용카드·증권업까지 ‘눈독’",
+      "source": "마이데일리",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9LLThtNV9aOHEzMWhMZERwR1lHaUVnU0tFVVd6T3FGWTFJV0lDZkJOZm1jdzZMNnkyY0YwTFNEU003alRTc20zNUltRlNOMWw3Z1dEVi1xTTFLY3hnV0daWA?oc=5",
+      "score": 2
+    },
+    {
+      "code": "323410",
+      "date": "2026-11-04",
       "title": "카카오뱅크 3분기 순이익 1417억 27.2% 증가, 이자·비이자수익 고른 성장",
       "source": "비즈니스포스트",
       "summary": "",
@@ -14245,16 +14255,6 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SNGh1Qy1NSjNrekNSaWcxMlZLNWxQbXYxamYwRVhlVWd4cmFseTc3RUJTeEpqZHhaSmRzYTB4NVlNbFdaU0F1cXlQNnIxU3hiMmE1V3FR?oc=5",
-      "score": 2
-    },
-    {
-      "code": "323410",
-      "date": "2026-11-04",
-      "title": "카카오뱅크, 3분기 누적 순이익 '역대 최대' 4698억원",
-      "source": "아시아경제",
-      "summary": "",
-      "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5WeTlVbUY0RVdvSXdINXFDR0VKVmJxb19WTGN3aU5ORUFGT1lYbzJ0WkdvMXc5UmRzQThfQWhuUnVVcmt1cUxBWmdqekZLa1FVTjFJSndiRVBFdy15cG9UeA?oc=5",
       "score": 2
     }
   ],
