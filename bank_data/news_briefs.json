@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T06:09:13.342446+09:00",
+  "updated_at": "2026-11-06T07:42:18.473962+09:00",
   "articles": [
     {
       "code": "006220",
@@ -1179,6 +1179,16 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5SOGlzWVpQdWxycHd1RXJKTzI5NWdBbUttZVdFUG9hNXdSUkpQaHJyMHUzSW56Y3JlM3Nkd0MwQVEwOFk1MXYycHJadWNfR0EyOWx0YVNPeXZJcW1lR3hUaGhKR2paT1VfaVdseg?oc=5",
+      "score": 1
+    },
+    {
+      "code": "006220",
+      "date": "2026-11-06",
+      "title": "지방은행 브랜드 빅데이터 2.96% 증가…부산은행 웃고 제주은행 하락",
+      "source": "핀포인트뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBaeEVCNURQbnVqbWpBdEdVR3gtd2lIbUlXc2t4VDdEQ05LS3VmNmNxUTdWdllIR3Q5dHd5OVhjRDROYTRlUEZwRlBpSzM4akNVRlBDZGN6ODluLV8tLURYN0hMaUFuVklmbmprVGtiUjAzeDTSAXdBVV95cUxQNmJ0UjZZa0stQ0hmeEZHR1BweFNNOXNSc3FNSlFLd2hFV1F0VExZWFAxY004Q1duT0Nxck1TUnYwNjRMaXBKdEYyZ1QzUEd6Tm1LdE5wZXI5eFJ0QThxN0lOMXBJOTRJRUx5enZ5NGc0SkpMUnFoRQ?oc=5",
       "score": 1
     },
     {
@@ -6994,6 +7004,16 @@
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9yeTlPa2lVeGhXd0VPY1Vtd0JfeE1jVXhWeTJQZGRkMlk4ZTg2NnJLX1BlbC1OcFc3MG5qajBEbHNXeno3VmZTbEFzRDJ4X2M?oc=5",
       "score": 0
+    },
+    {
+      "code": "086790",
+      "date": "2026-11-06",
+      "title": "[금융지주 임원 인사 전망] [하나금융] 함영주 이후 연임 '0명'…이호성 하나은행장, 전례 깰까",
+      "source": "딜사이트",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yaDdfNnlXYkdhOWlDOVVVUldzcmVzTEEtU2lwdHlWSm1EX2hfWjR6c0Y4eVVudFNXRUUzM3hHTU5TWjgzZk16UllVWTVLNjA?oc=5",
+      "score": 1
     },
     {
       "code": "086790",
@@ -15116,6 +15136,16 @@
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41NXRqVXlaTlAyVWg3YUlWZUJneExTYUpSeFplY1pXVVVzbnc4OXR3TWo1NVBhTnJ4eVlDQ1otVVlGZjJja2R2OXJFYUZicEhmUm5jc21UbFRvY01QSDlR?oc=5",
       "score": 2
+    },
+    {
+      "code": "323410",
+      "date": "2026-11-06",
+      "title": "[IR 분석] 카카오뱅크, 목표 성장률 달성 '적신호'…대출비교 확장 제약",
+      "source": "FETV",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Zc3p5ZGxXS2RhcGxsOU9qTzVYazVVZXF4S1Jya3hhcHIyemxvcVpiOGc0NFBSUTA1NGZEcWhCaHByaU9tUVhjdXRYaTRCelV0QWVZNEZrdzQ0N19NNGVLdFdJVzVON25P?oc=5",
+      "score": 0
     }
   ],
   "fetched_windows": [
