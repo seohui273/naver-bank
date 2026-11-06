@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T07:42:18.473962+09:00",
+  "updated_at": "2026-11-06T10:04:30.372117+09:00",
   "articles": [
     {
       "code": "006220",
@@ -1169,6 +1169,16 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TSWxzY1FIMmtKNWhTYTRNYTVhVTB2QnJYaFd3elVGaVZMSWtJYTZVUHpWTDA0ZG8tQnhvWWpsYlFrUWZOa2pQYmxSX2tTVEEwMFNJT29HTVN3UWR6bS1rU3hqY3hCN08z?oc=5",
+      "score": 1
+    },
+    {
+      "code": "006220",
+      "date": "2026-11-06",
+      "title": "신한지주·제주은행, 자연자본 대응 논의…공시와 지역 보전 다뤄",
+      "source": "스포츠한국",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGVXFvNzJMNGduMmhjTWhwbjc0dTc1MnBJX1lZRzNFNm1NekgwYkQtYk5nWlBiRzZyN2k2UUZsQ2c5WHBQdG0tMWx6SDdmdzktSEdBSWtVOFFXenFCUExuMGFGaUxCWXNVUXdjYWtuZVHSAXRBVV95cUxOQWs1azJSNjNKVkNOSWRVblRGTlNDUjRFYV9HdmNvMXFmc2JfczhNRDRfUlBpTE1rV0dXNFk0U3Z5UEMtOHVXRFYya3hUemNSVzcyWV9jSS0xOGo4ZDZtTXMyckRnb0c0dFFzaTVmc2d1eVBFNw?oc=5",
       "score": 1
     },
     {
@@ -4560,6 +4570,36 @@
       "score": 1
     },
     {
+      "code": "024110",
+      "date": "2026-11-06",
+      "title": "기업은행 주가 하락 중",
+      "source": "아시아뉴스통신",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9IdlR3NHhwdnBnT0R4cVl4ZkVqdDVEd2Y5a3RrSFlrRlA4LUI5azdoTFZMcXdOc3A2NEZ3dWlpR2NXMGxMRU45S3lVM3ljRkZlLTk0cUwySTdETlRM?oc=5",
+      "score": 3
+    },
+    {
+      "code": "024110",
+      "date": "2026-11-06",
+      "title": "기업은행, 중금채 시장조달로 중기대출 늘렸다…비용 관리는 '숙제'",
+      "source": "연합인포맥스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Wd1RRa19wRVlpRXVZajlnUGZMN1VZdmtyU0pMbFNyVUZ6U2tSekRGYXNhSzQxWUQ2bFZBZ1N4Q0FQdWxjcHhBbjlWZWZqeS11NVhCSE93UkwwQ1U2OG9yek53SjFpSGM5UFMyc0dlTGg?oc=5",
+      "score": 1
+    },
+    {
+      "code": "024110",
+      "date": "2026-11-06",
+      "title": "기업은행·산업은행·수출입은행, 7000억원 글로벌 스케일업 펀드 운용사 선정",
+      "source": "폴리뉴스 Polinews",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9VNUJ4c1VnSS1HR0VnXzBPQzlRSzBQNTVIaVpMMV9GcHhQVEpDVm5mbEFCajQ1RHIwRkF5QWVPVlVrZURJY2pLZ3Y4WnFhcjdFdVU0Z2loeTBnUUszYy1ZdFJqSTNLLWQxWFNIeWx3?oc=5",
+      "score": 1
+    },
+    {
       "code": "055550",
       "date": "2026-09-29",
       "title": "\"신한지주, 올해 최대 실적·해외자회사 경쟁력 강화 '긍정적'...목표가↑\"-BNK證",
@@ -5762,6 +5802,96 @@
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1XRHFNb01ZLTdzMHAwYnFXMG8zcmljOUZXNUxMWVNfQUlBcDlXdHI0XzZFWUxJd2JRU1hIS3dHUF9FV0xTZkh1Wk8xMm5kMHNaZnE4czdJR2tTb05w?oc=5",
       "score": 2
+    },
+    {
+      "code": "055550",
+      "date": "2026-11-06",
+      "title": "신한지주 주가 하락 중",
+      "source": "아시아뉴스통신",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBacmRGZi1XZFVwYmt0MVJsUkNkaHN6Z0UwRndCQkZKeWJ1WXRTNU1VdngydnRiMjBlZHNKVTB6Zy13eFpPUGRiNnI0NXlMeGs0QktCam5QZ3VFLWhn?oc=5",
+      "score": 2
+    },
+    {
+      "code": "055550",
+      "date": "2026-11-06",
+      "title": "신한지주·제주은행, 자연자본 대응 논의…공시와 지역 보전 다뤄",
+      "source": "스포츠한국",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGVXFvNzJMNGduMmhjTWhwbjc0dTc1MnBJX1lZRzNFNm1NekgwYkQtYk5nWlBiRzZyN2k2UUZsQ2c5WHBQdG0tMWx6SDdmdzktSEdBSWtVOFFXenFCUExuMGFGaUxCWXNVUXdjYWtuZVHSAXRBVV95cUxOQWs1azJSNjNKVkNOSWRVblRGTlNDUjRFYV9HdmNvMXFmc2JfczhNRDRfUlBpTE1rV0dXNFk0U3Z5UEMtOHVXRFYya3hUemNSVzcyWV9jSS0xOGo4ZDZtTXMyckRnb0c0dFFzaTVmc2d1eVBFNw?oc=5",
+      "score": 1
+    },
+    {
+      "code": "055550",
+      "date": "2026-11-06",
+      "title": "“자연자본도 금융의 가치”… 신한금융, 생태 보전 대응 논의",
+      "source": "뉴스웰",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5TWs2ODQzRFYwSE1nZnhjc01YYUlTcFJlSU9WdDRNUzQwcXc4dTFBZk9FVnBZaW9EcUhTWWRESFYwT0c2SFYwMEhiZENqQWQ1ZFlZUEVQYVV6bHBPSXByOF95SHFTR1Z5MkcwcA?oc=5",
+      "score": 0
+    },
+    {
+      "code": "055550",
+      "date": "2026-11-06",
+      "title": "신한금융, '2026 제주국제생태포럼'서 TNFD 공시 사례 발표",
+      "source": "뉴스핌",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5uNGJfcVcwNmp0QmxBRVR3dGEteW5fcmozMGhPaWUzaDVtVEt6TTNyZ3J4NkswNlJaWjVEU1UwNjhRSGVRa0tOUnlOV2NZOFVIUThlNjU5dzNTdFRK?oc=5",
+      "score": 0
+    },
+    {
+      "code": "055550",
+      "date": "2026-11-06",
+      "title": "신한금융, 제주국제생태포럼서 TNFD 공시 사례 공유",
+      "source": "스마트투데이",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBQSVNRdng1RkNmU2hHTGhSWUpYUG5zenFqRjFITjRfb1JXbF90VTNlYkZhalV4NHU0UXYwS3l0U3NqWC1wWkJST2Y1Mks1a2g0YXprMDVxWndvUDM2ZXFB?oc=5",
+      "score": 0
+    },
+    {
+      "code": "055550",
+      "date": "2026-11-06",
+      "title": "신한금융, 제주국제생태포럼서 자연자본 공시 사례 공유",
+      "source": "소셜밸류",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5jbmR1UWlheThheEctZGxGV1IzS29LMVNrRzVFaXpsbUxqNG9yc0JBb0t5OVpEUE43ZmQxR1I0WGJaTEFjRkxhdlVXRm8tZWJwWEVUblpkWUZXc1NobFZkdEIxZ9IBbEFVX3lxTE9QZU04TEJfRlZfZEpaREI4anphcEVrT0xDTjE3Ukh0RUdyUkZXNmdpQnMyTHJnNmx1QkZhSDF0bW51d0Qza0hHOTNvY1FMZkk2TXNiNTJlTE9CS2FBVk5JRXRmZm9jbVRTZ2ZWbQ?oc=5",
+      "score": 0
+    },
+    {
+      "code": "055550",
+      "date": "2026-11-06",
+      "title": "신한금융, 제주국제생태포럼서 자연자본 공시 사례 발표…지속가능금융 역할 모색",
+      "source": "이로운넷",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HRnlIdVFOMHFQWWhzbE9IMHNEWmFacDJUeXo1R0xyZzVLN3V6aHNiVlotaFhiV3R6UGJ4VnRPRzBMRlFaMDhGNlktTUZ6T25Yam05Yno4bWE4N2Z2M1BJNUlHWG85Zw?oc=5",
+      "score": 0
+    },
+    {
+      "code": "055550",
+      "date": "2026-11-06",
+      "title": "신한금융, 제주서 자연자본 공시 사례 공유",
+      "source": "PRESS9",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBiY29QbXloLTROakp2WkhJVW9aZUVZdUFJdElOZ1F1OUE5RTFUeUQ1N3Q5dlZoRVJVZzg5LXotaU03VE11V0haWmVxODBnQWdIdHVaeGVUaFFUZDVHb2VXZTFOMk0?oc=5",
+      "score": 0
+    },
+    {
+      "code": "055550",
+      "date": "2026-11-06",
+      "title": "신한금융그룹, ‘2026 제주국제생태포럼’에서 자연자본 공시 대응 방안 논의",
+      "source": "한국경제",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA0Z0l0WnpGSE02cHR4OFlJTVpyY0JmMWNhLVkyOGhQSTBQX2JBdWpKa3prM0tpb1QxUzFxYXltMTVnVzVjeVRrc3Q5VExEZnNvaEcwLUIyVUc1Zw?oc=5",
+      "score": 0
     },
     {
       "code": "086790",
@@ -7008,22 +7138,122 @@
     {
       "code": "086790",
       "date": "2026-11-06",
-      "title": "[금융지주 임원 인사 전망] [하나금융] 함영주 이후 연임 '0명'…이호성 하나은행장, 전례 깰까",
-      "source": "딜사이트",
+      "title": "하나금융, 개인주주 간담회 개최…배당·자사주 정책 설명",
+      "source": "신아일보",
       "summary": "",
       "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yaDdfNnlXYkdhOWlDOVVVUldzcmVzTEEtU2lwdHlWSm1EX2hfWjR6c0Y4eVVudFNXRUUzM3hHTU5TWjgzZk16UllVWTVLNjA?oc=5",
-      "score": 1
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Nc3RvSkFUZDFTd2NyTW1BaG4wWm5sUnJNM2VwYVZzVXRkcGNZRXJnTW1NaXA2OGk4Ym03anhuSG1uTVRLRXFfcGdUanRTbE5fakhXSXQ4cEFMYmxQMGgtNWp0eHA3QUxZV2ZwWF9TMWE?oc=5",
+      "score": 4
     },
     {
       "code": "086790",
       "date": "2026-11-06",
-      "title": "[금융지주 임원 인사 전망] [하나금융] 상무 80%가 70년대생…부사장단 '세대교체' 분수령",
-      "source": "딜사이트",
+      "title": "하나금융, 창사 첫 개인주주 간담회…배당 확대·자사주 소각 설명",
+      "source": "소셜밸류",
       "summary": "",
       "summary_basis": "제목만 확인",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15NVh2aWo4TTYxYUJLUW5OdlhxRzRHbVFxS2xlM3VhQXF3cENMRW5jaHlsRlFXeHVjRk0xTFJURWJYNk5PMC02ZzRQM3lRNUU?oc=5",
-      "score": 0
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAwVER5SXYwTXczVzlwTkVGelZMaHJoQTdVWnFPX2tKNTdrbEJxX2ZqTEpfd2RqaElGMl93WnV4cXBXUjA0dnBWcGZpOTlYMHRWOVFZU2ZvaVA3RldnM1Q1TEJQWdIBbEFVX3lxTFAyOG40bkxUbHJqX01QSW9GVGR2S0xYVGJxSUMwOWNqaU8xdmFlVHlfWjg3S1h5TzhFTy1KMUV0bUpROW5IY0lHUjQySkxJVUpMU2NaUGVuQTZoOU9ROGNIUjVocjZSRWc0RG1GSw?oc=5",
+      "score": 4
+    },
+    {
+      "code": "086790",
+      "date": "2026-11-06",
+      "title": "하나금융, 창사 첫 개인주주 간담회…배당 확대·자사주 소각 직접 설명",
+      "source": "나눔경제뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1DNlBEVXdxMmVCSjJYOHIxSUJQeTU5ZE9jQWdPZXZ6ZUJGWXRrak5KUXhrUmRZTTdfaU44NUZxMVBORmJqaXdPRjF6a1phamY1YjhBSlhrMXpRX2ZaUEhmeVhkNE50RWU3R29oMA?oc=5",
+      "score": 4
+    },
+    {
+      "code": "086790",
+      "date": "2026-11-06",
+      "title": "하나금융, 창사 첫 개인주주 간담회…배당 확대·자사주 소각 추진",
+      "source": "서울타임즈뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5seG8xbzBWeFF5WmVkcHVCVDJNcmNiWWlUamMzQUZlSkxKYkRXdkZ1bFJybVNrblRtOXU3YzJaeWlETVp0UmJINVJ3dk1senVaN0JrRFoyR2ZsdkMwNWNienpzbFQ0NjVBY0Nr?oc=5",
+      "score": 4
+    },
+    {
+      "code": "086790",
+      "date": "2026-11-06",
+      "title": "[금융로드] “창사 첫 개인주주 간담회” 연 하나금융…“매년 배당 10% 이상 늘리겠다”",
+      "source": "뉴스로드",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5xdmtoT2t4TER6RlVlZWNzWHpST2dxcEpyYmZRcTR1bEplOHktcGcxSk1JbGNyWV9reDVLM0dNYWVUNDBiTUhUb2pKY09mdllIRjlheWJ2UmU2YWpuZE1Ga0cxS1owX1BaWDNF0gFvQVVfeXFMT0t6NHJSc2w3bGpBaHR5THZNemttOFVnZGhyOGp3UE4tMk52eWJTVVNRanBLeEdaUTJHX1VHdkFJODdhTUEzQV9nbHk1d1VmVnk3YVpsRDBZYXpoUDIzWHA2b3BmUGVUY1VIRHFpVS1J?oc=5",
+      "score": 2
+    },
+    {
+      "code": "086790",
+      "date": "2026-11-06",
+      "title": "하나금융, IR 대상 개인주주로 확대…올해 자사주 매입·소각 9490억원",
+      "source": "스포츠한국",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QZEZwNWRyTE81REJ4dWxpcUFBNkVVZUFsNzU5Vy14VXFKODlrRmc1MkNUWVVwTXU2UGU4SWRoQ05JeUVDM1R1SGVJY0d6MklSZnhZT3N4VXY3aDQycHdKRDBhUmNXS1lIRFVfTVhoMHjSAXRBVV95cUxQRUdLck9YdEhad1lPTk9oNTl0VkM2VGxwQUg2ZEx3cy1UaTlsbzdueEJ4UXEtWTJER1dWOEdmSURIM3doZkJRbUxwVjRuZVpKeWhtTFdYY2ptZUdKWEEyRFp2Vk9YSTdDZUJ4U0trTHlfemxrbA?oc=5",
+      "score": 2
+    },
+    {
+      "code": "086790",
+      "date": "2026-11-06",
+      "title": "하나금융, 개인주주 30여명 초청…ROE·자사주 소각 설명",
+      "source": "뉴스포스트",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9FelZWQVdKZjVOb204OVV5dmt3UjdxN0hndldrdWxvT2RjYi1qYmFMS1VrRVpNeG13Wnd2MXVvbVh1aVVzRTVnWjI1MjlUZmt2UFByYzZUWGpfa2FQbFJ3bnNkZFE2MGtu?oc=5",
+      "score": 2
+    },
+    {
+      "code": "086790",
+      "date": "2026-11-06",
+      "title": "하나금융, 개인주주 첫 초청…배당 매년 10% 이상 확대 목표",
+      "source": "중앙이코노미뉴스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iZE8xZVNRNGdpcS1UeFF4TXJoTXZuVDl4TFVlR3pVaHl3dGpUZG82RFozTnNFMXZsdHZkamd6Zmp1bGVmcG9DUEFLNWdna2phakwxZm1uM200SWJjTkJHSmIwb1VDeUhiNHFiNUhXUkpJdw?oc=5",
+      "score": 2
+    },
+    {
+      "code": "086790",
+      "date": "2026-11-06",
+      "title": "하나금융, 기관 넘어 개인주주 IR 확대...\"매년 배당액 10% 이상 확대 목표\"",
+      "source": "아시아에이",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9paDFFVDVfWDgwazJMVXhDUEJBdkdIbm5ySmdZb0xUWGk5cDhZRDM4RUdDQ2pUc0tMQTBMai00NEJ6cmVGU08tNWJ1b28tbmFBUVN3MUlCQTcxVmpYRUxWU3dTX1k2OGliTGfSAW5BVV95cUxQRXNERnF3M1hGNjh6anoxSDhQY0dMX1JqcEV2bVhEZ1ZlUWt4WTM4cVh2YzhUY3NEZkY4TkJtM0dvVjJDcGFqTzZxOFF1cDQ5REVFbWRfaDdsQmEtdEZZaGlpYlVIajFiUlVpSWM3Zw?oc=5",
+      "score": 2
+    },
+    {
+      "code": "086790",
+      "date": "2026-11-06",
+      "title": "하나금융, 창사 이래 첫 개인주주 간담회…\"매년 배당금 10% 이상 확대\"",
+      "source": "뉴시스",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtci1xOXR3ZktSVF9randjdzltbW40dlhjRl9YMTljdTRRWUkxUl8wV2l4WGNxblFCVnVZTm5xcktqeGNfTm1mbkl5S29YTDU5WkhKV1lRVFFWX0hNZkdDUtIBeEFVX3lxTFA3VTRmUUE1cmtIbkZLbU80dmV5ZkEzOG02UmNPUjAxQ3Z2NWtYamdHUE8wdnpqaEdrUzdFeGVYZWd5RDBOb2F1MlBWemg1Vnp1UUVDNkZEaExST3JMOGRGaUNzazJPdGFVVWJuNmNZMzMyMHJQNW9uag?oc=5",
+      "score": 2
+    },
+    {
+      "code": "086790",
+      "date": "2026-11-06",
+      "title": "하나금융, 창사 첫 개인주주 간담회 개최…비과세 배당 등 주주환원 공유",
+      "source": "전자신문",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9MYXJUVUdHblBEYUhxa0FXc3o2RHc3bVNVdHJlMGxuSFg2c000cV9xeXJFQTNSMVhmdHhvUEtwNy1XbzBnN293MVZFM2w4Zw?oc=5",
+      "score": 2
+    },
+    {
+      "code": "086790",
+      "date": "2026-11-06",
+      "title": "하나금융, 창사 첫 개인주주 간담회…9490억원 자사주 매입·소각",
+      "source": "뉴스퀘스트",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5xVkxHVjVnbUluUzVNendmTHJRcjl1ZC1CeVE1ZzRRX3pzcUFtaTl3a01EOVFTRGQtR0lueEhIcjVTRkJoV2ZLTVRaMEpyYUprdmlnd3gtYVBPVlF3RmROcWxpRWhzaHRCWldZM2FkZw?oc=5",
+      "score": 2
     },
     {
       "code": "105560",
@@ -8368,6 +8598,16 @@
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UM0lpSER6ZUdFbTVIWXVzUmlUbTV1RWxOa1pRZ1VhV1p0MlloNmROUzJEWDJZR2VoeXNUTUFwQzJzNHRsNEJERTJSakdvU1JhdDdGNUg4NHJlczN3bnduRTJhbGFRRGdo?oc=5",
       "score": 0
+    },
+    {
+      "code": "105560",
+      "date": "2026-11-06",
+      "title": "한화투자 \"KB금융지주 2027년 주주환원 4조 주주환원율 60% 전망, 은행업종 '최선호주'\"",
+      "source": "비즈니스포스트",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE11ZnhYbkt3TDlNZjhhVmoxVWhpVlRNcUpDVGVmZUtzcjM3N1RnVGo1TGNIMzBuTkxLMEtjcjhya2w0YzRocUlmaUVRR05feXk1Tjhpb3NnLVIxeS0ybXlvblBGNWhWTF9UVnZia2ZBMDNLcFk?oc=5",
+      "score": 1
     },
     {
       "code": "138930",
@@ -12124,6 +12364,26 @@
       "score": 0
     },
     {
+      "code": "279570",
+      "date": "2026-11-06",
+      "title": "케이뱅크 ‘내맘대로 이자받는 예금’ 1.1조원 돌파…단기 금리도 인상",
+      "source": "헤럴드경제",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MZFRXSVJWQjZNNzdGZjl6ZUdjYmdMbVNWbEh0ZVNRU251V2JtcmdFNE9QWDFLOExoUTZrMzU4YkhKMFhNVlNqR2ZteGhVaDNEMEVpUEdR?oc=5",
+      "score": 2
+    },
+    {
+      "code": "279570",
+      "date": "2026-11-06",
+      "title": "케이뱅크 정기예금 한 달 만에 1조1000억원 돌파…금리 0.1%p 인상",
+      "source": "현대경제",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9wNEJxNlR5V1dpbkRWQ3lMWG9hV3ZBSWlpOTAxLXlKdVZNekVua196YVdfa0JhekhGclZKT2s4aEZ1aFB6XzY2RUI5d091UUlCYmVIZmZaaUlrcWpGU0lTRjRTaXdBV092Nnlj?oc=5",
+      "score": 2
+    },
+    {
       "code": "316140",
       "date": "2026-09-29",
       "title": "임종룡號 우리금융, 3분기 CET1비율 14% 넘을까…비은행 이익체력 확대 [2026 3분기 실적 미리보기]",
@@ -13856,6 +14116,16 @@
       "score": 1
     },
     {
+      "code": "316140",
+      "date": "2026-11-06",
+      "title": "우리금융지주 주가 하락 중",
+      "source": "아시아뉴스통신",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBsSVJmeWNxSThvQ0UxZ2RpVFNaQlJrSWZ4d0NpdXRZVkcyRXNlbUwyUXhBMFFtUjhxQlNQVGZYR1dqZWpnYVVhOG13SXVlMVEtTkxGcEo2WFN6NEst?oc=5",
+      "score": 2
+    },
+    {
       "code": "323410",
       "date": "2026-09-30",
       "title": "은행권 예금 경쟁 재점화…카카오뱅크 성장세·KB금융 실적 기대 주목",
@@ -15135,6 +15405,26 @@
       "summary": "",
       "summary_basis": "제목만 확인",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41NXRqVXlaTlAyVWg3YUlWZUJneExTYUpSeFplY1pXVVVzbnc4OXR3TWo1NVBhTnJ4eVlDQ1otVVlGZjJja2R2OXJFYUZicEhmUm5jc21UbFRvY01QSDlR?oc=5",
+      "score": 2
+    },
+    {
+      "code": "323410",
+      "date": "2026-11-06",
+      "title": "최대 실적 카카오뱅크…ROE 15% 달성까지 과제 산적",
+      "source": "톱데일리",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBMaGk3X2w2azFXRm54STNVTjltOC1BMkRnWGNKUnB0cXlVWlBuaFdUWmdKbHlfYUxSQk1kV1pNR0JEeHBQclZLcHFRdnBWdHd3?oc=5",
+      "score": 2
+    },
+    {
+      "code": "323410",
+      "date": "2026-11-06",
+      "title": "카카오뱅크 주가 하락 중",
+      "source": "아시아뉴스통신",
+      "summary": "",
+      "summary_basis": "제목만 확인",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5qMG9ndU9JQVhBTEthWE1JWXVuRXJsM2hKdWc0VFducFRFTGVST0J2cXNEZzl6bUlwRDYxRklzYWlqQTltTEdNMVhkWk5rQ09pYXBzNUpTdEZxQzM4?oc=5",
       "score": 2
     },
     {
