@@ -1,113 +1,592 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="830" viewBox="0 0 1440 830">
-<rect width="1440" height="830" fill="#f6f8fc"/>
-<text x="78" y="71" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="36" font-weight="750" fill="#152742" text-anchor="start">BANK:LAB  |  1차 면담 · 전체시장 데이터 범위</text>
-<text x="80" y="104" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="16" font-weight="400" fill="#60718b" text-anchor="start">학교 서버 원본 HTML · 읽기 전용 집계  |  분석 전 데이터 검증</text>
-<rect x="70" y="144" width="205" height="103" rx="14" fill="white" stroke="#e2e8f0"/>
-<text x="90" y="174" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#687992" text-anchor="start">관측 폴더</text>
-<text x="90" y="216" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="23" font-weight="730" fill="#172b48" text-anchor="start">591일</text>
-<rect x="283" y="144" width="308" height="103" rx="14" fill="white" stroke="#e2e8f0"/>
-<text x="303" y="174" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#687992" text-anchor="start">자료 기간</text>
-<text x="303" y="216" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="23" font-weight="730" fill="#172b48" text-anchor="start">2024.03.27–2026.09.02</text>
-<rect x="599" y="144" width="234" height="103" rx="14" fill="white" stroke="#e2e8f0"/>
-<text x="619" y="174" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#687992" text-anchor="start">HTML 원본</text>
-<text x="619" y="216" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="23" font-weight="730" fill="#172b48" text-anchor="start">2,403,074개</text>
-<rect x="841" y="144" width="257" height="103" rx="14" fill="white" stroke="#e2e8f0"/>
-<text x="861" y="174" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#687992" text-anchor="start">서로 다른 종목코드</text>
-<text x="861" y="216" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="23" font-weight="730" fill="#172b48" text-anchor="start">4,813개</text>
-<rect x="1106" y="144" width="250" height="103" rx="14" fill="white" stroke="#e2e8f0"/>
-<text x="1126" y="174" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#687992" text-anchor="start">폴더 없는 평일</text>
-<text x="1126" y="216" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="23" font-weight="730" fill="#172b48" text-anchor="start">45일</text>
-<text x="82" y="296" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="25" font-weight="720" fill="#172b48" text-anchor="start">월별 수집 공백 및 부분 수집 현황</text>
-<text x="83" y="325" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="400" fill="#667892" text-anchor="start">각 칸: 폴더 없는 평일 / HTML 3,000개 미만 관측일</text>
-<text x="1297" y="325" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="14" font-weight="650" fill="#ab5426" text-anchor="end">총 14일 부분 수집 의심</text>
-<text x="315" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">1월</text>
-<text x="405" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">2월</text>
-<text x="495" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">3월</text>
-<text x="585" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">4월</text>
-<text x="675" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">5월</text>
-<text x="765" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">6월</text>
-<text x="855" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">7월</text>
-<text x="945" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">8월</text>
-<text x="1035" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">9월</text>
-<text x="1125" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">10월</text>
-<text x="1215" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">11월</text>
-<text x="1305" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">12월</text>
-<text x="91" y="440" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="22" font-weight="700" fill="#173251" text-anchor="start">2024</text>
-<rect x="269" y="393" width="84" height="71" rx="9" fill="#edf0f5"/>
-<text x="311" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#a4b0bf" text-anchor="middle">—</text>
-<rect x="359" y="393" width="84" height="71" rx="9" fill="#edf0f5"/>
-<text x="401" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#a4b0bf" text-anchor="middle">—</text>
-<rect x="449" y="393" width="84" height="71" rx="9" fill="#fff1e7"/>
-<text x="491" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="700" fill="#ad5028" text-anchor="middle">2 / 1</text>
-<rect x="539" y="393" width="84" height="71" rx="9" fill="#fff1e7"/>
-<text x="581" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="700" fill="#ad5028" text-anchor="middle">3 / 7</text>
-<rect x="629" y="393" width="84" height="71" rx="9" fill="#f0f4f8"/>
-<text x="671" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
-<rect x="719" y="393" width="84" height="71" rx="9" fill="#f0f4f8"/>
-<text x="761" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
-<rect x="809" y="393" width="84" height="71" rx="9" fill="#fff1e7"/>
-<text x="851" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="700" fill="#ad5028" text-anchor="middle">1 / 0</text>
-<rect x="899" y="393" width="84" height="71" rx="9" fill="#f0f4f8"/>
-<text x="941" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
-<rect x="989" y="393" width="84" height="71" rx="9" fill="#fff1e7"/>
-<text x="1031" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="700" fill="#ad5028" text-anchor="middle">1 / 1</text>
-<rect x="1079" y="393" width="84" height="71" rx="9" fill="#fff1e7"/>
-<text x="1121" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="700" fill="#ad5028" text-anchor="middle">2 / 2</text>
-<rect x="1169" y="393" width="84" height="71" rx="9" fill="#e4eafc"/>
-<text x="1211" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="700" fill="#4a6092" text-anchor="middle">0 / 2</text>
-<rect x="1259" y="393" width="84" height="71" rx="9" fill="#f0f4f8"/>
-<text x="1301" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
-<text x="91" y="541" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="22" font-weight="700" fill="#173251" text-anchor="start">2025</text>
-<rect x="269" y="494" width="84" height="71" rx="9" fill="#f0f4f8"/>
-<text x="311" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
-<rect x="359" y="494" width="84" height="71" rx="9" fill="#f0f4f8"/>
-<text x="401" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
-<rect x="449" y="494" width="84" height="71" rx="9" fill="#f0f4f8"/>
-<text x="491" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
-<rect x="539" y="494" width="84" height="71" rx="9" fill="#f0f4f8"/>
-<text x="581" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
-<rect x="629" y="494" width="84" height="71" rx="9" fill="#fff1e7"/>
-<text x="671" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="700" fill="#ad5028" text-anchor="middle">8 / 0</text>
-<rect x="719" y="494" width="84" height="71" rx="9" fill="#f0f4f8"/>
-<text x="761" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
-<rect x="809" y="494" width="84" height="71" rx="9" fill="#fde4d4"/>
-<text x="851" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="700" fill="#ad5028" text-anchor="middle">22 / 0</text>
-<rect x="899" y="494" width="84" height="71" rx="9" fill="#fff1e7"/>
-<text x="941" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="700" fill="#ad5028" text-anchor="middle">1 / 1</text>
-<rect x="989" y="494" width="84" height="71" rx="9" fill="#f0f4f8"/>
-<text x="1031" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
-<rect x="1079" y="494" width="84" height="71" rx="9" fill="#fff1e7"/>
-<text x="1121" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="700" fill="#ad5028" text-anchor="middle">3 / 0</text>
-<rect x="1169" y="494" width="84" height="71" rx="9" fill="#f0f4f8"/>
-<text x="1211" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
-<rect x="1259" y="494" width="84" height="71" rx="9" fill="#f0f4f8"/>
-<text x="1301" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
-<text x="91" y="642" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="22" font-weight="700" fill="#173251" text-anchor="start">2026</text>
-<rect x="269" y="595" width="84" height="71" rx="9" fill="#f0f4f8"/>
-<text x="311" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
-<rect x="359" y="595" width="84" height="71" rx="9" fill="#f0f4f8"/>
-<text x="401" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
-<rect x="449" y="595" width="84" height="71" rx="9" fill="#f0f4f8"/>
-<text x="491" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
-<rect x="539" y="595" width="84" height="71" rx="9" fill="#f0f4f8"/>
-<text x="581" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
-<rect x="629" y="595" width="84" height="71" rx="9" fill="#fff1e7"/>
-<text x="671" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="700" fill="#ad5028" text-anchor="middle">2 / 0</text>
-<rect x="719" y="595" width="84" height="71" rx="9" fill="#f0f4f8"/>
-<text x="761" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
-<rect x="809" y="595" width="84" height="71" rx="9" fill="#f0f4f8"/>
-<text x="851" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
-<rect x="899" y="595" width="84" height="71" rx="9" fill="#f0f4f8"/>
-<text x="941" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
-<rect x="989" y="595" width="84" height="71" rx="9" fill="#f0f4f8"/>
-<text x="1031" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
-<rect x="1079" y="595" width="84" height="71" rx="9" fill="#edf0f5"/>
-<text x="1121" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#a4b0bf" text-anchor="middle">—</text>
-<rect x="1169" y="595" width="84" height="71" rx="9" fill="#edf0f5"/>
-<text x="1211" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#a4b0bf" text-anchor="middle">—</text>
-<rect x="1259" y="595" width="84" height="71" rx="9" fill="#edf0f5"/>
-<text x="1301" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#a4b0bf" text-anchor="middle">—</text>
-<rect x="72" y="704" width="1292" height="94" rx="13" fill="white" stroke="#e3e9f3"/>
-<text x="95" y="739" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="660" fill="#233b5d" text-anchor="start">핵심 결함  |  2025년 7월: 거래일 22일의 폴더 누락 (네이버 API 복구 가능성 검증 기록)</text>
-<text x="95" y="768" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="14" font-weight="400" fill="#697b93" text-anchor="start">해석 주의  |  폴더 없는 평일에는 거래소 휴장일 포함 · 3,000개는 진단용 임시 기준 · 고유코드에 ETF/ETN 등 포함</text>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1069.111281pt" height="637.103313pt" viewBox="0 0 1069.111281 637.103313" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-07T15:24:00.954747</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 637.103313 
+L 1069.111281 637.103313 
+L 1069.111281 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 62.263281 469.385313 
+L 482.743281 469.385313 
+L 482.743281 206.945312 
+L 62.263281 206.945312 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 62.263281 469.385313 
+L 62.263281 206.945312 
+" clip-path="url(#p750af9bf04)" style="fill: none; stroke: #e6ecf2; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: middle; fill: #253b55" x="62.263281" y="486.932656" transform="rotate(-0 62.263281 486.932656)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 144.71034 469.385313 
+L 144.71034 206.945312 
+" clip-path="url(#p750af9bf04)" style="fill: none; stroke: #e6ecf2; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: middle; fill: #253b55" x="144.71034" y="486.932656" transform="rotate(-0 144.71034 486.932656)">5</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 227.157399 469.385313 
+L 227.157399 206.945312 
+" clip-path="url(#p750af9bf04)" style="fill: none; stroke: #e6ecf2; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: middle; fill: #253b55" x="227.157399" y="486.932656" transform="rotate(-0 227.157399 486.932656)">10</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 309.604458 469.385313 
+L 309.604458 206.945312 
+" clip-path="url(#p750af9bf04)" style="fill: none; stroke: #e6ecf2; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: middle; fill: #253b55" x="309.604458" y="486.932656" transform="rotate(-0 309.604458 486.932656)">15</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 392.051517 469.385313 
+L 392.051517 206.945312 
+" clip-path="url(#p750af9bf04)" style="fill: none; stroke: #e6ecf2; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: middle; fill: #253b55" x="392.051517" y="486.932656" transform="rotate(-0 392.051517 486.932656)">20</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 474.498575 469.385313 
+L 474.498575 206.945312 
+" clip-path="url(#p750af9bf04)" style="fill: none; stroke: #e6ecf2; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: middle; fill: #253b55" x="474.498575" y="486.932656" transform="rotate(-0 474.498575 486.932656)">25</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 10.5px; font-family: 'NanumBarunGothic'; text-anchor: middle; fill: #61758c" x="272.503281" y="510.181797" transform="rotate(-0 272.503281 510.181797)">일수 (일)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13"/>
+     <g id="text_8">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: end; fill: #253b55" x="53.263281" y="231.298386" transform="rotate(-0 53.263281 231.298386)">2025.07</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14"/>
+     <g id="text_9">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: end; fill: #253b55" x="53.263281" y="255.996297" transform="rotate(-0 53.263281 255.996297)">2025.05</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15"/>
+     <g id="text_10">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: end; fill: #253b55" x="53.263281" y="280.694207" transform="rotate(-0 53.263281 280.694207)">2024.04</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_16"/>
+     <g id="text_11">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: end; fill: #253b55" x="53.263281" y="305.392118" transform="rotate(-0 53.263281 305.392118)">2025.10</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_17"/>
+     <g id="text_12">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: end; fill: #253b55" x="53.263281" y="330.090029" transform="rotate(-0 53.263281 330.090029)">2024.03</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_18"/>
+     <g id="text_13">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: end; fill: #253b55" x="53.263281" y="354.78794" transform="rotate(-0 53.263281 354.78794)">2024.10</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_19"/>
+     <g id="text_14">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: end; fill: #253b55" x="53.263281" y="379.485851" transform="rotate(-0 53.263281 379.485851)">2026.05</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_20"/>
+     <g id="text_15">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: end; fill: #253b55" x="53.263281" y="404.183761" transform="rotate(-0 53.263281 404.183761)">2024.07</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_21"/>
+     <g id="text_16">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: end; fill: #253b55" x="53.263281" y="428.881672" transform="rotate(-0 53.263281 428.881672)">2024.09</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_22"/>
+     <g id="text_17">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: end; fill: #253b55" x="53.263281" y="453.579583" transform="rotate(-0 53.263281 453.579583)">2025.08</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 62.263281 218.874403 
+L 425.03034 218.874403 
+L 425.03034 235.175025 
+L 62.263281 235.175025 
+z
+" clip-path="url(#p750af9bf04)" style="fill: #ce5f3f"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 62.263281 243.572314 
+L 194.178575 243.572314 
+L 194.178575 259.872935 
+L 62.263281 259.872935 
+z
+" clip-path="url(#p750af9bf04)" style="fill: #4879b8"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 62.263281 268.270225 
+L 111.731517 268.270225 
+L 111.731517 284.570846 
+L 62.263281 284.570846 
+z
+" clip-path="url(#p750af9bf04)" style="fill: #4879b8"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 62.263281 292.968136 
+L 111.731517 292.968136 
+L 111.731517 309.268757 
+L 62.263281 309.268757 
+z
+" clip-path="url(#p750af9bf04)" style="fill: #4879b8"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 62.263281 317.666047 
+L 95.242105 317.666047 
+L 95.242105 333.966668 
+L 62.263281 333.966668 
+z
+" clip-path="url(#p750af9bf04)" style="fill: #4879b8"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 62.263281 342.363957 
+L 95.242105 342.363957 
+L 95.242105 358.664578 
+L 62.263281 358.664578 
+z
+" clip-path="url(#p750af9bf04)" style="fill: #4879b8"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 62.263281 367.061868 
+L 95.242105 367.061868 
+L 95.242105 383.362489 
+L 62.263281 383.362489 
+z
+" clip-path="url(#p750af9bf04)" style="fill: #4879b8"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 62.263281 391.759779 
+L 78.752693 391.759779 
+L 78.752693 408.0604 
+L 62.263281 408.0604 
+z
+" clip-path="url(#p750af9bf04)" style="fill: #4879b8"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 62.263281 416.45769 
+L 78.752693 416.45769 
+L 78.752693 432.758311 
+L 62.263281 432.758311 
+z
+" clip-path="url(#p750af9bf04)" style="fill: #4879b8"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 62.263281 441.1556 
+L 78.752693 441.1556 
+L 78.752693 457.456222 
+L 62.263281 457.456222 
+z
+" clip-path="url(#p750af9bf04)" style="fill: #4879b8"/>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #ce5f3f" x="430.306952" y="230.012526" transform="rotate(-0 430.306952 230.012526)">22</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #253b55" x="199.455187" y="254.710437" transform="rotate(-0 199.455187 254.710437)">8</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #253b55" x="117.008128" y="279.408348" transform="rotate(-0 117.008128 279.408348)">3</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #253b55" x="117.008128" y="304.106259" transform="rotate(-0 117.008128 304.106259)">3</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #253b55" x="100.518717" y="328.80417" transform="rotate(-0 100.518717 328.80417)">2</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #253b55" x="100.518717" y="353.50208" transform="rotate(-0 100.518717 353.50208)">2</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #253b55" x="100.518717" y="378.199991" transform="rotate(-0 100.518717 378.199991)">2</text>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #253b55" x="84.029305" y="402.897902" transform="rotate(-0 84.029305 402.897902)">1</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #253b55" x="84.029305" y="427.595813" transform="rotate(-0 84.029305 427.595813)">1</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #253b55" x="84.029305" y="452.293724" transform="rotate(-0 84.029305 452.293724)">1</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_13">
+    <path d="M 597.943281 469.385313 
+L 1018.423281 469.385313 
+L 1018.423281 206.945312 
+L 597.943281 206.945312 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_7">
+     <g id="line2d_23">
+      <path d="M 597.943281 469.385313 
+L 597.943281 206.945312 
+" clip-path="url(#p2afddacbcf)" style="fill: none; stroke: #e6ecf2; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_24"/>
+     <g id="text_28">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: middle; fill: #253b55" x="597.943281" y="486.932656" transform="rotate(-0 597.943281 486.932656)">0</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_25">
+      <path d="M 691.383281 469.385313 
+L 691.383281 206.945312 
+" clip-path="url(#p2afddacbcf)" style="fill: none; stroke: #e6ecf2; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_26"/>
+     <g id="text_29">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: middle; fill: #253b55" x="691.383281" y="486.932656" transform="rotate(-0 691.383281 486.932656)">2</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_27">
+      <path d="M 784.823281 469.385313 
+L 784.823281 206.945312 
+" clip-path="url(#p2afddacbcf)" style="fill: none; stroke: #e6ecf2; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_28"/>
+     <g id="text_30">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: middle; fill: #253b55" x="784.823281" y="486.932656" transform="rotate(-0 784.823281 486.932656)">4</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_29">
+      <path d="M 878.263281 469.385313 
+L 878.263281 206.945312 
+" clip-path="url(#p2afddacbcf)" style="fill: none; stroke: #e6ecf2; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_30"/>
+     <g id="text_31">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: middle; fill: #253b55" x="878.263281" y="486.932656" transform="rotate(-0 878.263281 486.932656)">6</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_31">
+      <path d="M 971.703281 469.385313 
+L 971.703281 206.945312 
+" clip-path="url(#p2afddacbcf)" style="fill: none; stroke: #e6ecf2; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_32"/>
+     <g id="text_32">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: middle; fill: #253b55" x="971.703281" y="486.932656" transform="rotate(-0 971.703281 486.932656)">8</text>
+     </g>
+    </g>
+    <g id="text_33">
+     <text style="font-size: 10.5px; font-family: 'NanumBarunGothic'; text-anchor: middle; fill: #61758c" x="808.183281" y="510.181797" transform="rotate(-0 808.183281 510.181797)">일수 (일)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_11">
+     <g id="line2d_33"/>
+     <g id="text_34">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: end; fill: #253b55" x="588.943281" y="237.058323" transform="rotate(-0 588.943281 237.058323)">2024.04</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_34"/>
+     <g id="text_35">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: end; fill: #253b55" x="588.943281" y="279.210587" transform="rotate(-0 588.943281 279.210587)">2024.10</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_35"/>
+     <g id="text_36">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: end; fill: #253b55" x="588.943281" y="321.362852" transform="rotate(-0 588.943281 321.362852)">2024.11</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_36"/>
+     <g id="text_37">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: end; fill: #253b55" x="588.943281" y="363.515117" transform="rotate(-0 588.943281 363.515117)">2024.03</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_37"/>
+     <g id="text_38">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: end; fill: #253b55" x="588.943281" y="405.667381" transform="rotate(-0 588.943281 405.667381)">2024.09</text>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_38"/>
+     <g id="text_39">
+      <text style="font-size: 11px; font-family: 'NanumBarunGothic'; text-anchor: end; fill: #253b55" x="588.943281" y="447.819646" transform="rotate(-0 588.943281 447.819646)">2025.08</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_14">
+    <path d="M 597.943281 218.874403 
+L 924.983281 218.874403 
+L 924.983281 246.694898 
+L 597.943281 246.694898 
+z
+" clip-path="url(#p2afddacbcf)" style="fill: #e0874e"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 597.943281 261.026668 
+L 691.383281 261.026668 
+L 691.383281 288.847163 
+L 597.943281 288.847163 
+z
+" clip-path="url(#p2afddacbcf)" style="fill: #e0874e"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 597.943281 303.178933 
+L 691.383281 303.178933 
+L 691.383281 330.999428 
+L 597.943281 330.999428 
+z
+" clip-path="url(#p2afddacbcf)" style="fill: #e0874e"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 597.943281 345.331197 
+L 644.663281 345.331197 
+L 644.663281 373.151692 
+L 597.943281 373.151692 
+z
+" clip-path="url(#p2afddacbcf)" style="fill: #e0874e"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 597.943281 387.483462 
+L 644.663281 387.483462 
+L 644.663281 415.303957 
+L 597.943281 415.303957 
+z
+" clip-path="url(#p2afddacbcf)" style="fill: #e0874e"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 597.943281 429.635727 
+L 644.663281 429.635727 
+L 644.663281 457.456222 
+L 597.943281 457.456222 
+z
+" clip-path="url(#p2afddacbcf)" style="fill: #e0874e"/>
+   </g>
+   <g id="text_40">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #253b55" x="939.933681" y="235.772463" transform="rotate(-0 939.933681 235.772463)">7</text>
+   </g>
+   <g id="text_41">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #253b55" x="706.333681" y="277.924728" transform="rotate(-0 706.333681 277.924728)">2</text>
+   </g>
+   <g id="text_42">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #253b55" x="706.333681" y="320.076993" transform="rotate(-0 706.333681 320.076993)">2</text>
+   </g>
+   <g id="text_43">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #253b55" x="659.613681" y="362.229257" transform="rotate(-0 659.613681 362.229257)">1</text>
+   </g>
+   <g id="text_44">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #253b55" x="659.613681" y="404.381522" transform="rotate(-0 659.613681 404.381522)">1</text>
+   </g>
+   <g id="text_45">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #253b55" x="659.613681" y="446.533787" transform="rotate(-0 659.613681 446.533787)">1</text>
+   </g>
+  </g>
+  <g id="patch_20">
+   <path d="M 23.095281 136.313312 
+L 265.015281 136.313312 
+Q 276.535281 136.313312 276.535281 129.833312 
+L 276.535281 74.753312 
+Q 276.535281 68.273312 265.015281 68.273312 
+L 23.095281 68.273312 
+Q 11.575281 68.273312 11.575281 74.753312 
+L 11.575281 129.833312 
+Q 11.575281 136.313312 23.095281 136.313312 
+z
+" style="fill: #f5f8fc; stroke: #dce6f0; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_21">
+   <path d="M 283.447281 136.313312 
+L 525.367281 136.313312 
+Q 536.887281 136.313312 536.887281 129.833312 
+L 536.887281 74.753312 
+Q 536.887281 68.273312 525.367281 68.273312 
+L 283.447281 68.273312 
+Q 271.927281 68.273312 271.927281 74.753312 
+L 271.927281 129.833312 
+Q 271.927281 136.313312 283.447281 136.313312 
+z
+" style="fill: #f5f8fc; stroke: #dce6f0; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_22">
+   <path d="M 543.799281 136.313312 
+L 785.719281 136.313312 
+Q 797.239281 136.313312 797.239281 129.833312 
+L 797.239281 74.753312 
+Q 797.239281 68.273312 785.719281 68.273312 
+L 543.799281 68.273312 
+Q 532.279281 68.273312 532.279281 74.753312 
+L 532.279281 129.833312 
+Q 532.279281 136.313312 543.799281 136.313312 
+z
+" style="fill: #f5f8fc; stroke: #dce6f0; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_23">
+   <path d="M 804.151281 136.313312 
+L 1046.071281 136.313312 
+Q 1057.591281 136.313312 1057.591281 129.833312 
+L 1057.591281 74.753312 
+Q 1057.591281 68.273312 1046.071281 68.273312 
+L 804.151281 68.273312 
+Q 792.631281 68.273312 792.631281 74.753312 
+L 792.631281 129.833312 
+Q 792.631281 136.313312 804.151281 136.313312 
+z
+" style="fill: #f5f8fc; stroke: #dce6f0; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_24">
+   <path d="M 25.399281 584.729312 
+L 1043.767281 584.729312 
+Q 1057.591281 584.729312 1057.591281 576.953312 
+L 1057.591281 512.153312 
+Q 1057.591281 504.377312 1043.767281 504.377312 
+L 25.399281 504.377312 
+Q 11.575281 504.377312 11.575281 512.153312 
+L 11.575281 576.953312 
+Q 11.575281 584.729312 25.399281 584.729312 
+z
+" style="fill: #fff8f3; stroke: #f4dfd2; stroke-linejoin: miter"/>
+  </g>
+  <g id="text_46">
+   <text style="font-weight: 700; font-size: 22px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #152c4b" x="21.943281" y="28.745312" transform="rotate(-0 21.943281 28.745312)">BANK:LAB</text>
+  </g>
+  <g id="text_47">
+   <text style="font-weight: 700; font-size: 21px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #152c4b" x="214.327281" y="28.097313" transform="rotate(-0 214.327281 28.097313)">1차 면담 | 전체시장 데이터 수집 범위</text>
+  </g>
+  <g id="text_48">
+   <text style="font-size: 11.5px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #61758c" x="21.943281" y="57.257312" transform="rotate(-0 21.943281 57.257312)">2024.03.27 – 2026.09.02  |  학교 서버 HTML · SQLite 검증 집계</text>
+  </g>
+  <g id="text_49">
+   <text style="font-size: 10.4px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #61758c" x="42.679281" y="94.193312" transform="rotate(-0 42.679281 94.193312)">자료가 있는 날짜</text>
+  </g>
+  <g id="text_50">
+   <text style="font-weight: 700; font-size: 21px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #152c4b" x="42.679281" y="118.817312" transform="rotate(-0 42.679281 118.817312)">591일</text>
+  </g>
+  <g id="text_51">
+   <text style="font-size: 10.4px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #61758c" x="303.031281" y="94.193312" transform="rotate(-0 303.031281 94.193312)">전체 HTML</text>
+  </g>
+  <g id="text_52">
+   <text style="font-weight: 700; font-size: 21px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #152c4b" x="303.031281" y="118.817312" transform="rotate(-0 303.031281 118.817312)">2,403,074개</text>
+  </g>
+  <g id="text_53">
+   <text style="font-size: 10.4px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #61758c" x="563.383281" y="94.193312" transform="rotate(-0 563.383281 94.193312)">고유 종목코드</text>
+  </g>
+  <g id="text_54">
+   <text style="font-weight: 700; font-size: 21px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #152c4b" x="563.383281" y="118.817312" transform="rotate(-0 563.383281 118.817312)">4,813개</text>
+  </g>
+  <g id="text_55">
+   <text style="font-size: 10.4px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #61758c" x="823.735281" y="94.193312" transform="rotate(-0 823.735281 94.193312)">폴더 없는 평일</text>
+  </g>
+  <g id="text_56">
+   <text style="font-weight: 700; font-size: 21px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #152c4b" x="823.735281" y="118.817312" transform="rotate(-0 823.735281 118.817312)">45일</text>
+  </g>
+  <g id="text_57">
+   <text style="font-weight: 700; font-size: 16px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #152c4b" x="27.703281" y="158.345313" transform="rotate(-0 27.703281 158.345313)">A. 월별 날짜 폴더 공백</text>
+  </g>
+  <g id="text_58">
+   <text style="font-weight: 700; font-size: 16px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #152c4b" x="562.231281" y="158.345313" transform="rotate(-0 562.231281 158.345313)">B. 월별 부분 수집 의심일</text>
+  </g>
+  <g id="text_59">
+   <text style="font-size: 10.7px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #61758c" x="27.703281" y="180.377313" transform="rotate(-0 27.703281 180.377313)">폴더가 없는 평일 수 · 휴장일 포함</text>
+  </g>
+  <g id="text_60">
+   <text style="font-size: 10.7px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #61758c" x="562.231281" y="180.377313" transform="rotate(-0 562.231281 180.377313)">HTML 3,000개 미만인 날짜 수 · 임시 진단 기준</text>
+  </g>
+  <g id="text_61">
+   <text style="font-weight: 700; font-size: 12.5px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #a64a2b" x="44.983281" y="532.889312" transform="rotate(-0 44.983281 532.889312)">핵심 공백 · 2025년 7월 2–31일</text>
+  </g>
+  <g id="text_62">
+   <text style="font-size: 11.3px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #253b55" x="44.983281" y="551.681312" transform="rotate(-0 44.983281 551.681312)">22거래일의 날짜 폴더 누락을 확인했으며, 해당 구간의 수익률 자료를 임의로 보간하지 않았음.</text>
+  </g>
+  <g id="text_63">
+   <text style="font-size: 10.8px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #61758c" x="44.983281" y="571.769313" transform="rotate(-0 44.983281 571.769313)">초기 8일은 동일한 947종목이 반복됐고, 3,000개 미만 날짜는 총 14일임.</text>
+  </g>
+  <g id="text_64">
+   <text style="font-size: 9.8px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #61758c" x="23.095281" y="605.465312" transform="rotate(-0 23.095281 605.465312)">해석 주의: “폴더 없는 평일”에는 공식 휴장일이 포함됨. 낮은 HTML 수는 진단 단서이지 곧바로 수집 실패·삭제 기준을 의미하지 않음.</text>
+  </g>
+  <g id="text_65">
+   <text style="font-size: 9.2px; font-family: 'NanumBarunGothic'; text-anchor: start; fill: #61758c" x="23.095281" y="622.961312" transform="rotate(-0 23.095281 622.961312)">자료: 학교 서버 읽기 전용 SQLite에서 검증한 월별 집계 CSV  |  재현: Python matplotlib</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p750af9bf04">
+   <rect x="62.263281" y="206.945312" width="420.48" height="262.44"/>
+  </clipPath>
+  <clipPath id="p2afddacbcf">
+   <rect x="597.943281" y="206.945312" width="420.48" height="262.44"/>
+  </clipPath>
+ </defs>
 </svg>
