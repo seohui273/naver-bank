@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="830" viewBox="0 0 1440 830">
+<rect width="1440" height="830" fill="#f6f8fc"/>
+<text x="78" y="71" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="36" font-weight="750" fill="#152742" text-anchor="start">BANK:LAB  |  1차 면담 · 전체시장 데이터 범위</text>
+<text x="80" y="104" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="16" font-weight="400" fill="#60718b" text-anchor="start">학교 서버 원본 HTML · 읽기 전용 집계  |  분석 전 데이터 검증</text>
+<rect x="70" y="144" width="205" height="103" rx="14" fill="white" stroke="#e2e8f0"/>
+<text x="90" y="174" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#687992" text-anchor="start">관측 폴더</text>
+<text x="90" y="216" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="23" font-weight="730" fill="#172b48" text-anchor="start">591일</text>
+<rect x="283" y="144" width="308" height="103" rx="14" fill="white" stroke="#e2e8f0"/>
+<text x="303" y="174" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#687992" text-anchor="start">자료 기간</text>
+<text x="303" y="216" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="23" font-weight="730" fill="#172b48" text-anchor="start">2024.03.27–2026.09.02</text>
+<rect x="599" y="144" width="234" height="103" rx="14" fill="white" stroke="#e2e8f0"/>
+<text x="619" y="174" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#687992" text-anchor="start">HTML 원본</text>
+<text x="619" y="216" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="23" font-weight="730" fill="#172b48" text-anchor="start">2,403,074개</text>
+<rect x="841" y="144" width="257" height="103" rx="14" fill="white" stroke="#e2e8f0"/>
+<text x="861" y="174" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#687992" text-anchor="start">서로 다른 종목코드</text>
+<text x="861" y="216" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="23" font-weight="730" fill="#172b48" text-anchor="start">4,813개</text>
+<rect x="1106" y="144" width="250" height="103" rx="14" fill="white" stroke="#e2e8f0"/>
+<text x="1126" y="174" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#687992" text-anchor="start">폴더 없는 평일</text>
+<text x="1126" y="216" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="23" font-weight="730" fill="#172b48" text-anchor="start">45일</text>
+<text x="82" y="296" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="25" font-weight="720" fill="#172b48" text-anchor="start">월별 수집 공백 및 부분 수집 현황</text>
+<text x="83" y="325" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="400" fill="#667892" text-anchor="start">각 칸: 폴더 없는 평일 / HTML 3,000개 미만 관측일</text>
+<text x="1297" y="325" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="14" font-weight="650" fill="#ab5426" text-anchor="end">총 14일 부분 수집 의심</text>
+<text x="315" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">1월</text>
+<text x="405" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">2월</text>
+<text x="495" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">3월</text>
+<text x="585" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">4월</text>
+<text x="675" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">5월</text>
+<text x="765" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">6월</text>
+<text x="855" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">7월</text>
+<text x="945" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">8월</text>
+<text x="1035" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">9월</text>
+<text x="1125" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">10월</text>
+<text x="1215" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">11월</text>
+<text x="1305" y="369" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="15" font-weight="550" fill="#677890" text-anchor="middle">12월</text>
+<text x="91" y="440" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="22" font-weight="700" fill="#173251" text-anchor="start">2024</text>
+<rect x="269" y="393" width="84" height="71" rx="9" fill="#edf0f5"/>
+<text x="311" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#a4b0bf" text-anchor="middle">—</text>
+<rect x="359" y="393" width="84" height="71" rx="9" fill="#edf0f5"/>
+<text x="401" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#a4b0bf" text-anchor="middle">—</text>
+<rect x="449" y="393" width="84" height="71" rx="9" fill="#fff1e7"/>
+<text x="491" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="700" fill="#ad5028" text-anchor="middle">2 / 1</text>
+<rect x="539" y="393" width="84" height="71" rx="9" fill="#fff1e7"/>
+<text x="581" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="700" fill="#ad5028" text-anchor="middle">3 / 7</text>
+<rect x="629" y="393" width="84" height="71" rx="9" fill="#f0f4f8"/>
+<text x="671" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
+<rect x="719" y="393" width="84" height="71" rx="9" fill="#f0f4f8"/>
+<text x="761" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
+<rect x="809" y="393" width="84" height="71" rx="9" fill="#fff1e7"/>
+<text x="851" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="700" fill="#ad5028" text-anchor="middle">1 / 0</text>
+<rect x="899" y="393" width="84" height="71" rx="9" fill="#f0f4f8"/>
+<text x="941" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
+<rect x="989" y="393" width="84" height="71" rx="9" fill="#fff1e7"/>
+<text x="1031" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="700" fill="#ad5028" text-anchor="middle">1 / 1</text>
+<rect x="1079" y="393" width="84" height="71" rx="9" fill="#fff1e7"/>
+<text x="1121" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="700" fill="#ad5028" text-anchor="middle">2 / 2</text>
+<rect x="1169" y="393" width="84" height="71" rx="9" fill="#e4eafc"/>
+<text x="1211" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="700" fill="#4a6092" text-anchor="middle">0 / 2</text>
+<rect x="1259" y="393" width="84" height="71" rx="9" fill="#f0f4f8"/>
+<text x="1301" y="437" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
+<text x="91" y="541" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="22" font-weight="700" fill="#173251" text-anchor="start">2025</text>
+<rect x="269" y="494" width="84" height="71" rx="9" fill="#f0f4f8"/>
+<text x="311" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
+<rect x="359" y="494" width="84" height="71" rx="9" fill="#f0f4f8"/>
+<text x="401" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
+<rect x="449" y="494" width="84" height="71" rx="9" fill="#f0f4f8"/>
+<text x="491" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
+<rect x="539" y="494" width="84" height="71" rx="9" fill="#f0f4f8"/>
+<text x="581" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
+<rect x="629" y="494" width="84" height="71" rx="9" fill="#fff1e7"/>
+<text x="671" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="700" fill="#ad5028" text-anchor="middle">8 / 0</text>
+<rect x="719" y="494" width="84" height="71" rx="9" fill="#f0f4f8"/>
+<text x="761" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
+<rect x="809" y="494" width="84" height="71" rx="9" fill="#fde4d4"/>
+<text x="851" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="700" fill="#ad5028" text-anchor="middle">22 / 0</text>
+<rect x="899" y="494" width="84" height="71" rx="9" fill="#fff1e7"/>
+<text x="941" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="700" fill="#ad5028" text-anchor="middle">1 / 1</text>
+<rect x="989" y="494" width="84" height="71" rx="9" fill="#f0f4f8"/>
+<text x="1031" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
+<rect x="1079" y="494" width="84" height="71" rx="9" fill="#fff1e7"/>
+<text x="1121" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="700" fill="#ad5028" text-anchor="middle">3 / 0</text>
+<rect x="1169" y="494" width="84" height="71" rx="9" fill="#f0f4f8"/>
+<text x="1211" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
+<rect x="1259" y="494" width="84" height="71" rx="9" fill="#f0f4f8"/>
+<text x="1301" y="538" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
+<text x="91" y="642" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="22" font-weight="700" fill="#173251" text-anchor="start">2026</text>
+<rect x="269" y="595" width="84" height="71" rx="9" fill="#f0f4f8"/>
+<text x="311" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
+<rect x="359" y="595" width="84" height="71" rx="9" fill="#f0f4f8"/>
+<text x="401" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
+<rect x="449" y="595" width="84" height="71" rx="9" fill="#f0f4f8"/>
+<text x="491" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
+<rect x="539" y="595" width="84" height="71" rx="9" fill="#f0f4f8"/>
+<text x="581" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
+<rect x="629" y="595" width="84" height="71" rx="9" fill="#fff1e7"/>
+<text x="671" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="700" fill="#ad5028" text-anchor="middle">2 / 0</text>
+<rect x="719" y="595" width="84" height="71" rx="9" fill="#f0f4f8"/>
+<text x="761" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
+<rect x="809" y="595" width="84" height="71" rx="9" fill="#f0f4f8"/>
+<text x="851" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
+<rect x="899" y="595" width="84" height="71" rx="9" fill="#f0f4f8"/>
+<text x="941" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
+<rect x="989" y="595" width="84" height="71" rx="9" fill="#f0f4f8"/>
+<text x="1031" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#90a1b5" text-anchor="middle">0 / 0</text>
+<rect x="1079" y="595" width="84" height="71" rx="9" fill="#edf0f5"/>
+<text x="1121" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#a4b0bf" text-anchor="middle">—</text>
+<rect x="1169" y="595" width="84" height="71" rx="9" fill="#edf0f5"/>
+<text x="1211" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#a4b0bf" text-anchor="middle">—</text>
+<rect x="1259" y="595" width="84" height="71" rx="9" fill="#edf0f5"/>
+<text x="1301" y="639" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="500" fill="#a4b0bf" text-anchor="middle">—</text>
+<rect x="72" y="704" width="1292" height="94" rx="13" fill="white" stroke="#e3e9f3"/>
+<text x="95" y="739" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="17" font-weight="660" fill="#233b5d" text-anchor="start">핵심 결함  |  2025년 7월: 거래일 22일의 폴더 누락 (네이버 API 복구 가능성 검증 기록)</text>
+<text x="95" y="768" font-family="NanumSquare,UnDotum,Noto Sans KR,Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif" font-size="14" font-weight="400" fill="#697b93" text-anchor="start">해석 주의  |  폴더 없는 평일에는 거래소 휴장일 포함 · 3,000개는 진단용 임시 기준 · 고유코드에 ETF/ETN 등 포함</text>
+</svg>
