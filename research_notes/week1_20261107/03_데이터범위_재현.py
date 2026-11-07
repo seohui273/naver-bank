@@ -1,166 +1,239 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""BANK:LAB 1차 면담: 월별 결측 분포 막대그래프 (matplotlib).
+"""BANK:LAB | 1차 면담: 실제 월별 수집 공백 통계 시각화
 
-실제 학교 서버에서 검증된 월별 집계 CSV만 사용한다.
-날짜별 시계열을 생성하거나 누락된 2025-07의 원자료를 보간하지 않는다.
+출력물: 01_데이터범위_그림.png, 01_데이터범위_그림.svg
+근거: 2024.03.27~2026.09.02 학교 서버에서 검증한 월별 집계 CSV
 
-사용:
-  python3 -m pip install matplotlib   # 미설치인 경우에만
-  python3 banklab_week1_bar_chart.py
-  python3 banklab_week1_bar_chart.py --csv 근거_월별공백현황.csv --outdir 결과
+- 원본 학교 서버 HTML/SQLite는 열거나 수정하지 않습니다.
+- 없는 거래일의 HTML 수를 0으로 대입하여 거짓 시계열을 그리지 않습니다.
+- '폴더 없는 평일'에는 휴장일이 포함되고,
+  'HTML < 3,000'은 결측 확정이 아닌 점검용 임시 기준입니다.
 
-기존 HTML, SQLite, 수집 결과는 읽지도/수정하지도 않는다.
+실행:
+    python3 banklab_week1_scope_plot.py
+    python3 banklab_week1_scope_plot.py --csv 근거_월별공백현황.csv --outdir .
+
+사전 요구: matplotlib
+    python3 -m pip install matplotlib
 """
 from __future__ import annotations
+
 import argparse
 import csv
+from datetime import date
 from pathlib import Path
 
-HERE = Path(__file__).resolve().parent
-DEFAULT_CSV = HERE / '근거_월별공백현황.csv'
-QUESTION = '같은 업종에 속한 기업들의 주가는 서로 어떤 관계를 보이며, 특정 기업의 주가 움직임이 다른 기업보다 먼저 나타나는 현상이 존재할까?'
-NAVY = '#152C4B'
-TEXT = '#253B55'
-BLUE = '#4879B8'
-BLUE_LIGHT = '#98B9E0'
-ORANGE = '#E0874E'
-RED = '#CE5F3F'
-BG = '#FFFFFF'
-MUTED = '#61758C'
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+import matplotlib.ticker as mticker
+from matplotlib import font_manager
+from matplotlib.patches import FancyBboxPatch
+
+BASE = Path(__file__).resolve().parent
+DATA = BASE / '근거_월별공백현황.csv'
+
+# 1차 면담 전 학교 서버 실행 출력값: 월별 CSV와 별도로 독립 확인한 숫자.
+START = date(2024, 3, 27)
+END = date(2026, 9, 2)
+OBSERVED_DATES = 591
+HTML_TOTAL = 2_403_074
+UNIQUE_CODES = 4_813  # 주식 종목만이 아니라 ETF·ETN 등도 포함한 고유 코드 합집합
+MISSING_WEEKDAYS = 45  # 휴장일 포함, '미수집 거래일'과 동일하지 않음
+UNDER_3000_DATES = 14  # 임시 진단 기준
+JUL_2025_MISSING = 22
+
+# Palette: readable in print and distinct in grayscale.
+NAVY = '#182B47'
+BLUE = '#2669A8'
+ORANGE = '#D77D44'
+PALE = '#F6F9FC'
+BORDER = '#D9E4EF'
+MUTED = '#62748B'
+LIGHT_GRID = '#E8EDF3'
+DARK = '#243B56'
 
 
-def read_counts(path: Path):
-    if not path.is_file():
-        raise SystemExit(f'입력 CSV가 없습니다: {path}')
-    rows = []
-    seen = set()
-    with path.open('r', encoding='utf-8-sig', newline='') as f:
-        for r in csv.DictReader(f):
-            year, month = int(r['년']), int(r['월'])
-            key = (year, month)
-            if key in seen:
-                raise ValueError(f'중복 월: {key}')
-            seen.add(key)
-            if not (1 <= month <= 12):
-                raise ValueError(f'월 범위 이상: {key}')
-            absent = int(r['폴더없는평일_휴장포함'])
-            partial = int(r['HTML_진단기준미만일'])
-            if min(absent, partial) < 0:
-                raise ValueError(f'음수 일수 발견: {key}')
-            rows.append({'year':year, 'month':month,'label':f'{year}.{month:02d}',
-                         'absent':absent,'partial':partial})
-    rows.sort(key=lambda d: (d['year'],d['month']))
-    if not rows:
-        raise ValueError('입력 월별 집계가 비어 있습니다.')
-    return rows
-
-
-def set_korean_font():
-    from matplotlib import font_manager, rcParams
-    available = {f.name for f in font_manager.fontManager.ttflist}
-    for family in ('NanumBarunGothic','NanumGothic','Noto Sans CJK KR','Malgun Gothic','AppleGothic'):
-        if family in available:
-            rcParams['font.family'] = family
+def set_fonts():
+    available = {x.name for x in font_manager.fontManager.ttflist}
+    for name in ('NanumSquare', 'NanumGothic', 'Noto Sans CJK KR',
+                 'Malgun Gothic', 'AppleGothic', 'UnDotum'):
+        if name in available:
+            plt.rcParams['font.family'] = name
             break
     else:
-        print('[주의] 한글 글꼴이 없어 한글이 깨질 수 있습니다.')
-    rcParams.update({'axes.unicode_minus': False,'svg.fonttype':'none','font.size':12})
+        print('[주의] 사용 가능한 한글 폰트를 찾지 못했습니다. 그림에서 한글이 깨질 수 있습니다.')
+    plt.rcParams.update({
+        'axes.unicode_minus': False,
+        'svg.fonttype': 'none',
+        'pdf.fonttype': 42,
+        'font.size': 11,
+    })
 
 
-def plot_panel(ax, rows, field, color, standout=None, max_x=None):
-    from matplotlib.ticker import MaxNLocator
-    pairs = [r for r in rows if r[field] > 0]
-    pairs.sort(key=lambda r:(-r[field],r['year'],r['month']))
-    names = [r['label'] for r in pairs]
-    vals = [r[field] for r in pairs]
-    palette = [(RED if r['label'] == standout else color) for r in pairs]
-    bars = ax.barh(names,vals,color=palette,height=.66,zorder=3)
-    ax.invert_yaxis()
-    ax.set_xlim(0,max_x or (max(vals,default=1)*1.15 + .8))
-    ax.xaxis.set_major_locator(MaxNLocator(integer=True,nbins=6))
-    ax.set_axisbelow(True)
-    ax.grid(axis='x',color='#E6ECF2',lw=1,zorder=0)
-    for spine in ax.spines.values():
-        spine.set_visible(False)
-    ax.tick_params(axis='both',length=0,labelcolor=TEXT,labelsize=11,pad=9)
-    for b,v in zip(bars,vals):
-        ax.text(v+.32,b.get_y()+b.get_height()/2,str(v),va='center',ha='left',
-                color=RED if (standout and v == max(vals)) else TEXT,
-                fontsize=12,fontweight='bold')
-    ax.set_xlabel('일수 (일)',fontsize=10.5,color=MUTED,labelpad=12)
-    return pairs
+def load_monthly(path: Path):
+    if not path.is_file():
+        raise SystemExit(f'[오류] 월별 근거 CSV가 없음: {path}')
+    records = {}
+    with path.open('r', encoding='utf-8-sig', newline='') as file:
+        rd = csv.DictReader(file)
+        required = {'년','월','폴더없는평일_휴장포함','HTML_진단기준미만일'}
+        if not required.issubset(set(rd.fieldnames or [])):
+            raise ValueError(f'CSV 필수 컬럼이 없습니다: {sorted(required-set(rd.fieldnames or []))}')
+        for row in rd:
+            y, m = int(row['년']), int(row['월'])
+            a = int(row['폴더없는평일_휴장포함'])
+            b = int(row['HTML_진단기준미만일'])
+            if m < 1 or m > 12 or a < 0 or b < 0:
+                raise ValueError(f'월 또는 집계 값이 잘못됨: {row}')
+            key = (y,m)
+            if key in records:
+                raise ValueError(f'중복된 월: {key}')
+            records[key] = (a,b)
+    months=[]
+    y,m=2024,3
+    while (y,m) <= (2026,9):
+        if (y,m) not in records:
+            raise ValueError(f'연구 기간 중 누락된 월이 있음: {y}-{m:02d}')
+        a,b=records.pop((y,m))
+        months.append((y,m,a,b))
+        if m==12:y,m=y+1,1
+        else:m+=1
+    if records:
+        raise ValueError(f'연구 기간 밖의 월이 들어 있음: {sorted(records)[:5]}')
+    if sum(x[2] for x in months)!=MISSING_WEEKDAYS:
+        raise ValueError('폴더 없는 평일 합계가 학교 서버 검증값 45일과 불일치')
+    if sum(x[3] for x in months)!=UNDER_3000_DATES:
+        raise ValueError('HTML 3,000개 미만 합계가 학교 서버 검증값 14일과 불일치')
+    july = next(x for x in months if x[0]==2025 and x[1]==7)
+    if july[2] != JUL_2025_MISSING:
+        raise ValueError('2025년 7월 누락값이 검증값 22일과 불일치')
+    return months
 
 
-def make_fig(rows,outdir):
-    import matplotlib
-    matplotlib.use('Agg')
-    import matplotlib.pyplot as plt
-    from matplotlib.patches import FancyBboxPatch
-    set_korean_font()
-    missing = sum(r['absent'] for r in rows)
-    low = sum(r['partial'] for r in rows)
-    july = next((r['absent'] for r in rows if (r['year'],r['month']) == (2025,7)),None)
-    print(f'[집계 검증] 폴더 없는 평일={missing} / HTML 3000개 미만={low} / 2025년 7월={july}')
-    # 학교 서버에서 앞서 출력한 집계와 동일한지 사전에 검증. 다른 값이면 사용자에게 확인 요청.
-    if (missing,low,july) != (45,14,22):
-        raise SystemExit('기존 검증 기록(45, 14, 22)과 불일치: 저장하지 않고 중단합니다.')
+def draw_kpi(fig, left, top, width, label, value, note=None):
+    # Figure coordinates; render directly via Matplotlib, not image generation.
+    card=FancyBboxPatch((left,top-0.104), width,0.104,
+                        transform=fig.transFigure, boxstyle='round,pad=0.007,rounding_size=0.010',
+                        facecolor=PALE, edgecolor=BORDER, linewidth=1.05)
+    fig.add_artist(card)
+    fig.text(left+0.016,top-0.029,label, fontsize=11.8, color=MUTED, weight='medium')
+    fig.text(left+0.016,top-0.069,value, fontsize=(16.5 if ' – ' in value else (22 if note is None else 21)),
+             color=NAVY, weight='bold')
+    if note:
+        fig.text(left+0.016,top-0.094,note,fontsize=8.8,color=MUTED)
 
-    fig=plt.figure(figsize=(16,9),dpi=175,facecolor=BG)
-    fig.text(.055,.945,'BANK:LAB',fontsize=22,fontweight='bold',color=NAVY)
-    fig.text(.222,.946,'1차 면담 | 전체시장 데이터 수집 범위',fontsize=21,fontweight='bold',color=NAVY)
-    fig.text(.055,.901,'2024.03.27 – 2026.09.02  |  학교 서버 HTML · SQLite 검증 집계',fontsize=11.5,color=MUTED)
 
-    # 상단 지표 카드: 사용자 학교 서버 출력에서 직접 확인된 값.
-    cards=[('자료가 있는 날짜','591일'),('전체 HTML','2,403,074개'),('고유 종목코드','4,813개'),('폴더 없는 평일','45일')]
-    start=.055; space=.014; w=(.89-3*space)/4
-    for i,(label,val) in enumerate(cards):
-        x=start+i*(w+space)
-        patch=FancyBboxPatch((x,.788),w,.087,boxstyle='round,pad=0.009,rounding_size=0.01',
-                              transform=fig.transFigure,facecolor='#F5F8FC',edgecolor='#DCE6F0',lw=1)
-        fig.patches.append(patch)
-        fig.text(x+.018,.844,label,fontsize=10.4,color=MUTED)
-        fig.text(x+.018,.806,val,fontsize=21,fontweight='bold',color=NAVY)
+def create_plot(months, outdir: Path):
+    set_fonts()
+    fig=plt.figure(figsize=(17.2,9.6),facecolor='white')
+    fig.text(.050,.944,'BANK:LAB',weight='bold',fontsize=26,color=NAVY)
+    fig.text(.206,.945,'1차 면담 | 읽어 들인 전체시장 데이터 범위',weight='bold',fontsize=22,color=NAVY)
+    fig.text(.051,.904,'원본 HTML · 읽기 전용 SQLite 검증 집계    |    2024년 3월 ~ 2026년 9월',fontsize=11.8,color=MUTED)
 
-    fig.text(.060,.745,'A. 월별 날짜 폴더 공백',fontsize=16,fontweight='bold',color=NAVY)
-    fig.text(.524,.745,'B. 월별 부분 수집 의심일',fontsize=16,fontweight='bold',color=NAVY)
-    fig.text(.060,.711,'폴더가 없는 평일 수 · 휴장일 포함',fontsize=10.7,color=MUTED)
-    fig.text(.524,.711,'HTML 3,000개 미만인 날짜 수 · 임시 진단 기준',fontsize=10.7,color=MUTED)
+    cards=[
+        ('자료 기간', '2024.03.27 – 2026.09.02', None),
+        ('자료가 있는 날짜',f'{OBSERVED_DATES:,}일',None),
+        ('원본 HTML 총수',f'{HTML_TOTAL:,}개',None),
+        ('고유 종목코드',f'{UNIQUE_CODES:,}개','ETF·ETN 등 포함'),
+    ]
+    card_left=.05; gap=.016; card_w=(.90-gap*3)/4
+    for i,(label,val,note) in enumerate(cards):
+        draw_kpi(fig,card_left+i*(card_w+gap), .861,card_w,label,val,note)
 
-    ax1=fig.add_axes([.090,.265,.365,.405]); ax2=fig.add_axes([.555,.265,.365,.405])
-    plot_panel(ax1,rows,'absent',BLUE,standout='2025.07',max_x=25.5)
-    plot_panel(ax2,rows,'partial',ORANGE,max_x=9)
+    fig.text(.056,.694,'월별 결측 및 부분 수집 분포',fontsize=19,color=NAVY,weight='bold')
+    fig.text(.056,.660,'월별 두 지표를 동시에 비교 · 빈 날짜를 임의로 채우거나 연결하지 않음',fontsize=11,color=MUTED)
+    # Main chart
+    ax=fig.add_axes([.067,.263,.883,.354])
+    positions=list(range(len(months)))
+    missing=[x[2] for x in months]
+    partial=[x[3] for x in months]
+    width=.38
 
-    # 설명 카드: 두 데이터 품질 지표를 명확히 구분.
-    patch=FancyBboxPatch((.054,.095),.892,.108,boxstyle='round,pad=0.008,rounding_size=0.012',
-                         transform=fig.transFigure,facecolor='#FFF8F3',edgecolor='#F4DFD2',lw=1)
-    fig.patches.append(patch)
-    fig.text(.075,.167,'핵심 공백 · 2025년 7월 2–31일',fontsize=12.5,fontweight='bold',color='#A64A2B')
-    fig.text(.075,.138,'22거래일의 날짜 폴더 누락을 확인했으며, 해당 구간의 수익률 자료를 임의로 보간하지 않았음.',fontsize=11.3,color=TEXT)
-    fig.text(.075,.107,'초기 8일은 동일한 947종목이 반복됐고, 3,000개 미만 날짜는 총 14일임.',fontsize=10.8,color=MUTED)
-    fig.text(.056,.055,'해석 주의: “폴더 없는 평일”에는 공식 휴장일이 포함됨. 낮은 HTML 수는 진단 단서이지 곧바로 수집 실패·삭제 기준을 의미하지 않음.',
-             fontsize=9.8,color=MUTED)
-    fig.text(.056,.028,'자료: 학교 서버 읽기 전용 SQLite에서 검증한 월별 집계 CSV  |  재현: Python matplotlib',fontsize=9.2,color=MUTED)
+    # Distinct year backgrounds and one special highlight.
+    year_ranges=[(2024,0,9),(2025,10,21),(2026,22,30)]
+    for year,a,b in year_ranges:
+        if year == 2025:
+            ax.axvspan(a-.57,b+.53,facecolor='#F8FAFD',zorder=-2)
+        ax.text((a+b)/2,24.2,str(year),ha='center',va='bottom',weight='bold',fontsize=13,color=MUTED)
+    for k in [9.5,21.5]:
+        ax.axvline(k,color='#D1DBE7',linestyle='--',lw=1.1,zorder=-1)
+    jul_index=next(i for i,x in enumerate(months) if x[0]==2025 and x[1]==7)
+    ax.axvspan(jul_index-.51,jul_index+.53,facecolor='#FFF0E6',zorder=-1)
+
+    bars1=ax.bar([x-width/2 for x in positions],missing,width=width,
+                 color=BLUE, label='폴더 없는 평일 (휴장 포함)',zorder=3)
+    bars2=ax.bar([x+width/2 for x in positions],partial,width=width,
+                 color=ORANGE,label='HTML 3,000개 미만 (진단)',zorder=3)
+    # Numeric labels for non-zero bars; 2025.07 emphasized.
+    for i,(bar,val) in enumerate(zip(bars1,missing)):
+        if val>0:
+            ax.text(bar.get_x()+bar.get_width()/2,val+0.5,str(val),
+                    ha='center',va='bottom',fontsize=9.5,
+                    weight='bold' if i==jul_index else 'normal',color=BLUE)
+    for bar,val in zip(bars2,partial):
+        if val>0:
+            ax.text(bar.get_x()+bar.get_width()/2,val+.5,str(val),
+                    ha='center',va='bottom',fontsize=9.5,color='#AF5830')
+    ax.annotate('2025년 7월\n날짜 폴더 22거래일 누락',
+                xy=(jul_index-width/2,22.0),xycoords='data',
+                xytext=(jul_index-5,19.3),textcoords='data',
+                fontsize=10,weight='bold',color='#A94D26',
+                arrowprops=dict(arrowstyle='->',color='#B95C31',lw=1.6),
+                bbox=dict(boxstyle='round,pad=.38',facecolor='#FFF6F0',edgecolor='#F0C3A6'))
+    ax.set_ylim(0,26.5)
+    ax.set_xlim(-.8,len(months)-.2)
+    ax.set_ylabel('일수 (일)',fontsize=11.5,color=DARK,labelpad=15)
+    ax.set_xticks(positions)
+    ax.set_xticklabels([f'{m:02d}' for y,m,a,b in months],fontsize=9,color=DARK)
+    ax.yaxis.set_major_locator(mticker.MultipleLocator(5))
+    ax.grid(axis='y',color=LIGHT_GRID,zorder=0)
+    for s in ax.spines.values():s.set_visible(False)
+    ax.tick_params(axis='both',length=0,pad=8,labelcolor=DARK)
+    from matplotlib.patches import Patch
+    fig.legend(handles=[Patch(facecolor=BLUE, label='폴더 없는 평일 (휴장 포함)'),
+                        Patch(facecolor=ORANGE,label='HTML 3,000개 미만 (진단)')],
+               frameon=False,ncol=2,loc='center',bbox_to_anchor=(.52,.223),
+               fontsize=11.5,columnspacing=3)
+
+    # Bottom evidence summary - avoids claiming all holidays are missing observations.
+    footer=FancyBboxPatch((.048,.079),.904,.095,
+                 transform=fig.transFigure,boxstyle='round,pad=0.008,rounding_size=0.012',
+                 facecolor=PALE,edgecolor=BORDER,linewidth=1.0)
+    fig.add_artist(footer)
+    fig.text(.066,.139,'폴더 없는 평일',fontsize=10.7,color=MUTED)
+    fig.text(.066,.104,'45일',fontsize=18,weight='bold',color=NAVY)
+    fig.text(.25,.139,'HTML 3,000개 미만',fontsize=10.7,color=MUTED)
+    fig.text(.25,.104,'14일',fontsize=18,weight='bold',color=NAVY)
+    fig.text(.46,.139,'확인된 긴 공백',fontsize=10.7,color=MUTED)
+    fig.text(.46,.106,'2025.07.02~07.31 · 22거래일',fontsize=14,weight='bold',color='#A94D26')
+    fig.text(.058,.049,'해석 주의: 평일 폴더 부재에는 공식 휴장일이 포함됨. 3,000개는 부분 수집 의심일을 찾기 위한 임시 기준임.',
+             fontsize=10,color=MUTED)
+    fig.text(.058,.027,'고유 종목코드는 전체 기간의 합집합(일반주 이외 상품 포함). 원본 HTML·SQLite 수정 및 누락 구간 보간 없음.',
+             fontsize=9.7,color=MUTED)
 
     outdir.mkdir(parents=True,exist_ok=True)
-    paths=[]
-    for suffix in ('png','svg'):
-        path=outdir/f'BANKLAB_1차면담_월별공백_막대그래프.{suffix}'
-        fig.savefig(path,dpi=200,facecolor=BG,bbox_inches='tight',pad_inches=.16)
-        paths.append(path)
+    results=[]
+    for ext in ('png','svg'):
+        p=outdir/f'01_데이터범위_그림.{ext}'
+        fig.savefig(p,dpi=200,facecolor='white')
+        results.append(p)
     plt.close(fig)
-    return paths
+    return results
 
 
 def main():
     p=argparse.ArgumentParser()
-    p.add_argument('--csv',type=Path,default=DEFAULT_CSV)
-    p.add_argument('--outdir',type=Path,default=HERE)
+    p.add_argument('--csv',type=Path,default=DATA,help='학교 서버 월별 검증 집계 CSV')
+    p.add_argument('--outdir',type=Path,default=BASE,help='그림 저장 폴더')
     args=p.parse_args()
-    rows=read_counts(args.csv)
-    generated=make_fig(rows,args.outdir)
-    print('[그림 생성 완료]')
-    for path in generated:print(path)
-    print('학교 서버의 원본 HTML/SQLite 및 기존 분석 결과 수정 없음.')
+    months=load_monthly(args.csv)
+    outputs=create_plot(months,args.outdir)
+    print('[완료] 실제 월별 검증값으로 1차 면담 그림 생성')
+    for p in outputs:print(p)
+    print(f'[검증] 관측 날짜 {OBSERVED_DATES}일 / HTML {HTML_TOTAL:,}개 / 고유 코드 {UNIQUE_CODES:,}개')
+    print(f'[검증] 폴더 없는 평일 {MISSING_WEEKDAYS}일(휴장 포함) / HTML 3,000개 미만 {UNDER_3000_DATES}일')
+    print('[원칙] HTML·기존 SQLite 수정 없음, 일별 수치 임의 보간 없음')
 
-if __name__=='__main__':main()
+if __name__ == '__main__': main()
