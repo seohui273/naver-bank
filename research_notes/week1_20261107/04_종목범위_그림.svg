@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1080pt" height="648pt" viewBox="0 0 1080 648" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-07T15:50:46.103803</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 648 
+L 1080 648 
+L 1080 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 221.4 408.888 
+L 993.6 408.888 
+L 993.6 229.392 
+L 221.4 229.392 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 221.4 408.888 
+L 221.4 229.392 
+" clip-path="url(#pa02c220f4f)" style="fill: none; stroke: #e3eaf2; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'NanumSquare'; text-anchor: middle" x="221.4" y="424.918" transform="rotate(-0 221.4 424.918)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 372.811765 408.888 
+L 372.811765 229.392 
+" clip-path="url(#pa02c220f4f)" style="fill: none; stroke: #e3eaf2; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'NanumSquare'; text-anchor: middle" x="372.811765" y="424.918" transform="rotate(-0 372.811765 424.918)">1000</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 524.223529 408.888 
+L 524.223529 229.392 
+" clip-path="url(#pa02c220f4f)" style="fill: none; stroke: #e3eaf2; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: 'NanumSquare'; text-anchor: middle" x="524.223529" y="424.918" transform="rotate(-0 524.223529 424.918)">2000</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 675.635294 408.888 
+L 675.635294 229.392 
+" clip-path="url(#pa02c220f4f)" style="fill: none; stroke: #e3eaf2; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: 'NanumSquare'; text-anchor: middle" x="675.635294" y="424.918" transform="rotate(-0 675.635294 424.918)">3000</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 827.047059 408.888 
+L 827.047059 229.392 
+" clip-path="url(#pa02c220f4f)" style="fill: none; stroke: #e3eaf2; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: 'NanumSquare'; text-anchor: middle" x="827.047059" y="424.918" transform="rotate(-0 827.047059 424.918)">4000</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 978.458824 408.888 
+L 978.458824 229.392 
+" clip-path="url(#pa02c220f4f)" style="fill: none; stroke: #e3eaf2; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'NanumSquare'; text-anchor: middle" x="978.458824" y="424.918" transform="rotate(-0 978.458824 424.918)">5000</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 10px; font-family: 'NanumSquare'; text-anchor: middle; fill: #172943" x="607.5" y="438.858" transform="rotate(-0 607.5 438.858)">그날 관측된 종목코드 수 (개)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13"/>
+     <g id="text_8">
+      <text style="font-size: 11px; font-family: 'NanumSquare'; text-anchor: end; fill: #172943" x="213.4" y="251.206948" transform="rotate(-0 213.4 251.206948)">2024.03.27</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14"/>
+     <g id="text_9">
+      <text style="font-size: 11px; font-family: 'NanumSquare'; text-anchor: end; fill: #172943" x="213.4" y="279.986169" transform="rotate(-0 213.4 279.986169)">2024.04.15</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15"/>
+     <g id="text_10">
+      <text style="font-size: 11px; font-family: 'NanumSquare'; text-anchor: end; fill: #172943" x="213.4" y="308.76539" transform="rotate(-0 213.4 308.76539)">2024.09.10</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_16"/>
+     <g id="text_11">
+      <text style="font-size: 11px; font-family: 'NanumSquare'; text-anchor: end; fill: #172943" x="213.4" y="337.54461" transform="rotate(-0 213.4 337.54461)">2024.11.20</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_17"/>
+     <g id="text_12">
+      <text style="font-size: 11px; font-family: 'NanumSquare'; text-anchor: end; fill: #172943" x="213.4" y="366.323831" transform="rotate(-0 213.4 366.323831)">2025.08.07</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_18"/>
+     <g id="text_13">
+      <text style="font-size: 11px; font-family: 'NanumSquare'; text-anchor: end; fill: #172943" x="213.4" y="395.103052" transform="rotate(-0 213.4 395.103052)">2026.09.02</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 221.4 237.550909 
+L 364.786941 237.550909 
+L 364.786941 256.832987 
+L 221.4 256.832987 
+z
+" clip-path="url(#pa02c220f4f)" style="fill: #cf7e4b; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 221.4 266.33013 
+L 810.543176 266.33013 
+L 810.543176 285.612208 
+L 221.4 285.612208 
+z
+" clip-path="url(#pa02c220f4f)" style="fill: #28649a; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 221.4 295.109351 
+L 827.349882 295.109351 
+L 827.349882 314.391429 
+L 221.4 314.391429 
+z
+" clip-path="url(#pa02c220f4f)" style="fill: #28649a; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 221.4 323.888571 
+L 836.737412 323.888571 
+L 836.737412 343.170649 
+L 221.4 343.170649 
+z
+" clip-path="url(#pa02c220f4f)" style="fill: #28649a; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 221.4 352.667792 
+L 850.061647 352.667792 
+L 850.061647 371.94987 
+L 221.4 371.94987 
+z
+" clip-path="url(#pa02c220f4f)" style="fill: #28649a; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 221.4 381.447013 
+L 873.530471 381.447013 
+L 873.530471 400.729091 
+L 221.4 400.729091 
+z
+" clip-path="url(#pa02c220f4f)" style="fill: #28649a; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'NanumSquare'; text-anchor: start; fill: #172943" x="373.871647" y="249.886948" transform="rotate(-0 373.871647 249.886948)">947</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'NanumSquare'; text-anchor: start; fill: #172943" x="819.627882" y="278.666169" transform="rotate(-0 819.627882 278.666169)">3,891</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'NanumSquare'; text-anchor: start; fill: #172943" x="836.434588" y="307.44539" transform="rotate(-0 836.434588 307.44539)">4,002</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'NanumSquare'; text-anchor: start; fill: #172943" x="845.822118" y="336.22461" transform="rotate(-0 845.822118 336.22461)">4,064</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'NanumSquare'; text-anchor: start; fill: #172943" x="859.146353" y="365.003831" transform="rotate(-0 859.146353 365.003831)">4,152</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'NanumSquare'; text-anchor: start; fill: #172943" x="882.615176" y="393.783052" transform="rotate(-0 882.615176 393.783052)">4,307</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_9">
+    <path d="M 108 546.912 
+L 993.6 546.912 
+L 993.6 478.872 
+L 108 478.872 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_7">
+     <g id="line2d_19"/>
+     <g id="text_20">
+      <text style="font-size: 9.5px; font-family: 'NanumSquare'; text-anchor: middle" x="217.198795" y="557.347" transform="rotate(-0 217.198795 557.347)">2024.04.15</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_20"/>
+     <g id="text_21">
+      <text style="font-size: 9.5px; font-family: 'NanumSquare'; text-anchor: middle" x="439.599598" y="557.347" transform="rotate(-0 439.599598 557.347)">2024.09.10</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_21"/>
+     <g id="text_22">
+      <text style="font-size: 9.5px; font-family: 'NanumSquare'; text-anchor: middle" x="662.000402" y="557.347" transform="rotate(-0 662.000402 557.347)">2024.11.20</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_22"/>
+     <g id="text_23">
+      <text style="font-size: 9.5px; font-family: 'NanumSquare'; text-anchor: middle" x="884.401205" y="557.347" transform="rotate(-0 884.401205 557.347)">2025.08.07</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_7">
+     <g id="line2d_23">
+      <path d="M 108 546.912 
+L 993.6 546.912 
+" clip-path="url(#pc4a7383fb7)" style="fill: none; stroke: #e3eaf2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_24"/>
+     <g id="text_24">
+      <text style="font-size: 11px; font-family: 'NanumSquare'; text-anchor: end" x="104.5" y="550.927" transform="rotate(-0 104.5 550.927)">0</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_25">
+      <path d="M 108 519.140571 
+L 993.6 519.140571 
+" clip-path="url(#pc4a7383fb7)" style="fill: none; stroke: #e3eaf2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_26"/>
+     <g id="text_25">
+      <text style="font-size: 11px; font-family: 'NanumSquare'; text-anchor: end" x="104.5" y="523.155571" transform="rotate(-0 104.5 523.155571)">2000</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_27">
+      <path d="M 108 491.369143 
+L 993.6 491.369143 
+" clip-path="url(#pc4a7383fb7)" style="fill: none; stroke: #e3eaf2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_28"/>
+     <g id="text_26">
+      <text style="font-size: 11px; font-family: 'NanumSquare'; text-anchor: end" x="104.5" y="495.384143" transform="rotate(-0 104.5 495.384143)">4000</text>
+     </g>
+    </g>
+    <g id="text_27">
+     <text style="font-size: 9px; font-family: 'NanumSquare'; text-anchor: middle" x="71.94" y="512.892" transform="rotate(-90 71.94 512.892)">코드 수</text>
+    </g>
+   </g>
+   <g id="patch_10">
+    <path d="M 148.254545 546.912 
+L 286.143044 546.912 
+L 286.143044 516.807771 
+L 148.254545 516.807771 
+z
+" clip-path="url(#pc4a7383fb7)" style="fill: #28649a"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 370.655349 546.912 
+L 508.543847 546.912 
+L 508.543847 515.669143 
+L 370.655349 515.669143 
+z
+" clip-path="url(#pc4a7383fb7)" style="fill: #28649a"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 593.056153 546.912 
+L 730.944651 546.912 
+L 730.944651 515.141486 
+L 593.056153 515.141486 
+z
+" clip-path="url(#pc4a7383fb7)" style="fill: #28649a"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 815.456956 546.912 
+L 953.345455 546.912 
+L 953.345455 514.238914 
+L 815.456956 514.238914 
+z
+" clip-path="url(#pc4a7383fb7)" style="fill: #28649a"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 148.254545 516.807771 
+L 286.143044 516.807771 
+L 286.143044 492.882686 
+L 148.254545 492.882686 
+z
+" clip-path="url(#pc4a7383fb7)" style="fill: #2f9b91"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 370.655349 515.669143 
+L 508.543847 515.669143 
+L 508.543847 491.341371 
+L 370.655349 491.341371 
+z
+" clip-path="url(#pc4a7383fb7)" style="fill: #2f9b91"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 593.056153 515.141486 
+L 730.944651 515.141486 
+L 730.944651 490.480457 
+L 593.056153 490.480457 
+z
+" clip-path="url(#pc4a7383fb7)" style="fill: #2f9b91"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 815.456956 514.238914 
+L 953.345455 514.238914 
+L 953.345455 489.258514 
+L 815.456956 489.258514 
+z
+" clip-path="url(#pc4a7383fb7)" style="fill: #2f9b91"/>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'NanumSquare'; text-anchor: middle; fill: #172943" x="217.198795" y="491.980114" transform="rotate(-0 217.198795 491.980114)">3,891</text>
+   </g>
+   <g id="text_29">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'NanumSquare'; text-anchor: middle; fill: #ffffff" x="217.198795" y="534.309886" transform="rotate(-0 217.198795 534.309886)">2,168</text>
+   </g>
+   <g id="text_30">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'NanumSquare'; text-anchor: middle; fill: #ffffff" x="217.198795" y="507.295229" transform="rotate(-0 217.198795 507.295229)">1,723</text>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'NanumSquare'; text-anchor: middle; fill: #172943" x="439.599598" y="490.4388" transform="rotate(-0 439.599598 490.4388)">4,002</text>
+   </g>
+   <g id="text_32">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'NanumSquare'; text-anchor: middle; fill: #ffffff" x="439.599598" y="533.740571" transform="rotate(-0 439.599598 533.740571)">2,250</text>
+   </g>
+   <g id="text_33">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'NanumSquare'; text-anchor: middle; fill: #ffffff" x="439.599598" y="505.955257" transform="rotate(-0 439.599598 505.955257)">1,752</text>
+   </g>
+   <g id="text_34">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'NanumSquare'; text-anchor: middle; fill: #172943" x="662.000402" y="489.577886" transform="rotate(-0 662.000402 489.577886)">4,064</text>
+   </g>
+   <g id="text_35">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'NanumSquare'; text-anchor: middle; fill: #ffffff" x="662.000402" y="533.476743" transform="rotate(-0 662.000402 533.476743)">2,288</text>
+   </g>
+   <g id="text_36">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'NanumSquare'; text-anchor: middle; fill: #ffffff" x="662.000402" y="505.260971" transform="rotate(-0 662.000402 505.260971)">1,776</text>
+   </g>
+   <g id="text_37">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'NanumSquare'; text-anchor: middle; fill: #172943" x="884.401205" y="488.355943" transform="rotate(-0 884.401205 488.355943)">4,152</text>
+   </g>
+   <g id="text_38">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'NanumSquare'; text-anchor: middle; fill: #ffffff" x="884.401205" y="533.025457" transform="rotate(-0 884.401205 533.025457)">2,353</text>
+   </g>
+   <g id="text_39">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'NanumSquare'; text-anchor: middle; fill: #ffffff" x="884.401205" y="504.198714" transform="rotate(-0 884.401205 504.198714)">1,799</text>
+   </g>
+  </g>
+  <g id="patch_18">
+   <path d="M 64.8 159.408 
+L 361.44 159.408 
+Q 374.4 159.408 374.4 151.632 
+L 374.4 84.24 
+Q 374.4 76.464 361.44 76.464 
+L 64.8 76.464 
+Q 51.84 76.464 51.84 84.24 
+L 51.84 151.632 
+Q 51.84 159.408 64.8 159.408 
+z
+" style="fill: #f4f7fb; stroke: #d9e4f0; stroke-width: 0.9; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_19">
+   <path d="M 391.68 159.408 
+L 688.32 159.408 
+Q 701.28 159.408 701.28 151.632 
+L 701.28 84.24 
+Q 701.28 76.464 688.32 76.464 
+L 391.68 76.464 
+Q 378.72 76.464 378.72 84.24 
+L 378.72 151.632 
+Q 378.72 159.408 391.68 159.408 
+z
+" style="fill: #f4f7fb; stroke: #d9e4f0; stroke-width: 0.9; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_20">
+   <path d="M 718.56 159.408 
+L 1015.2 159.408 
+Q 1028.16 159.408 1028.16 151.632 
+L 1028.16 84.24 
+Q 1028.16 76.464 1015.2 76.464 
+L 718.56 76.464 
+Q 705.6 76.464 705.6 84.24 
+L 705.6 151.632 
+Q 705.6 159.408 718.56 159.408 
+z
+" style="fill: #f4f7fb; stroke: #d9e4f0; stroke-width: 0.9; stroke-linejoin: miter"/>
+  </g>
+  <g id="text_40">
+   <text style="font-weight: 700; font-size: 24px; font-family: 'NanumSquare'; text-anchor: start; fill: #172943" x="59.4" y="33.048" transform="rotate(-0 59.4 33.048)">BANK:LAB</text>
+  </g>
+  <g id="text_41">
+   <text style="font-weight: 700; font-size: 20px; font-family: 'NanumSquare'; text-anchor: start; fill: #172943" x="259.2" y="33.048" transform="rotate(-0 259.2 33.048)">1차 면담 | 종목 데이터 확보 범위</text>
+  </g>
+  <g id="text_42">
+   <text style="font-size: 11px; font-family: 'NanumSquare'; text-anchor: start; fill: #64748b" x="59.4" y="56.376" transform="rotate(-0 59.4 56.376)">학교 서버 HTML / SQLite 진단 출력 기반 · 선택한 기준일의 관측 종목코드 비교</text>
+  </g>
+  <g id="text_43">
+   <text style="font-size: 10.5px; font-family: 'NanumSquare'; text-anchor: start; fill: #64748b" x="76.68" y="101.088" transform="rotate(-0 76.68 101.088)">전체 기간 고유 코드</text>
+  </g>
+  <g id="text_44">
+   <text style="font-weight: 700; font-size: 21px; font-family: 'NanumSquare'; text-anchor: start; fill: #172943" x="76.68" y="126.36" transform="rotate(-0 76.68 126.36)">4,813개</text>
+  </g>
+  <g id="text_45">
+   <text style="font-size: 9px; font-family: 'NanumSquare'; text-anchor: start; fill: #64748b" x="76.68" y="143.208" transform="rotate(-0 76.68 143.208)">ETF·ETN 포함한 합집합</text>
+  </g>
+  <g id="text_46">
+   <text style="font-size: 10.5px; font-family: 'NanumSquare'; text-anchor: start; fill: #64748b" x="403.56" y="101.088" transform="rotate(-0 403.56 101.088)">초기 수집일</text>
+  </g>
+  <g id="text_47">
+   <text style="font-weight: 700; font-size: 21px; font-family: 'NanumSquare'; text-anchor: start; fill: #172943" x="403.56" y="126.36" transform="rotate(-0 403.56 126.36)">947개</text>
+  </g>
+  <g id="text_48">
+   <text style="font-size: 9px; font-family: 'NanumSquare'; text-anchor: start; fill: #64748b" x="403.56" y="143.208" transform="rotate(-0 403.56 143.208)">2024.03.27</text>
+  </g>
+  <g id="text_49">
+   <text style="font-size: 10.5px; font-family: 'NanumSquare'; text-anchor: start; fill: #64748b" x="730.44" y="101.088" transform="rotate(-0 730.44 101.088)">마지막 관측일</text>
+  </g>
+  <g id="text_50">
+   <text style="font-weight: 700; font-size: 21px; font-family: 'NanumSquare'; text-anchor: start; fill: #172943" x="730.44" y="126.36" transform="rotate(-0 730.44 126.36)">4,307개</text>
+  </g>
+  <g id="text_51">
+   <text style="font-size: 9px; font-family: 'NanumSquare'; text-anchor: start; fill: #64748b" x="730.44" y="143.208" transform="rotate(-0 730.44 143.208)">2026.09.02</text>
+  </g>
+  <g id="text_52">
+   <text style="font-weight: 700; font-size: 16.5px; font-family: 'NanumSquare'; text-anchor: start; fill: #172943" x="68.04" y="187.92" transform="rotate(-0 68.04 187.92)">A. 기준일별 관측 코드 수</text>
+  </g>
+  <g id="text_53">
+   <text style="font-size: 10.5px; font-family: 'NanumSquare'; text-anchor: start; fill: #64748b" x="68.04" y="206.064" transform="rotate(-0 68.04 206.064)">정상 수집 규모와 초기 947개 부분수집을 비교</text>
+  </g>
+  <g id="text_54">
+   <text style="font-weight: 700; font-size: 15.5px; font-family: 'NanumSquare'; text-anchor: start; fill: #172943" x="68.04" y="445.176" transform="rotate(-0 68.04 445.176)">B. 시장별 관측 종목 구성</text>
+  </g>
+  <g id="text_55">
+   <text style="font-size: 10.2px; font-family: 'NanumSquare'; text-anchor: start; fill: #64748b" x="68.04" y="460.728" transform="rotate(-0 68.04 460.728)">시장별 실측 수치가 확인된 정상규모 기준일 4개</text>
+  </g>
+  <g id="text_56">
+   <text style="font-size: 9.4px; font-family: 'NanumSquare'; text-anchor: start; fill: #64748b" x="60.48" y="628.56" transform="rotate(-0 60.48 628.56)">주의: 4,813개는 전체 기간에 나타난 고유 코드의 합집합이며 실제 상장기업 수가 아님. ETF·ETN 등 포함.</text>
+  </g>
+  <g id="text_57">
+   <text style="font-size: 9.2px; font-family: 'NanumSquare'; text-anchor: start; fill: #64748b" x="60.48" y="640.224" transform="rotate(-0 60.48 640.224)">선택한 기준일만 비교했으며 2026.09.02 시장별 분할은 미확인이라 B에서 제외. 초기 947개는 수집 범위 제한 정황.</text>
+  </g>
+  <g id="legend_1">
+   <g id="patch_21">
+    <path d="M 524.43 572.94 
+L 542.43 572.94 
+L 542.43 566.64 
+L 524.43 566.64 
+z
+" style="fill: #28649a"/>
+   </g>
+   <g id="text_58">
+    <text style="font-size: 9px; font-family: 'NanumSquare'; text-anchor: start" x="549.63" y="572.94" transform="rotate(-0 549.63 572.94)">코스피</text>
+   </g>
+   <g id="patch_22">
+    <path d="M 592.2 572.94 
+L 610.2 572.94 
+L 610.2 566.64 
+L 592.2 566.64 
+z
+" style="fill: #2f9b91"/>
+   </g>
+   <g id="text_59">
+    <text style="font-size: 9px; font-family: 'NanumSquare'; text-anchor: start" x="617.4" y="572.94" transform="rotate(-0 617.4 572.94)">코스닥</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa02c220f4f">
+   <rect x="221.4" y="229.392" width="772.2" height="179.496"/>
+  </clipPath>
+  <clipPath id="pc4a7383fb7">
+   <rect x="108" y="478.872" width="885.6" height="68.04"/>
+  </clipPath>
+ </defs>
+</svg>
