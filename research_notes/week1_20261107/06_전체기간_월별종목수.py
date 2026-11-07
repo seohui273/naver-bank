@@ -3,8 +3,8 @@
 """BANK:LAB 1차 면담 | 전체 591일 코스피·코스닥 관측 종목 수 시각화.
 
 읽기 전용. 학교 서버 SQLite의 obs를 사용하거나, 이미 추출한 월별 CSV를 읽어 재생성한다.
-- SQLite 우선: python3 banklab_week1_market_counts_v2.py
-- CSV 재생성: python3 banklab_week1_market_counts_v2.py --csv 근거_월별종목수.csv
+- SQLite 우선: python3 06_전체기간_월별종목수.py
+- CSV 재생성: python3 06_전체기간_월별종목수.py --csv 근거_월별종목수.csv
 
 생성: 04_종목범위_그림.png / 04_종목범위_그림.svg / 근거_월별종목수.csv
 한글 폰트가 서버에 없으면 대체 영문 표기로 출력(깨진 한글 대신 읽을 수 있는 표기).
@@ -144,7 +144,7 @@ def plot(rows,meta,outdir):
     ko = bool(font)
     text = {
         'title': 'BANK:LAB | 1차 면담 · 종목구성 범위' if ko else 'BANK:LAB | Week 1 - Stock Coverage',
-        'subtitle':'전체시장 데이터 / 관측 591일의 월별 종목 수 집계' if ko else 'Full market - monthly stock code counts over 591 observed dates',
+        'subtitle':f"전체시장 데이터 / 관측 {meta['days']:,}일의 월별 종목 수 집계" if ko else f"Full market - monthly stock code counts over {meta['days']:,} observed dates",
         'kpi': ['자료 기간','관측 날짜','전체 HTML','고유 종목코드'] if ko else ['Date span','Observed dates','Total HTML','Distinct codes'],
         'main':'월별 코스피·코스닥 일평균 관측 종목코드 수' if ko else 'Monthly average observed codes (KOSPI / KOSDAQ)',
         'days':'월별 자료가 있는 날짜 수' if ko else 'Observed dates per month',
@@ -182,7 +182,7 @@ def plot(rows,meta,outdir):
     kp=[r['kospi_avg'] or 0 for r in rows]
     kd=[r['kosdaq_avg'] or 0 for r in rows]
     obs=[r['days'] for r in rows]
-    ax=fig.add_axes([.062,.353,.91,.403])
+    ax=fig.add_axes([.062,.358,.91,.36])
     bar_width=.43
     ax.bar([x-bar_width/2 for x in xs],kp,width=bar_width,color='#2465A4',label=text['kp'])
     ax.bar([x+bar_width/2 for x in xs],kd,width=bar_width,color='#26A0A0',label=text['kd'])
@@ -197,7 +197,7 @@ def plot(rows,meta,outdir):
     max_y=max(max(kp),max(kd),1)
     ax.set_ylim(0, max_y*1.19)
 
-    bx=fig.add_axes([.062,.176,.91,.135],sharex=ax)
+    bx=fig.add_axes([.062,.177,.91,.126],sharex=ax)
     bx.bar(xs,obs,width=.78,color='#A6B4C5',label=text['days'])
     bx.set_ylim(0,max(max(obs),1)*1.34)
     bx.set_title(text['days'],loc='left',fontsize=11,fontweight='bold',pad=11,color='#172B4D')
@@ -207,6 +207,7 @@ def plot(rows,meta,outdir):
     bx.grid(axis='y',alpha=.18)
     bx.set_axisbelow(True)
     for s in ('top','right'): bx.spines[s].set_visible(False)
+    ax.tick_params(axis='x',which='both',bottom=False,labelbottom=False)
     for x,n in enumerate(obs):
         if n<=2: bx.text(x,n+.45,str(n),fontsize=9,ha='center',weight='bold',color='#B45309')
 
@@ -229,7 +230,7 @@ def main():
     p=argparse.ArgumentParser(description='BANK:LAB 종목구성 1차 면담 그래프 (월별 전체기간)')
     p.add_argument('--db',type=Path,default=DEFAULT_DB,help='학교 서버의 SQLite 경로')
     p.add_argument('--csv',type=Path,default=None,help='기존 월별 CSV로 재생성(학교 서버 DB 없이 가능)')
-    p.add_argument('--out',type=Path,default=Path.home()/'banklab_week1_market_counts'/'market_counts')
+    p.add_argument('--out',type=Path,default=Path.home()/'banklab_week1_market_counts'/'market_counts_v2')
     a=p.parse_args()
     a.out.mkdir(parents=True,exist_ok=True)
     if a.csv is not None:
